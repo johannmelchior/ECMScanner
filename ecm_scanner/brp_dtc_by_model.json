@@ -1,0 +1,7443 @@
+{
+ "schema": 2,
+ "generated_at": "2026-10-28T23:47:04+00:00",
+ "source": "BUDS2 .buds2/.buds3 decifrados",
+ "model_count": 39,
+ "models": {
+  "can_am_3wv_my17_spyder_rt_ltd_1330_ace": {
+   "display": "Can-Am 3WV MY17 Spyder RT LTD 1330 ACE",
+   "family": "Can-Am",
+   "model_year": "MY17",
+   "engine": "1330 ACE",
+   "modules": [
+    "Cluster",
+    "Cluster LCD",
+    "DPS",
+    "ECM",
+    "TCM",
+    "VCM",
+    "WPM"
+   ],
+   "ecu_variants": [
+    "EV_02600500",
+    "EV_02620100",
+    "EV_02820100",
+    "EV_0282E601",
+    "EV_02B10500",
+    "EV_02B30100",
+    "EV_02D50000"
+   ],
+   "module_signature": "Cluster|Cluster LCD|DPS|ECM|TCM|VCM|WPM",
+   "vins": [
+    "2BXNBDD22GV004609"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 346,
+   "dtcs": {
+    "B1000": {
+     "desc": "Luggage/suspension switch",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B100F": {
+     "desc": "Turn Signals Circuit/Component malfunction",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C0020": {
+     "desc": "ABS pump motor control failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0031": {
+     "desc": "Wheel speed sensor (LF) failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0032": {
+     "desc": "Wheel speed sensor (LF) supply failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0034": {
+     "desc": "Wheel speed sensor (RF) failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0035": {
+     "desc": "Wheel speed sensor (RF) supply failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C003A": {
+     "desc": "Wheel speed sensor (R) failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C003B": {
+     "desc": "Wheel speed sensor (R) supply failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0040": {
+     "desc": "Brake pedal switch failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0044": {
+     "desc": "Brake pressure sensor failure or BLS failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0049": {
+     "desc": "Brake failure (brake fluid)",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0051": {
+     "desc": "Steering wheel position sensor failure",
+     "ecu": "VCM",
+     "sessions": 2
+    },
+    "C0061": {
+     "desc": "Lateral acceleration sensor failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0062": {
+     "desc": "Longitudinal acceleration sensor failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C0063": {
+     "desc": "Yaw rate sensor failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C006C": {
+     "desc": "VCM error or failure reported",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "C0200": {
+     "desc": "Roller test misusage",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1083": {
+     "desc": "Pillion rider switch shorted to V Bat",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1098": {
+     "desc": "Overheat of ECUInlet or outlet valve coil's) fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1100": {
+     "desc": "Steering angle sensor not calibrated",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1110": {
+     "desc": "Longitudinal sensor not calibrated",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1130": {
+     "desc": "Generic wheel speed sensor fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1150": {
+     "desc": "Invalid CAN message receivedfrom ECM (Msg_Id)",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1182": {
+     "desc": "Brake failure (low pressure switch)",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1183": {
+     "desc": "Pillion rider switch shorted to ground",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1200": {
+     "desc": "Valve relay fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1210": {
+     "desc": "General ABS (all EV and AV) valve fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1220": {
+     "desc": "General cut (USV1/USV2) valve fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1230": {
+     "desc": "General suction (HSV1/HSV2) valve fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1270": {
+     "desc": "Implausible control",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1281": {
+     "desc": "Variant coding failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1282": {
+     "desc": "Brake failure (low pressure detected)",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1283": {
+     "desc": "Pillion rider switch out of range",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1290": {
+     "desc": "VCM voltage failure",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C1300": {
+     "desc": "VCM internal fault",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "C2108": {
+     "desc": "Compressor activation delay exceed",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C2109": {
+     "desc": "Release valve activation delay exceed",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210A": {
+     "desc": "Suspension compressor relay shorted to gnd",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210B": {
+     "desc": "Suspension compressor relay shorted to V+",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210C": {
+     "desc": "Suspension relief valve shorted to GND",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210D": {
+     "desc": "Suspension relief valve shorted to V+",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210E": {
+     "desc": "Suspension position sensor range/performance",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C210F": {
+     "desc": "Suspension position sensor 5 Vdc supply",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C2210": {
+     "desc": "WPM system voltage Low",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C2211": {
+     "desc": "WPM system voltage High",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C222A": {
+     "desc": "Windshield position sensor not calibrated",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C222E": {
+     "desc": "Windshield Up/Down switches",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C222F": {
+     "desc": "Windshield rotation direction not plausible",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C223A": {
+     "desc": "Park brake STROKE exceeded",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C223B": {
+     "desc": "Park brake activation/deactivation delay exceeded",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "C223C": {
+     "desc": "PBS switch",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "P0030": {
+     "desc": "HO2S heater control circuit openOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0031": {
+     "desc": "HO2S heater control shorted to groundOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0032": {
+     "desc": "HO2S heater control shorted to batteryOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0072": {
+     "desc": "Ambient Air Temperature Sensor circuit lowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0073": {
+     "desc": "Ambient Air Temperature Sensor circuit highOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0106": {
+     "desc": "Manifold air pressure not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0107": {
+     "desc": "Manifold air pressure sensor voltage too LowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0108": {
+     "desc": "Manifold air pressure sensor voltage too HighOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0112": {
+     "desc": "Intake manifold air temperature sensor circuit lowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake manifold air temperature sensor circuit highOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0117": {
+     "desc": "Engine coolant temperature sensor 1 circuit LowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0118": {
+     "desc": "Engine coolant temperature sensor 1 circuit HighOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0122": {
+     "desc": "First Throttle Accelerator Sensor (TAS) Short circuit to GNDOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0123": {
+     "desc": "First Throttle Accelerator Sensor (TAS) shorted to battery +OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0127": {
+     "desc": "Intake manifold air temperature high",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0130": {
+     "desc": "HO2S signal not plausibleOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0131": {
+     "desc": "HO2S signal too low voltageOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0132": {
+     "desc": "HO2S signal too high voltageOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0133": {
+     "desc": "HO2S signal response time is too slow",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0134": {
+     "desc": "HO2S signal circuit openOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0135": {
+     "desc": "HO2S internal heater circuit defectiveOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0171": {
+     "desc": "Fuel correction reached the maximum limit, multiplicative",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0172": {
+     "desc": "Fuel correction reached the minimum limit, multiplicative",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0201": {
+     "desc": "Injector circuit open, RH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0202": {
+     "desc": "Injector circuit open, middle cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0203": {
+     "desc": "Injector circuit open, LH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0217": {
+     "desc": "Engine coolant over temperature condition",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0222": {
+     "desc": "2nd Throttle Accelerator Sensor (TAS) shorted to GNDOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0223": {
+     "desc": "2nd Throttle Accelerator Sensor (TAS) shorted to battery +OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0261": {
+     "desc": "Injector short to ground, RH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0262": {
+     "desc": "Injector short to battery voltage, RH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0264": {
+     "desc": "Injector short to ground, middle cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0265": {
+     "desc": "Injector short to battery voltage, middle cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0267": {
+     "desc": "Injector short to ground, LH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0268": {
+     "desc": "Injector short to battery voltage, LH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0300": {
+     "desc": "Random/multiple misfire detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0301": {
+     "desc": "Random/multiple misfire detected cylinder 3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0302": {
+     "desc": "Random/multiple misfire detected cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0303": {
+     "desc": "Random/multiple misfire detected cylinder 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0326": {
+     "desc": "Knock sensor signal faultOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0327": {
+     "desc": "Knock sensor 1 negative lineOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0328": {
+     "desc": "Knock sensor 1 positive lineOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0335": {
+     "desc": "Error on crankshaft position sensor signalOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0340": {
+     "desc": "Error on camshaft position sensor signalOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0443": {
+     "desc": "Canister purge valve open circuitOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0458": {
+     "desc": "Canister purge valve shorted to groundOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0459": {
+     "desc": "Canister purge valve shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0461": {
+     "desc": "Fuel sender range/performance",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0481": {
+     "desc": "Main radiator fan relay open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0501": {
+     "desc": "Vehicle speed not plausibleOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0504": {
+     "desc": "Brake signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0512": {
+     "desc": "Starter control circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0513": {
+     "desc": "D.E.S.S. key invalidOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0520": {
+     "desc": "Engine oil pressure sensor circuit malfunction",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0523": {
+     "desc": "Engine oil pressure switch sticking",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0524": {
+     "desc": "Engine oil pressure too Low",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0551": {
+     "desc": "TORQUE_SENSOR_OPEN",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0552": {
+     "desc": "TORQUE_SENSOR_SHORT_GND",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0553": {
+     "desc": "TORQUE_SENSOR_SHORT_5V",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0554": {
+     "desc": "Control intervention counter exceeded",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0556": {
+     "desc": "Brake Pressure on CAN not valid",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0560": {
+     "desc": "Non-plausibility error on system voltageOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0561": {
+     "desc": "System voltage Invalid - jump start detected",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "System voltage Low",
+     "ecu": "DPS",
+     "sessions": 4
+    },
+    "P0563": {
+     "desc": "system voltage High",
+     "ecu": "DPS",
+     "sessions": 4
+    },
+    "P0571": {
+     "desc": "Park brake switch",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0601": {
+     "desc": "CALIBRATION FAULT",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0605": {
+     "desc": "EEPROM COMMUNICATION FAULT",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0606": {
+     "desc": "Control module processorOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P060E": {
+     "desc": "Throttle position performanceOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0610": {
+     "desc": "Variant coding errorOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P061E": {
+     "desc": "brake signal states InvalidOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0625": {
+     "desc": "Alternator feed back circuit shorted to ground or open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0628": {
+     "desc": "Fuel pump circuit shorted to ground, or open circuitOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0629": {
+     "desc": "Fuel pump circuit shorted to battery +OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P062C": {
+     "desc": "Vehicle speed message on CAN not plausibleOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P062F": {
+     "desc": "Internal control module EEPROM errorOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0636": {
+     "desc": "MOTOR LOW CURRENT FAULT",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0637": {
+     "desc": "MOTOR HIGH CURRENT FAULT",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0638": {
+     "desc": "Electrical Throttle Actuator (ETA) signal not plausibleOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0658": {
+     "desc": "PHASE A_LOW",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0659": {
+     "desc": "PHASE A_HIGH",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0666": {
+     "desc": "TEMPERATURE SENSING FAULT",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0667": {
+     "desc": "Warning DPS low temperature operating limitation",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0685": {
+     "desc": "Load-shedding relay",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0686": {
+     "desc": "Main relay 2 circuit shorted to ground or open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0687": {
+     "desc": "Main relay 2 circuit shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P068B": {
+     "desc": "Main relay de-energized too late or stickingOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0693": {
+     "desc": "Main radiator fan relay shorted to ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0694": {
+     "desc": "Main radiator fan relay shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P06B0": {
+     "desc": "Accessory supply output",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0706": {
+     "desc": "Gear change sequence logic",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0710": {
+     "desc": "Transmission Fluid Temperature Sensor general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0712": {
+     "desc": "Transmission Fluid Temperature Sensor short-to-ground",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0713": {
+     "desc": "Transmission Fluid Temperature Sensor short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0714": {
+     "desc": "Transmission Fluid Temperature Sensor open circuit",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P072A": {
+     "desc": "Reverse interlock actuator stuck to deployed position",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P072D": {
+     "desc": "Reverse interlock actuator stuck to retracted position",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0730": {
+     "desc": "Incorrect gear ratio",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0740": {
+     "desc": "clutch torque transfer performance too low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P074D": {
+     "desc": "Unable to Downshift 3 time in a row",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P074E": {
+     "desc": "Unable to Upshift 3 time in a row",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P07AF": {
+     "desc": "Clutch valve stuck open on line side",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P07B1": {
+     "desc": "Clutch valve stuck open on Tank",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0810": {
+     "desc": "too many error in clutch pressure error table",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0811": {
+     "desc": "Clutch slippage detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0813": {
+     "desc": "Reverse back-up lamp",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P081A": {
+     "desc": "Pre-starting relay short circuit to groundOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P081E": {
+     "desc": "Clutch Slippage during sychronisation",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0881": {
+     "desc": "TCM Power Input voltage Range/Performance",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0901": {
+     "desc": "Clutch Pressure Valve output fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0902": {
+     "desc": "Clutch Pressure Valve short-to-ground or open pin fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0903": {
+     "desc": "Clutch Pressure Valve short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0911": {
+     "desc": "Line Pressure Valve output fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0912": {
+     "desc": "Line Pressure Valve short-to-ground or open pin fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0913": {
+     "desc": "Line Pressure Valve short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0915": {
+     "desc": "Gear position sensor invalid rangeOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0924": {
+     "desc": "Reverse lock actuator relay circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0926": {
+     "desc": "Back-up actuator shorted to GND",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0927": {
+     "desc": "Back-up actuator shorted to V +",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0932": {
+     "desc": "Clutch Pressure sensor circuit/open",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0933": {
+     "desc": "Clutch Pressure sensor Not alive",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0934": {
+     "desc": "Clutch Pressure sensor Circuit Low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0935": {
+     "desc": "Clutch Pressure sensor Circuit High",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0972": {
+     "desc": "Down Shift Valve output fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0973": {
+     "desc": "Down Shift Valve short-to-ground or open pin fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0974": {
+     "desc": "Down Shift Valve short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0975": {
+     "desc": "Up Shift Valve output fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0976": {
+     "desc": "Up Shift Valve short-to-ground or open pin fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P0977": {
+     "desc": "Up Shift Valve short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1171": {
+     "desc": "Fuel correction reached the maximum limit, additive",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1172": {
+     "desc": "Fuel correction reached the minimum limit, additive",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1301": {
+     "desc": "Internal open circuit in ignition powerstage, RH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1304": {
+     "desc": "Internal open circuit in ignition powerstage, middle cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1307": {
+     "desc": "Internal open circuit in ignition powerstage, LH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1327": {
+     "desc": "Knock sensor 1 positive lineOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1328": {
+     "desc": "Knock sensor 1 negative lineOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1480": {
+     "desc": "Radiator fan direction relays open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1556": {
+     "desc": "Brake Pressure adaptation Not Initialized",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1571": {
+     "desc": "HBS switch deactivation fault",
+     "ecu": "WPM",
+     "sessions": 1
+    },
+    "P1606": {
+     "desc": "Control Module ProcessorOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P160E": {
+     "desc": "Electrical Throttle Actuator (ETA) control faultOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1614": {
+     "desc": "Throttle idle position failure on throttle releaseOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1616": {
+     "desc": "Throttle limp-home-position failedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1619": {
+     "desc": "TPS adaptation failureOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1620": {
+     "desc": "TPS adaptation failureOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1621": {
+     "desc": "TPS adaptation cancelled lower mechanical stop failedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1675": {
+     "desc": "Headlamp relay circuit shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1676": {
+     "desc": "Headlamp relay circuit shorted to ground or open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1677": {
+     "desc": "Headlamp relay circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1691": {
+     "desc": "Radiator fan direction relays shorted to ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1692": {
+     "desc": "Radiator fan direction relays shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1696": {
+     "desc": "Clutch valve circuit shorted to ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1697": {
+     "desc": "Clutch solenoid valve circuit shorted to battery +",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1698": {
+     "desc": "Clutch valve open circuit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C0": {
+     "desc": "ECU ADC plausibility checkOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C1": {
+     "desc": "ECU ADC test failedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C2": {
+     "desc": "ECU monitoring errorOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C3": {
+     "desc": "Throttle Accelerator Sensors (TAS) monitoring check faultOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C4": {
+     "desc": "Engine speed monitoring check faultOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C5": {
+     "desc": "Safety fuel cut-off activated monitoring check level 1OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C6": {
+     "desc": "Safety fuel cut-off activated monitoring check level 2OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C7": {
+     "desc": "Throttle valve plausibility check failedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C8": {
+     "desc": "Permitted throttle valve position monitoring check exceededOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1730": {
+     "desc": "Gear position sensor signal intermittent/erratic",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P194A": {
+     "desc": "Time to reach clutch pressure Too Long",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P194C": {
+     "desc": "Clutch Pressure Hydraulic gain too high",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P194D": {
+     "desc": "Clutch Pressure Hydraulic gain too low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P194E": {
+     "desc": "clutch is too thin",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P194F": {
+     "desc": "clutch is too thick",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195A": {
+     "desc": "Line pressure too high",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195B": {
+     "desc": "Line pressure too low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195C": {
+     "desc": "Line pressure valve stuck",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195D": {
+     "desc": "Oil temperature sensor alive check failed",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195E": {
+     "desc": "Oil temperature sensor alive check failed",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P195F": {
+     "desc": "Oil temperature sensor Correlation check failed",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196A": {
+     "desc": "Oil temperature sensor not alive",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196B": {
+     "desc": "System pressure low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196C": {
+     "desc": "Clutch pressure high",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196D": {
+     "desc": "Clutch pressure Low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196E": {
+     "desc": "low-side driver output short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P196F": {
+     "desc": "low-side-driver output short-to-ground or open-circuit",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1970": {
+     "desc": "Fault check of Output Safety System for DN-line is active",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1971": {
+     "desc": "Fault check of Output Safety System for Inhibit Path Test No.1 failed (test-preparation)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1972": {
+     "desc": "Fault check of Output Safety System for Inhibit Path Test No.2 failed (DN sensing test)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1973": {
+     "desc": "Fault check of Output Safety System for Inhibit Path Test No.3 failed (HSS pinline test)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1974": {
+     "desc": "Fault check of Output Safety System for Inhibit Path Test No.4 failed (HSS activation prevention test)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1975": {
+     "desc": "Fault check of Output Safety System for Inhibit Path Test No.5 failed (LSS activation prevention test)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P197A": {
+     "desc": "Fault check of output peripheral clock for too low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P197B": {
+     "desc": "Fault check of output peripheral clock for on after off",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1980": {
+     "desc": "Fault check of output stage power supplies for general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1981": {
+     "desc": "Fault check of output stage power supplies for general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1982": {
+     "desc": "Fault check of output stage power supplies for open-pin",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1983": {
+     "desc": "Fault check of output stage power supplies for open-pin",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1984": {
+     "desc": "Fault check of output stage power supplies for short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1985": {
+     "desc": "Fault check of output stage power supplies for short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1986": {
+     "desc": "Fault check of output stage power supplies for short-to-ground",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1987": {
+     "desc": "Fault check of output stage power supplies for short-to-ground",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1988": {
+     "desc": "Fault check of output stage power supplies for short to neighbor",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P1989": {
+     "desc": "Fault check of output stage power supplies for short to neighbor",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P198B": {
+     "desc": "Fault check of output sensor supplies for short-to-battery",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P198D": {
+     "desc": "Fault check of output sensor supplies for short-to-ground",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P198E": {
+     "desc": "Clutch Pressure sensor circuit Intermittent/Erratic",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P2100": {
+     "desc": "Electrical Throttle Actuator (ETA)OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2101": {
+     "desc": "TPS position deviation faultOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2102": {
+     "desc": "Electrical Throttle Actuator (ETA) shorted to groundOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2103": {
+     "desc": "Electrical Throttle Actuator (ETA) shorted to V +OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2119": {
+     "desc": "TPS adaptation failedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212C": {
+     "desc": "2nd Throttle Position Sensors (TPS) lowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212D": {
+     "desc": "2nd Throttle position Sensors (TPS) highOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212F": {
+     "desc": "Wrong Throttle Position Sensor (TPS) positionOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2131": {
+     "desc": "Throttle Position Sensors (TPS)  positionOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2132": {
+     "desc": "First Throttle Position Sensor (TPS) lowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2133": {
+     "desc": "First Throttle Position Sensors (TPS) highOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2135": {
+     "desc": "Throttle Accelerator Sensor (TAS) synchronistic error between sensor 1 and 2OBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2228": {
+     "desc": "Ambient pressure sensor voltage too lowOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2229": {
+     "desc": "Ambient pressure sensor voltage too highOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2279": {
+     "desc": "Important leak in the air intake system causing engine shutdown by ECU",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2301": {
+     "desc": "Ignition coil maximum current exceeded, RH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2304": {
+     "desc": "Ignition coil maximum current exceeded, middle cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2307": {
+     "desc": "Ignition coil maximum current exceeded, LH side cylinderOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2530": {
+     "desc": "Ignition switch state not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2670": {
+     "desc": "PHASE B_LOW",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P2671": {
+     "desc": "PHASE B_HIGH",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P2789": {
+     "desc": "clutch slope high limit exceeded",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P278F": {
+     "desc": "clutch slope Low limit exceeded",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P2805": {
+     "desc": "Selected gear number not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2806": {
+     "desc": "Gear position sensor angle defined area vs position not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P280A": {
+     "desc": "one or more gears are not learned properly",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P284D": {
+     "desc": "Not intended Downshift detected",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P284E": {
+     "desc": "Not intended Upshift detected",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P284F": {
+     "desc": "",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P2850": {
+     "desc": "Upshift detected on downshift request",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3301": {
+     "desc": "diagnostic deactivatedFinal error reaction from monitoring. Defined in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3302": {
+     "desc": "diagnostic deactivatedResult from the error of cluthch pressure sensor. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3303": {
+     "desc": "diagnostic deactivatedResult from deviation in torque. Calculated from clutch and current feedback paths. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3304": {
+     "desc": "diagnostic deactivatedResult of a shifting error. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3305": {
+     "desc": "diagnostic deactivatedResult from the error of Oil temprature sensor. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3306": {
+     "desc": "diagnostic deactivatedResult from torque comarison faliure. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3307": {
+     "desc": "diagnostic deactivatedResult from CAN Receive error. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3308": {
+     "desc": "diagnostic deactivatedResult from CAN transmit error. Set in %MoFTCErrReactn with NATIVE debouncing",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P3309": {
+     "desc": "Final reaction from monitoring, VCM communication error.",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P330A": {
+     "desc": "Final reaction from monitoring, SWM communication error.",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "P330B": {
+     "desc": "Final reaction from monitoring, ECM communication error.",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "CAN Bus failure, CAN-Bus OFF",
+     "ecu": "VCM",
+     "sessions": 3
+    },
+    "U0100": {
+     "desc": "Lost communication with ECM (lost of CAN ID's)",
+     "ecu": "DPS",
+     "sessions": 4
+    },
+    "U0101": {
+     "desc": "Lost communication with TCM  (lost of CAN ID's)",
+     "ecu": "VCM",
+     "sessions": 3
+    },
+    "U0122": {
+     "desc": "Lost communication with VCM  (lost of CAN ID's)",
+     "ecu": "DPS",
+     "sessions": 5
+    },
+    "U0123": {
+     "desc": "Lost communication with YRS",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0126": {
+     "desc": "Lost communication with SAS",
+     "ecu": "VCM",
+     "sessions": 2
+    },
+    "U0128": {
+     "desc": "Lost communication with WPM/EPB  (lost of CAN ID's)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U0131": {
+     "desc": "Lost communication with DPS (lost of CAN ID's)",
+     "ecu": "VCM",
+     "sessions": 2
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER  (lost of CAN ID's)",
+     "ecu": "WPM",
+     "sessions": 3
+    },
+    "U0167": {
+     "desc": "Unable to communicate with key",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0259": {
+     "desc": "Lost communication with MSL-MSR (lost of CAN ID's)",
+     "ecu": "VCM",
+     "sessions": 5
+    },
+    "U0300": {
+     "desc": "Invalid security exchange receivedOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0302": {
+     "desc": "Invalid ECM Variant coding, software incompatibility with transmission typeOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0400": {
+     "desc": "Variant coding failure software incompatibility",
+     "ecu": "DPS",
+     "sessions": 3
+    },
+    "U0416": {
+     "desc": "Vehicle speed not plausibleOBD-L I related",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0426": {
+     "desc": "Immobilizer fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "U1101": {
+     "desc": "CAN-Bus failure:VCM not able to send messages on CAN",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "U1150": {
+     "desc": "Lost communication with ECM",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "U1160": {
+     "desc": "Lost communication with Yaw Rate Sensor (YRS)",
+     "ecu": "VCM",
+     "sessions": 1
+    },
+    "U1201": {
+     "desc": "Invalid gearbox position value received from ECM",
+     "ecu": "VCM",
+     "sessions": 2
+    },
+    "U2100": {
+     "desc": "Invalid message Counter ECM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U2101": {
+     "desc": "Invalid message Counter TCM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U210A": {
+     "desc": "Satellite temperature gauge",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U210B": {
+     "desc": "CLUSTER MAIN BOARD internal fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U210C": {
+     "desc": "CLUSTER EEPROM error",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U210D": {
+     "desc": "CLUSTER internal communication fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U210E": {
+     "desc": "CLUSTER daughter BOARD internal fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U2122": {
+     "desc": "Invalid message Counter VCM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U2131": {
+     "desc": "Invalid message Counter DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U220A": {
+     "desc": "Invalid check sum from ECM message",
+     "ecu": "Cluster",
+     "sessions": 3
+    },
+    "U220B": {
+     "desc": "Invalid check sum from VCM message",
+     "ecu": "Cluster",
+     "sessions": 4
+    },
+    "U220C": {
+     "desc": "Invalid check sum from TCM message",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "U220D": {
+     "desc": "Invalid check sum from DPS message",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U220E": {
+     "desc": "Invalid check sum from CLUSTER message",
+     "ecu": "WPM",
+     "sessions": 3
+    },
+    "U220F": {
+     "desc": "Invalid check sum from MSL-MSR message",
+     "ecu": "Cluster",
+     "sessions": 4
+    },
+    "U221B": {
+     "desc": "Invalid checksum from WPM/EPB message",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U2259": {
+     "desc": "Invalid message counter MSL-MSR",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U3001": {
+     "desc": "Module improper shutdown",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U3E00": {
+     "desc": "Chip temperature for signal too high",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E01": {
+     "desc": "Chip temperature for signal too low",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E02": {
+     "desc": "Chip temperature for plausibility fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E03": {
+     "desc": "Fault check of Rom Checksum Cyclic for general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E04": {
+     "desc": "Fault check of Rom Checksum Cyclic for general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E05": {
+     "desc": "Fault check of Rom Checksum Cyclic for general fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E06": {
+     "desc": "HW related watchdog fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E07": {
+     "desc": "HW related watchdog fault (DFE)",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E08": {
+     "desc": "SW related watchdog fault",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E09": {
+     "desc": "Fault check of MCore Monitoring faults",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E0A": {
+     "desc": "General fault of the Safety Reaction Manager",
+     "ecu": "TCM",
+     "sessions": 1
+    },
+    "U3E0C": {
+     "desc": "Fault check of reset recognition - Bosch function",
+     "ecu": "TCM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_3wv_my18_spyder_rt_ltd_1330_ace": {
+   "display": "Can-Am 3WV MY18 Spyder RT LTD 1330 ACE",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "1330 ACE",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM",
+    "TCM",
+    "VCM",
+    "WPM"
+   ],
+   "ecu_variants": [
+    "EV_02820100",
+    "EV_0282E601",
+    "EV_02B30100",
+    "EV_02D50000",
+    "EV_10020000",
+    "EV_C20F0000"
+   ],
+   "module_signature": "Cluster|DPS|ECM|TCM|VCM|WPM",
+   "vins": [
+    "2BXNBDD20JV00281T"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 8,
+   "dtcs": {
+    "P0301": {
+     "desc": "Random/multiple misfire detected cylinder 3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0302": {
+     "desc": "Random/multiple misfire detected cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "System voltage Low",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0122": {
+     "desc": "Lost communication with VCM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0126": {
+     "desc": "Lost communication with SAS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0131": {
+     "desc": "Lost communication with DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0259": {
+     "desc": "Lost communication with SWM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U3001": {
+     "desc": "Module improper shutdown",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_3wv_my19_ryker_rally_std_903_ace": {
+   "display": "Can-Am 3WV MY19 Ryker Rally STD 903 ACE",
+   "family": "Can-Am",
+   "model_year": "MY19",
+   "engine": "903 ACE",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "VCM"
+   ],
+   "ecu_variants": [
+    "EV_02860000",
+    "EV_02D60000",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM|VCM",
+   "vins": [
+    "2BX2GEGZ8KJ000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "B100F": {
+     "desc": "Damaged or disconnected turn signal lamp",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2D50": {
+     "desc": "Defective Output connector A, pin 20 Open Load, Over current/temperature (enable system voltage)",
+     "ecu": "Cluster",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_3wv_my19_ryker_std_903_ace": {
+   "display": "Can-Am 3WV MY19 Ryker STD 903 ACE",
+   "family": "Can-Am",
+   "model_year": "MY19",
+   "engine": "903 ACE",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "VCM"
+   ],
+   "ecu_variants": [
+    "EV_02860100",
+    "EV_02D60000",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM|VCM",
+   "vins": [],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "P1215": {
+     "desc": "Engine shutdown during idle, for emissions reduction",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P281B": {
+     "desc": "[_P281B_DESCRIPTION]",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_3wv_my19_spyder_f3_ltd_1330_ace": {
+   "display": "Can-Am 3WV MY19 Spyder F3 LTD 1330 ACE",
+   "family": "Can-Am",
+   "model_year": "MY19",
+   "engine": "1330 ACE",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM",
+    "PBM",
+    "TCM",
+    "VCM"
+   ],
+   "ecu_variants": [
+    "EV_02820100",
+    "EV_02821601",
+    "EV_02B50100",
+    "EV_02D60000",
+    "EV_10020000",
+    "EV_C20F0000"
+   ],
+   "module_signature": "Cluster|DPS|ECM|PBM|TCM|VCM",
+   "vins": [
+    "2BXREDD17KV000002"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "P0500": {
+     "desc": "Invalid or missing vehicle speed",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U3001": {
+     "desc": "Module improper shutdown",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_atv_my17_outlander_max_1000r_v_twin_efi": {
+   "display": "Can-Am ATV MY17 Outlander Max 1000R V-Twin EFI",
+   "family": "Can-Am",
+   "model_year": "MY17",
+   "engine": "1000R V-Twin EFI",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM",
+    "SCM"
+   ],
+   "ecu_variants": [
+    "EV_03920401",
+    "EV_03B10600",
+    "EV_03B50400",
+    "EV_07610200"
+   ],
+   "module_signature": "Cluster|DPS|ECM|SCM",
+   "vins": [
+    "3JBLVAX1XHJ000001"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 3,
+   "dtcs": {
+    "P3000": {
+     "desc": "Auxiliary line pressure sensor value out of range",
+     "ecu": "SCM",
+     "sessions": 1
+    },
+    "P3001": {
+     "desc": "System suspension pumping delay exceeded",
+     "ecu": "SCM",
+     "sessions": 1
+    },
+    "U0426": {
+     "desc": "Invalid Data Received From DESS key",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c": {
+   "display": "Can-Am ATV MY18 Outlander 1000R max XT-P 1000R M3C",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "Outlander 1000R max XT-P 1000R M3C",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03920401",
+    "EV_03B70000",
+    "EV_07610200"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBLPAX48JJ000001"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 37,
+   "dtcs": {
+    "P0008": {
+     "desc": "Lost of Synchronisation",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0107": {
+     "desc": "Manifold Air Pressure Sensor voltage too Low",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0108": {
+     "desc": "Manifold Air Pressure Sensor voltage too High",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0112": {
+     "desc": "Intake Air Temperature Sensor 1 circuit Low",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake Air Temperature Sensor 1 circuit High",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0114": {
+     "desc": "Intake Air Temperature Sensor Intermittent",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0461": {
+     "desc": "Fuel sender range performance",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0500": {
+     "desc": "Invalid or missing vehicle speed",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0550": {
+     "desc": "Torque Sensor redundancy failure",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0551": {
+     "desc": "Torque sensor open",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0552": {
+     "desc": "Torque sensor low",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0553": {
+     "desc": "Torque sensor high",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "Cluster system voltage Low",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0563": {
+     "desc": "Cluster system voltage High",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0601": {
+     "desc": "Calibration fault",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0605": {
+     "desc": "Ecu specific calibration corrupted / serial memory corrupted / not programmed or problem",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0666": {
+     "desc": "High temperature",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F00": {
+     "desc": "Bridge driver fault",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F01": {
+     "desc": "current output overload",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F02": {
+     "desc": "input voltage overload (16.5V).",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F03": {
+     "desc": "High temperature",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F05": {
+     "desc": "Motor current sensor range/performance",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F06": {
+     "desc": "Encoder signal failure",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F07": {
+     "desc": "Encoder redundancy failure",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F08": {
+     "desc": "Encoder magnetic field out of range",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F09": {
+     "desc": "Internal power supply out of range",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "CAN bus off, no messages",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "U0100": {
+     "desc": "ECM, lost of communication",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "U0132": {
+     "desc": "Lost communication with Suspension module",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0300": {
+     "desc": "Variant Coding failure Software incompatibility",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0400": {
+     "desc": "Variant coding failure software incompatibility",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U2100": {
+     "desc": "Invalid message counter ECM (ECM_1 of VEHICLE_SPEED)",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U2131": {
+     "desc": "Invalid message counter DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U220A": {
+     "desc": "Invalid message checksum ECM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U220D": {
+     "desc": "Invalid message checksum DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U3001": {
+     "desc": "Module improper shutdown",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack": {
+   "display": "Can-Am ATV MY18 Outlander XT 6X6 CCK SnowTrack",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03670100",
+    "EV_03930101",
+    "EV_03B70000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBRKAP4XJJ00008T"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0513": {
+     "desc": "Invalid Access Key Detected",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_atv_my18_renegade_x_xc_650_me17_abs": {
+   "display": "Can-Am ATV MY18 Renegade X Xc 650 ME17 ABS",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "",
+   "modules": [
+    "ABS",
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03680200",
+    "EV_03800000",
+    "EV_03B70000",
+    "EV_03D00000"
+   ],
+   "module_signature": "ABS|Cluster|DPS|ECM",
+   "vins": [
+    "3JBMXAJ60JJ00039A"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  },
+  "can_am_atv_my19_outlander_l_dps_450_m3c": {
+   "display": "Can-Am ATV MY19 Outlander L DPS 450 M3C",
+   "family": "Can-Am",
+   "model_year": "MY19",
+   "engine": "450 M3C",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03680200",
+    "EV_03950101",
+    "EV_03B70000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBLMAR47KJ000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "P0562": {
+     "desc": "System voltage Low",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F02": {
+     "desc": "input voltage overload (16.5V).",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_atv_my20_xmr_1000r": {
+   "display": "Can-AM ATV MY20 XMR 1000R",
+   "family": "Can-AM",
+   "model_year": "MY20",
+   "engine": "1000R",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03800001",
+    "EV_03B70000",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBLWAX20LJ000384"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 8,
+   "dtcs": {
+    "P0500": {
+     "desc": "Invalid or missing vehicle speed",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0553": {
+     "desc": "Torque sensor high",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "can bus off",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0100": {
+     "desc": "Lost communication with ECM (lost of CAN ID's)",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0131": {
+     "desc": "Loss of communication with DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0400": {
+     "desc": "Variant coding failure software incompatibility",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U3001": {
+     "desc": "Module improper shutdown",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my17_maverick_x3_64_xds_903_tcic": {
+   "display": "Can-Am SSV MY17 Maverick X3 64 XDS 903 TCIC",
+   "family": "Can-Am",
+   "model_year": "MY17",
+   "engine": "903 TCIC",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_07610200",
+    "EV_078F0000",
+    "EV_07B00F00"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBVDAW27HK000318"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 155,
+   "dtcs": {
+    "P0030": {
+     "desc": "Front O2 sensor heating circuit OPEN",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0031": {
+     "desc": "Front O2 sensor heating circuit short to ground",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0032": {
+     "desc": "Front O2 sensor heating circuit short to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0037": {
+     "desc": "Rear O2 sensor heating circuit short to ground",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0038": {
+     "desc": "Rear O2 sensor heating circuit short to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0045": {
+     "desc": "Wastegate solenoid open circuit",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0046": {
+     "desc": "Wastegate solenoid open circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0047": {
+     "desc": "Wastegate solenoid short to ground",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0048": {
+     "desc": "Wastegate actuator short to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P006D": {
+     "desc": "Boost pressure too high",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0106": {
+     "desc": "T-MAP sensor or plenum pressure not plausible",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0107": {
+     "desc": "Manifold Air Pressure Sensor voltage too Low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0108": {
+     "desc": "Manifold Air Pressure Sensor voltage too High",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0112": {
+     "desc": "Air temperature sensor fault, low voltage (internal to T-MAP sensor)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0113": {
+     "desc": "Intake Air Temperature Sensor 1 circuit Low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0116": {
+     "desc": "Engine Coolant Temperature Sensor 1 circuit range/performance",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0117": {
+     "desc": "Engine Coolant Temperature Sensor circuit High",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0118": {
+     "desc": "Engine Coolant Temperature Sensor circuit Low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0122": {
+     "desc": "First Throttle Accelerator Sensor (TAS) Short circuit to GND",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0123": {
+     "desc": "First Throttle Accelerator Sensor (TAS) shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0127": {
+     "desc": "Intake Air Temperature too High",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0130": {
+     "desc": "Electrical diagnosis for O2 sensor (Cylinder 1 : front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0131": {
+     "desc": "O2 sensor output voltage too low (Cylinder 1 : front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0132": {
+     "desc": "Electrical diagnosis for O2 sensor voltage too high (Cylinder 1: front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0133": {
+     "desc": "Diagnosis O2 sensor (Cylinder 2 : rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0135": {
+     "desc": "Front cylinder O2 sensor internal fault in heating circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0136": {
+     "desc": "Electrical diagnosis for O2 sensor  (Cylinder 2 : rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0137": {
+     "desc": "O2 sensor output voltage too low (Cylinder 2 : rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0138": {
+     "desc": "Electrical diagnosis for second O2 sensor voltage too high (Cylinder 2: rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0139": {
+     "desc": "Diagnosis O2 sensor (Cylinder 1 : front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0141": {
+     "desc": "Rear cylinder O2 sensor internal fault in heating circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0201": {
+     "desc": "Diagnostic Fault code for Power stage sig error of injector 3 Cylinder 1",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0202": {
+     "desc": "Diagnostic Fault code for Power stage sig error of injector 1 Cylinder 2",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0203": {
+     "desc": "Diagnostic Fault code for Power stage sig error of injector 2 Cylinder 3",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0217": {
+     "desc": "Engine Coolant over temperature condition",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0222": {
+     "desc": "2nd Throttle Accelerator Sensor (TAS) shorted to GND",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0223": {
+     "desc": "2nd Throttle Accelerator Sensor (TAS) shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0231": {
+     "desc": "Fuel Pump circuit shorted to ground, or open circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0232": {
+     "desc": "Fuel Pump circuit shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0234": {
+     "desc": "Engine overboost",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0235": {
+     "desc": "Boost sensor not plausible",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0237": {
+     "desc": "Boost sensor short to GND or open circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0238": {
+     "desc": "Boost sensor short to supply",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P023D": {
+     "desc": "Boost pressure or boost sensor value too low",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0261": {
+     "desc": "Diagnostic Fault code for Power stage Min error of injector 3 Cylinder 1",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0262": {
+     "desc": "Diagnostic Fault code for Power stage Max error of injector 3 Cylinder 1",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0264": {
+     "desc": "Diagnostic Fault code for Power stage Min error of injector 1 Cylinder 2",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0265": {
+     "desc": "Diagnostic Fault code for Power stage Max error of injector 1 Cylinder 2",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0267": {
+     "desc": "Diagnostic Fault code for Power stage Min error of injector 2 Cylinder 3",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0268": {
+     "desc": "Diagnostic Fault code for Power stage Max error of injector 2 Cylinder 3",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0299": {
+     "desc": "Target boost pressure not reached",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0300": {
+     "desc": "Random/multiple misfire detected",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0301": {
+     "desc": "Misfire cylinder 1 (Left)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0302": {
+     "desc": "Misfire cylinder 2 (Center)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0303": {
+     "desc": "Misfire cylinder 3 (Right)",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0324": {
+     "desc": "Diagnostic Fault Code for min error of knock sensor (Cylinder 2 : rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P032A": {
+     "desc": "Diagnostic Fault Code for min error of knock sensor (Cylinder 1 : front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0335": {
+     "desc": "Crankshaft Position Sensor",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0340": {
+     "desc": "Error on camshaft position sensor signal",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0357": {
+     "desc": "Ignition coil range/performance cylinder 1 (Left)",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0358": {
+     "desc": "Ignition coil cylinder 1 (Left)",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0359": {
+     "desc": "Ignition coil cylinder 2 (Center)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0360": {
+     "desc": "Ignition coil cylinder 3 (Right)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0361": {
+     "desc": "Ignition coil range/performance cylinder 2 (Center)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0362": {
+     "desc": "Ignition coil range/performance cylinder 3 (Right)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0443": {
+     "desc": "Canister purge valve open circuit",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0458": {
+     "desc": "Canister purge valve shorted to ground",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0459": {
+     "desc": "Canister purge valve shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P0480": {
+     "desc": "Radiator cooling fan relay",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0501": {
+     "desc": "Vehicle speed not plausible, no speed detected over RPM threshold.",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0504": {
+     "desc": "Brake signal not plausible",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0512": {
+     "desc": "Starter control circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0513": {
+     "desc": "Invalid Access Key Detected",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0520": {
+     "desc": "Engine oil pressure sensor circuit malfunction",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0523": {
+     "desc": "Engine oil pressure sensor sticking",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0524": {
+     "desc": "Engine oil pressure too Low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0560": {
+     "desc": "Non-plausibility error on system voltage",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0562": {
+     "desc": "System voltage low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0563": {
+     "desc": "System voltage high",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0606": {
+     "desc": "Control Module Processor",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P060D": {
+     "desc": "Throttle Accelerator Sensor (TAS) synchronistic error between sensor 1 and 2",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P060E": {
+     "desc": "Throttle position performance",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0610": {
+     "desc": "Variant Coding error",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P062F": {
+     "desc": "Internal control module EEPROM error",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0685": {
+     "desc": "Accessory relay circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0686": {
+     "desc": "Accessory relay circuit shorted to ground or open circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0687": {
+     "desc": "Accessory relay circuit shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0691": {
+     "desc": "Radiator fan circuit shorted to ground or open circuit",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0692": {
+     "desc": "Radiator fan circuit shorted to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0790": {
+     "desc": "Check of Override Button",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P0811": {
+     "desc": "Clutch slippage detected",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1036": {
+     "desc": "Rear O2 sensor heating circuit OPEN",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1120": {
+     "desc": "Wrong Throttle Position Sensor (TPS) position",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1130": {
+     "desc": "Electrical diagnosis for O2 sensor (Cylinder 1 : front)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1136": {
+     "desc": "Electrical diagnosis for O2 sensor (Cylinder 2 : rear)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1171": {
+     "desc": "Fuel system additive learning reached the maximum limit on front cylinder",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1172": {
+     "desc": "Fuel system additive learning reached the minimum limit on front cylinder",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1174": {
+     "desc": "Fuel system additive learning reached the maximum limit on rear cylinder",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1175": {
+     "desc": "Fuel system additive learning reached the minimum limit on rear cylinder",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1339": {
+     "desc": "Signal fault at phase determination",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1480": {
+     "desc": "Intercooler Fan relay open coil",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1606": {
+     "desc": "Control Module Processor",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P160E": {
+     "desc": "Electrical Throttle Actuator (ETA) control fault",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1610": {
+     "desc": "Electrical Throttle Actuator (ETA) shorted to V +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1611": {
+     "desc": "Electrical Throttle Actuator (ETA) shorted to ground",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1612": {
+     "desc": "Electrical Throttle Actuator (ETA) signal not plausible",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1613": {
+     "desc": "Electrical Throttle Actuator (ETA)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1614": {
+     "desc": "Throttle idle position failure on throttle release",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1615": {
+     "desc": "TPS position deviation fault",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1616": {
+     "desc": "Throttle limp-home-position failed",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1619": {
+     "desc": "TPS adaptation failure",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1620": {
+     "desc": "TPS adaptation failure",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1621": {
+     "desc": "TPS adaptation cancelled lower mechanical stop failed",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1622": {
+     "desc": "TPS adaptation failed",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1691": {
+     "desc": "Intercooler Fan relay coil short to circuit GND",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1692": {
+     "desc": "Intercooler Fan relay coil short to battery +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C0": {
+     "desc": "ECU ADC plausibility check",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C1": {
+     "desc": "ECU ADC test failed",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C2": {
+     "desc": "ECU monitoring error",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C3": {
+     "desc": "Throttle Accelerator Sensors (TAS) monitoring check fault",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C4": {
+     "desc": "Engine speed monitoring check fault",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C5": {
+     "desc": "Safety fuel cut-off activated monitoring check level 1",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C6": {
+     "desc": "Safety fuel cut-off activated monitoring check level 2",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C7": {
+     "desc": "Throttle valve plausibility check failed",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P16C8": {
+     "desc": "Permitted throttle valve position monitoring check exceeded",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P1790": {
+     "desc": "Driving mode switch state implausible",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P20EB": {
+     "desc": "Main relay de-energized too late or sticking",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P212C": {
+     "desc": "2nd Throttle Position Sensor (TPS) low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P212D": {
+     "desc": "2nd Throttle Position Sensors (TPS) high",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2228": {
+     "desc": "Ambient pressure sensor shorted to ground",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2229": {
+     "desc": "Ambient pressure sensor short to V +",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2262": {
+     "desc": "Engine underboost",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2263": {
+     "desc": "Engine overboost",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2279": {
+     "desc": "Intake Air System leak",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2280": {
+     "desc": "Boost pressure signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2299": {
+     "desc": "Throttle and break pedal are used at the same time",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2416": {
+     "desc": "O2 or fuel injectors wires are reversed between cylinders.",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2530": {
+     "desc": "Keyswitch state non plausible. The detected voltage for open and/or closed switch is not within the specification.",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2620": {
+     "desc": "Throttle Position Sensors (TPS)  position",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2621": {
+     "desc": "First Throttle Position Sensor (TPS) low",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2622": {
+     "desc": "First Throttle Position Sensor (TPS) high",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2801": {
+     "desc": "Gear position sensor invalid range",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P2806": {
+     "desc": "Gear position sensor angle defined area vs position not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P280A": {
+     "desc": "One or more gears are not learned yet",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P30D3": {
+     "desc": "Rear differential actuator electrical fault",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P30D4": {
+     "desc": "Rear differential rocker switch position is unplausible",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "P33CF": {
+     "desc": "Belt protection over heat",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER  (lost of CAN ID's)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U0167": {
+     "desc": "Lost communication with Vehicle Immobilizer Control Module",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U0300": {
+     "desc": "Invalid Security Exchange received",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U0301": {
+     "desc": "Variant Coding, software incompatibility (DFC_MoFVar)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U0302": {
+     "desc": "Variant Coding, software incompatibility (DFC_MTVARNPL)",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U0426": {
+     "desc": "Invalid Data Received From Vehicle Immobilizer Control Module",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U220E": {
+     "desc": "Invalid Check Sum from CLUSTER message",
+     "ecu": "DPS",
+     "sessions": 2
+    },
+    "U300A": {
+     "desc": "Keyswitch state non plausible. The detected voltage for open and/or closed switch is not within the specification.",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my18_commander_xt_1000r_dps": {
+   "display": "Can-Am SSV MY18 Commander XT 1000R DPS",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_07610200",
+    "EV_078E0016",
+    "EV_10020000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBKKAX26JJ00104E"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0513": {
+     "desc": "Invalid Access Key Detected",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my18_defender_xt_1000_dps": {
+   "display": "Can-Am SSV MY18 Defender XT 1000 DPS",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_07610200",
+    "EV_078E0005",
+    "EV_10020000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JBUKAP42JK00074P"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 5,
+   "dtcs": {
+    "P0562": {
+     "desc": "System voltage Low",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P1F07": {
+     "desc": "Encoder redundancy failure",
+     "ecu": "DPS",
+     "sessions": 1
+    },
+    "P2299": {
+     "desc": "Throttle and brake pedal are used at the same time",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2806": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER  (lost of CAN ID's)",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my18_maverick_trail_50_dps_1000": {
+   "display": "Can-Am SSV MY18 Maverick Trail 50 DPS 1000",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "1000",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03680200",
+    "EV_078F1001",
+    "EV_10020000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JB1GAP46JK000029"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "U0073": {
+     "desc": "CAN bus off, no messages",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0100": {
+     "desc": "ECM, lost of communication",
+     "ecu": "Cluster",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm": {
+   "display": "Can-Am SSV MY18 Maverick X3 72 X Rs 903 TCIC FDM",
+   "family": "Can-Am",
+   "model_year": "MY18",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM",
+    "FDM"
+   ],
+   "ecu_variants": [
+    "EV_07610200",
+    "EV_078F0000",
+    "EV_10020000",
+    "EV_20070000"
+   ],
+   "module_signature": "Cluster|DPS|ECM|FDM",
+   "vins": [
+    "3JBVNAW21JK00089T"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  },
+  "can_am_ssv_my19_maverick_sport_60_dps_1000r": {
+   "display": "Can-Am SSV MY19 Maverick Sport 60 DPS 1000R",
+   "family": "Can-Am",
+   "model_year": "MY19",
+   "engine": "1000R",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_03680200",
+    "EV_078F1000",
+    "EV_10020000"
+   ],
+   "module_signature": "Cluster|DPS|ECM",
+   "vins": [
+    "3JB1TAX40KK000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 5,
+   "dtcs": {
+    "P0132": {
+     "desc": "O2 sensor output voltage too high ; if two O2 sensors are present refer to Cylinder1 (front)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1130": {
+     "desc": "O2 sensor circuit malfunction ; if two O2 sensors are present refer to Cylinder1 (front)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0122": {
+     "desc": "Diagnostic Not Activated",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0131": {
+     "desc": "Diagnostic Not Activated",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U1201": {
+     "desc": "Diagnostic Not Activated",
+     "ecu": "Cluster",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my20_defender_tex_1010ho": {
+   "display": "Can-Am SSV MY20 Defender TEX 1010HO",
+   "family": "Can-Am",
+   "model_year": "MY20",
+   "engine": "1010HO",
+   "modules": [
+    "ABS",
+    "Cluster",
+    "DPS",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_078E0005",
+    "EV_07D00000",
+    "EV_10020000",
+    "EV_C10F0000"
+   ],
+   "module_signature": "ABS|Cluster|DPS|ECM",
+   "vins": [
+    "3JB1BAX66LK000096",
+    "3JBURAX4XLK000271"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 10,
+   "dtcs": {
+    "B2A20": {
+     "desc": "Input connector A, pin 4 voltage outside the normal range",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2A90": {
+     "desc": "Connector A input, pin 18 voltage outside the normal range",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "C1281": {
+     "desc": "Variant Coding Failure",
+     "ecu": "ABS",
+     "sessions": 1
+    },
+    "C1290": {
+     "desc": "ABS/ESP Voltage Failure",
+     "ecu": "ABS",
+     "sessions": 1
+    },
+    "C1300": {
+     "desc": "ABS/ESP Internal Fault",
+     "ecu": "ABS",
+     "sessions": 1
+    },
+    "U0100": {
+     "desc": "Loss of communication with ECM",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0126": {
+     "desc": "Lost Communication With Steering Angle Sensor",
+     "ecu": "ABS",
+     "sessions": 1
+    },
+    "U0131": {
+     "desc": "Loss of communication with DPS",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0155": {
+     "desc": "Lost communication with CLUSTER  (lost of CAN ID's)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0400": {
+     "desc": "Variant coding failure software incompatibility",
+     "ecu": "DPS",
+     "sessions": 2
+    }
+   }
+  },
+  "can_am_ssv_my21_maverick_x3_xrs_903_tcic2": {
+   "display": "Can-Am SSV MY21 Maverick X3 XRS 903 TCIC2",
+   "family": "Can-Am",
+   "model_year": "MY21",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "DPS",
+    "ECM",
+    "FDM",
+    "IMOB",
+    "SDCU"
+   ],
+   "ecu_variants": [
+    "EV_10020000",
+    "EV_20070000",
+    "EV_30070000",
+    "EV_330F0000",
+    "EV_C10F0000",
+    "EV_E10F0000"
+   ],
+   "module_signature": "Cluster|DPS|ECM|FDM|IMOB|SDCU",
+   "vins": [
+    "3JBVXAV48MK002969"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "U0400": {
+     "desc": "Variant coding failure software incompatibility",
+     "ecu": "DPS",
+     "sessions": 1
+    }
+   }
+  },
+  "can_am_ssv_my22_maverick_trail_700": {
+   "display": "Can-Am SSV MY22 Maverick Trail 700",
+   "family": "Can-Am",
+   "model_year": "MY22",
+   "engine": "700",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IS"
+   ],
+   "ecu_variants": [
+    "EV_00800300",
+    "EV_00B00000",
+    "EV_00F20200",
+    "EV_00F30200",
+    "EV_078F1002",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM|IS",
+   "vins": [],
+   "observed_vins": [
+    "YDV07559A313",
+    "YDV22348B414"
+   ],
+   "sessions": 4,
+   "dtc_count": 12,
+   "dtcs": {
+    "B2200": {
+     "desc": "GPS perdido por falha de sinal",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "C2231": {
+     "desc": "Motor shorted to ground/battery",
+     "ecu": "IS",
+     "sessions": 1
+    },
+    "C2250": {
+     "desc": "System current software breaker",
+     "ecu": "IS",
+     "sessions": 1
+    },
+    "P0340": {
+     "desc": "Erro de sinal da árvore de cames 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "Battery voltage too low",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P060E": {
+     "desc": "Throttle Actuator - Controller Fault- digital position control exceeds limit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0629": {
+     "desc": "Fuel sensor disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P160E": {
+     "desc": "Throttle Actuator - Controller Fault - digital position control below limit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1611": {
+     "desc": "Throttle Actuator - Power Stage fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1614": {
+     "desc": "Throttle Actuator - Return-Spring check not passed / Spring does not close",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1615": {
+     "desc": "Throttle Actuator - Position monitoring fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0129": {
+     "desc": "IBR CAN messages timeout or validity",
+     "ecu": "IS",
+     "sessions": 1
+    }
+   }
+  },
+  "sea_doo_my16_gtx_ltd_1603_xho": {
+   "display": "Sea-Doo MY16 GTX LTD 1603 XHO",
+   "family": "Sea-Doo",
+   "model_year": "MY16",
+   "engine": "1603 XHO",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM",
+    "IMOB"
+   ],
+   "ecu_variants": [
+    "EV_00800300",
+    "EV_00810000",
+    "EV_00870000",
+    "EV_00870100",
+    "EV_00880000",
+    "EV_00880100",
+    "EV_00B90100",
+    "EV_00B90200",
+    "EV_00BA0100",
+    "EV_00BA0200",
+    "EV_00F20200",
+    "EV_00F20300",
+    "EV_00F30300",
+    "EV_330F0000",
+    "EV_C10F0000",
+    "EV_C20F0000",
+    "EV_E10F0000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM|IMOB",
+   "vins": [
+    "YDV10879C61G"
+   ],
+   "observed_vins": [
+    "YDV00309F021",
+    "YDV00847C717",
+    "YDV04952H122",
+    "YDV05161K718",
+    "YDV05659H223",
+    "YDV12523J021",
+    "YDV13962A919",
+    "YDV20283H617",
+    "YDV23408K021",
+    "YDV30148H819",
+    "YDV32994K324",
+    "YDV40471C525",
+    "YDV59948B222",
+    "YDV60118E525",
+    "YDVB3011F222"
+   ],
+   "sessions": 46,
+   "dtc_count": 68,
+   "dtcs": {
+    "B2200": {
+     "desc": "GPS lost of signal fault",
+     "ecu": "Cluster",
+     "sessions": 4
+    },
+    "B2A20": {
+     "desc": "Tensão do conector de entrada A - pino 4 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A21": {
+     "desc": "Conector de entrada A - pino 4 - circuito aberto",
+     "ecu": "Cluster",
+     "sessions": 8
+    },
+    "B2A40": {
+     "desc": "Tensão do conector de entrada A - pino 5 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 6
+    },
+    "B2A41": {
+     "desc": "Input connector A - pin 5 - open circuit",
+     "ecu": "Cluster",
+     "sessions": 5
+    },
+    "B2A50": {
+     "desc": "Tensão do conector de entrada A - pino 16 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 6
+    },
+    "B2A51": {
+     "desc": "Conector de entrada A - pino 16 - circuito aberto",
+     "ecu": "Cluster",
+     "sessions": 9
+    },
+    "B2B06": {
+     "desc": "Falha geral nos indicadores",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2E01": {
+     "desc": "Falha geral na entrada analógica",
+     "ecu": "Cluster",
+     "sessions": 3
+    },
+    "C0042": {
+     "desc": "Brake Lever Sensor (BRLS) signals A open/shorted to ground",
+     "ecu": "IBR",
+     "sessions": 6
+    },
+    "C0043": {
+     "desc": "Brake Lever Sensor (BRLS) signals B open/shorted to ground",
+     "ecu": "IBR",
+     "sessions": 10
+    },
+    "C0073": {
+     "desc": "Falha na solicitação de torque",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2102": {
+     "desc": "Actuator movement",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2115": {
+     "desc": "Monitorando a força de limpeza da CPU",
+     "ecu": "IBR",
+     "sessions": 4
+    },
+    "C2134": {
+     "desc": "_C2134_DESCRIPTION",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2143": {
+     "desc": "Brake Lever Sensor (BRLS) signals B shorted to battery",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2146": {
+     "desc": "Brake Lever Sensor (BRLS) signals A/B reading difference",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2151": {
+     "desc": "Sistema desativado e precisa de ativação",
+     "ecu": "IBR",
+     "sessions": 4
+    },
+    "C2161": {
+     "desc": "_C2161_DESCRIPTION",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2162": {
+     "desc": "Freio e ré inteligentes (iBR) - Falha na calibração automática",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2315": {
+     "desc": "Tempo máximo de ativação do portão decorrido",
+     "ecu": "IBRM",
+     "sessions": 1
+    },
+    "C2328": {
+     "desc": "Movimento do portão proibido",
+     "ecu": "IBRM",
+     "sessions": 7
+    },
+    "C2329": {
+     "desc": "Brake lever fault",
+     "ecu": "IBRM",
+     "sessions": 9
+    },
+    "C2339": {
+     "desc": "Movimento do portão muito rápido",
+     "ecu": "IBRM",
+     "sessions": 1
+    },
+    "P0106": {
+     "desc": "Sensor de pressão de admissão do coletor fora da faixa",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0107": {
+     "desc": "Sensor de pressão absoluta do coletor em curto ou aterrado ou não conectado.",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0113": {
+     "desc": "Circuito aberto do sensor de temperatura do coletor de admissão ou em curto com a bateria",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0201": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0202": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 2",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0203": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 3",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0231": {
+     "desc": "Bomba de combustível - em curto com o terra",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0298": {
+     "desc": "Óleo do motor - temperatura alta",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0461": {
+     "desc": "Sensor de nível de combustível – fora de alcance",
+     "ecu": "Cluster",
+     "sessions": 6
+    },
+    "P0523": {
+     "desc": "Oil pressure sensor fault",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0524": {
+     "desc": "Low oil pressure condition",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0524_1": {
+     "desc": "Sensor de pressão do óleo do motor (OPS) - baixa pressão",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0524_2": {
+     "desc": "Sensor de pressão do óleo do motor (OPS) - baixa pressão",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0560": {
+     "desc": "Baixa tensão do veículo",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "12V battery - low voltage",
+     "ecu": "Cluster",
+     "sessions": 13
+    },
+    "P0563": {
+     "desc": "Bateria 12V - alta tensão",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0627": {
+     "desc": "Bomba de combustível - circuito aberto",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0629": {
+     "desc": "Sensor de combustível - sem sinal",
+     "ecu": "Cluster",
+     "sessions": 6
+    },
+    "P1502": {
+     "desc": "T.O.P.S. problema funcional",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1505": {
+     "desc": "T.O.P.S. falha de comutação, estado não plausível",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P1510_1": {
+     "desc": "Sinal do Sistema de Posicionamento Global (GPS) - intermitente",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1510_2": {
+     "desc": "Sinal do Sistema de Posicionamento Global (GPS) - intermitente",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1654_1": {
+     "desc": "Contato do imobilizador - não plausível",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1654_2": {
+     "desc": "Contato do imobilizador - não plausível",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1661": {
+     "desc": "Sensor de posição da marcha Intelligent Brake & Reverse (iBR) - com defeito",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2101": {
+     "desc": "Atuador eletrônico do acelerador (ETA) - a lâmina do acelerador não atinge o valor desejado",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212B": {
+     "desc": "Sensor de posição do acelerador (TPS) - 2 - não plausível",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212C": {
+     "desc": "Violação elétrica de faixa inferior TPS 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2131": {
+     "desc": "Sensor de posição do acelerador (TPS) - 1 - não plausível",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2282_1": {
+     "desc": "Vazamento no sistema - Pressão do ar de admissão muito baixa",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2282_2": {
+     "desc": "Vazamento no sistema - Pressão do ar de admissão muito baixa",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2620": {
+     "desc": "Valor TPS não plausível",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2621": {
+     "desc": "Violação elétrica de faixa inferior TPS 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2669_1": {
+     "desc": "Livre de detritos inteligentes (iDF) - circuito aberto",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2669_2": {
+     "desc": "Livre de detritos inteligentes (iDF) - circuito aberto",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "Falha na comunicação CAN",
+     "ecu": "Cluster",
+     "sessions": 11
+    },
+    "U0100": {
+     "desc": "Perda de comunicação com o Módulo de Controle do Motor (ECM)/Módulo de Controle do Veículo (VCU)",
+     "ecu": "Cluster",
+     "sessions": 3
+    },
+    "U0129": {
+     "desc": "Perda de comunicação com o atuador Intelligent Brake and Reverse (iBR)",
+     "ecu": "Cluster",
+     "sessions": 12
+    },
+    "U0129_1": {
+     "desc": "Perda de comunicação com o atuador Intelligent Brake and Reverse (iBR)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0129_2": {
+     "desc": "Perda de comunicação com o atuador Intelligent Brake and Reverse (iBR)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0426": {
+     "desc": "Dados inválidos recebidos do Imobilizador",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0457": {
+     "desc": "Tempo limite ou validade das mensagens CAN do cluster",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "U16A4": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 010h ausente",
+     "ecu": "ECM",
+     "sessions": 4
+    },
+    "U16A5": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 012h ausente",
+     "ecu": "ECM",
+     "sessions": 4
+    }
+   }
+  },
+  "sea_doo_my17_rxpx_1603_xho": {
+   "display": "Sea-Doo MY17 RXPX 1603 XHO",
+   "family": "Sea-Doo",
+   "model_year": "MY17",
+   "engine": "1603 XHO",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00810000",
+    "EV_00880000",
+    "EV_00880100",
+    "EV_00B90000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_00F30300",
+    "EV_00F60200",
+    "EV_C10F0000",
+    "EV_C20F0000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [
+    "YDV99006C516"
+   ],
+   "observed_vins": [
+    "YDV33549J617",
+    "YDV52560C020",
+    "YDV52763A222",
+    "YDV55494E919",
+    "YDV59948B222",
+    "YDV59992C121",
+    "YDV73688D121",
+    "YDVB3011F222"
+   ],
+   "sessions": 26,
+   "dtc_count": 239,
+   "dtcs": {
+    "B2200": {
+     "desc": "GPS perdido por falha de sinal",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2210": {
+     "desc": "Left keypad fault (Switch kept activated more than 60 seconds)",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2211": {
+     "desc": "Suspension UP/DOWN or SPORT / ECO switches shorted to ground fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2212": {
+     "desc": "Suspension UP/DOWN or SPORT / ECO switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2213": {
+     "desc": "VTS UP/DOWN switches shorted to ground fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2214": {
+     "desc": "VTS UP/DOWN switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2220": {
+     "desc": "Right keypad fault (Switch kept activated more than 60 seconds)",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2221": {
+     "desc": "MODE/SET switches shorted to ground fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2222": {
+     "desc": "MODE/SET switches disconnected  fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2223": {
+     "desc": "UP/DOWN switches shorted to ground fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2224": {
+     "desc": "UP/DOWN switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2A20": {
+     "desc": "Tensão do conector de entrada A - pino 4 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A21": {
+     "desc": "Conector de entrada A - pino 4 - circuito aberto",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2A30": {
+     "desc": "Tensão do conector de entrada A - pino 15 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A40": {
+     "desc": "Tensão do conector de entrada A - pino 5 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A41": {
+     "desc": "Conector de entrada A - pino 5 - circuito aberto",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2A50": {
+     "desc": "Tensão do conector de entrada A - pino 16 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A51": {
+     "desc": "Conector de entrada A - pino 16 - circuito aberto",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2A60": {
+     "desc": "Tensão do conector de entrada A - pino 6 - fora da faixa",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2E01": {
+     "desc": "Falha geral na entrada analógica",
+     "ecu": "Cluster",
+     "sessions": 6
+    },
+    "C0042": {
+     "desc": "Brake Lever Sensor (BRLS) signals A open/shorted to ground",
+     "ecu": "IBR",
+     "sessions": 5
+    },
+    "C0043": {
+     "desc": "Brake Lever Sensor (BRLS) signals B open/shorted to ground",
+     "ecu": "IBR",
+     "sessions": 5
+    },
+    "C0073": {
+     "desc": "Torque request failure",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2100": {
+     "desc": "Sensors calibration is corrupted",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2101": {
+     "desc": "Actuator movement warning",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2102": {
+     "desc": "Actuator movement",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2110": {
+     "desc": "Reverse gate position sensor error",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2113": {
+     "desc": "iBR overheat",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2115": {
+     "desc": "Monitoring CPU limp force",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2120": {
+     "desc": "Application calibration is corrupted",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2121": {
+     "desc": "Application parameters corrupted (backup #1 or #2)",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2131": {
+     "desc": "iBR DC motor shorted to ground or 12V",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2132": {
+     "desc": "Motor Open",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2133": {
+     "desc": "Internal motor drive failure",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2142": {
+     "desc": "Brake Lever Sensor (BRLS) signals A shorted to battery",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2143": {
+     "desc": "Brake Lever Sensor (BRLS) signals B shorted to battery",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2144": {
+     "desc": "Brake Lever Sensor (BRLS) power shorted to battery",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2145": {
+     "desc": "Brake Lever Sensor (BRLS) power shorted to ground",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2146": {
+     "desc": "Brake Lever Sensor (BRLS) signals A/B reading difference",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2150": {
+     "desc": "System current software breaker",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2151": {
+     "desc": "System disabled and need activation",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2152": {
+     "desc": "System not fit in ECM",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2155": {
+     "desc": "Water temperature sensor overheat",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "C2161": {
+     "desc": "Low voltage detected",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "C2315": {
+     "desc": "Tempo máximo de ativação do portão decorrido",
+     "ecu": "IBRM",
+     "sessions": 2
+    },
+    "C2328": {
+     "desc": "Movimento do portão proibido",
+     "ecu": "IBRM",
+     "sessions": 7
+    },
+    "C2329": {
+     "desc": "Falha na alavanca do freio",
+     "ecu": "IBRM",
+     "sessions": 5
+    },
+    "P0001": {
+     "desc": "Port side ballast sensor disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0002": {
+     "desc": "Starboard side ballast sensor disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0008": {
+     "desc": "Engine phase detection fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0030": {
+     "desc": "Heater Power Stage fault for lambda sensor upstreams of catalyst",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0031": {
+     "desc": "Heater Power Stage fault for lambda sensor upstreams of catalyst - short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0032": {
+     "desc": "Heater Power Stage fault for lambda sensor upstreams of catalyst - short circuit to V+",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0036": {
+     "desc": "Heater Power Stage fault for lambda sensor downstreams of catalyst",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0037": {
+     "desc": "Heater Power Stage fault for lambda sensor downstreams of catalyst - short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0038": {
+     "desc": "Heater Power Stage fault for lambda sensor downstreams of catalyst - short circuit to V+",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0106": {
+     "desc": "Manifold Intake pressure sensor out of range",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0107": {
+     "desc": "Manifold absolute pressure sensor shorted to ground or not connected.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0108": {
+     "desc": "Manifold absolute pressure sensor open circuit or shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0112": {
+     "desc": "Intake manifold temperature sensor shorted to ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake manifold temperature sensor open circuit or shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0116": {
+     "desc": "Engine coolant temperature signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0117": {
+     "desc": "Engine coolant temperature sensor fault - Short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0118": {
+     "desc": "Engine coolant temperature sensor fault - Short circuit to V+ or connector disconnected.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0122": {
+     "desc": "TAS (Throttle Accelerator sensor) 1 fault (short circuit to GND)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0123": {
+     "desc": "TAS (Throttle Accelerator sensor) 1 fault (short circuit to battery)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0127": {
+     "desc": "Intake air temperature too high",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0130": {
+     "desc": "Lambda Sensor fault upstreams of catalyst - signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0131": {
+     "desc": "Lambda Sensor fault upstreams of catalyst - short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0132": {
+     "desc": "Lambda Sensor fault upstreams of catalyst - short circuit to V+",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0133": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0134": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0135": {
+     "desc": "Lambda Sensor heating fault upstreams of catalyst",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0136": {
+     "desc": "Lambda Sensor fault downstream of catalyst - signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0137": {
+     "desc": "Lambda Sensor fault downstream of catalyst - short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0138": {
+     "desc": "Lambda Sensor fault downstreams of catalyst - short circuit to V+",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0141": {
+     "desc": "Lambda Sensor heating fault downstreams of catalyst",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0171": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0172": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0197": {
+     "desc": "Engine oil temperature sensor fault - Short circuit to  V+ or connector disconnected.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0198": {
+     "desc": "Engine oil temperature sensor fault - Short circuit to GND",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0201": {
+     "desc": "Injection Power Stage fault - open line / Cylinder 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0202": {
+     "desc": "Injection Power Stage fault - open line / Cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0203": {
+     "desc": "Injection Power Stage fault - open line / Cylinder  3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0217": {
+     "desc": "High engine coolant temperature detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0222": {
+     "desc": "TAS (Throttle Accelerator sensor) 2 fault (short circuit to GND)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0223": {
+     "desc": "TAS (Throttle Accelerator sensor) 2 fault (short circuit to battery)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0231": {
+     "desc": "Fuel pump open circuit or short to ground",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P0232": {
+     "desc": "Fuel pump short circuit to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0261": {
+     "desc": "Injector 1 open circuit or shorted to ground",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0262": {
+     "desc": "Injector 1 shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0264": {
+     "desc": "Injector 2 open circuit or shorted to ground",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0265": {
+     "desc": "Injector 2 shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0267": {
+     "desc": "Injector 3 open circuit or shorted to ground",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0268": {
+     "desc": "Injector 3 shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0298": {
+     "desc": "High engine oil temperature detected",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0300": {
+     "desc": "Multiple misfire detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0301": {
+     "desc": "Misfire cylinder 2 (physical cylinder 1)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0302": {
+     "desc": "Misfire cylinder 0 (physical cylinder 2)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0303": {
+     "desc": "Misfire cylinder 1 (physical cylinder 3)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0325": {
+     "desc": "Knock sensor 1 fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0335": {
+     "desc": "Crankshaft signal error",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0340": {
+     "desc": "Camshaft 1 signal error",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0351": {
+     "desc": "Ignition coil 1 open circuit or shorted to ground or to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0352": {
+     "desc": "Ignition coil 2 open circuit or shorted to ground or to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0353": {
+     "desc": "Ignition coil 3 open circuit or shorted to ground or to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0354": {
+     "desc": "Ignition Power Stage fault - short circuit to GND / Cylinder 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0355": {
+     "desc": "Ignition Power Stage fault - short circuit to GND / Cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0356": {
+     "desc": "Ignition Power Stage fault - short circuit to GND / Cylinder 3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0357": {
+     "desc": "Ignition Power Stage fault - short circuit to V+ / Cylinder 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0358": {
+     "desc": "Ignition Power Stage fault - short circuit to V+ / Cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0359": {
+     "desc": "Ignition Power Stage fault - short circuit to V+ / Cylinder 3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0360": {
+     "desc": "Ignition Power stage max error & false detection of low battery voltage / Cylinder 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0361": {
+     "desc": "Ignition Power stage max error & false detection of low battery voltage / Cylinder 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0362": {
+     "desc": "Ignition Power stage max error & false detection of low battery voltage / Cylinder 3",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0420": {
+     "desc": "Catalyst conversion insufficient",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0461": {
+     "desc": "Sensor de nível de combustível – fora de alcance",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0512": {
+     "desc": "Starter power stage detects high current",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0513": {
+     "desc": "Invalid D.E.S.S. Key detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0520": {
+     "desc": "Oil pressure switch functional problem",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0523": {
+     "desc": "Oil pressure sensor fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0524": {
+     "desc": "Low oil pressure condition",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0544": {
+     "desc": "Exhaust gas temperature sensor functional problem",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0545": {
+     "desc": "Exhaust gas temperature sensor shorted to ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0546": {
+     "desc": "Exhaust gas temperature sensor open circuit or shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0560": {
+     "desc": "Battery voltage not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0562": {
+     "desc": "Battery voltage too low",
+     "ecu": "ECM",
+     "sessions": 6
+    },
+    "P0563": {
+     "desc": "Battery voltage too high",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P0564": {
+     "desc": "Cruise switch fault",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0606": {
+     "desc": "ECM ADC fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P060D": {
+     "desc": "TAS (Throttle Accelerator sensor) synchronization error",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P060E": {
+     "desc": "Throttle Actuator - Controller Fault- digital position control exceeds limit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0610": {
+     "desc": "Variant coding fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0629": {
+     "desc": "Fuel sensor disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 5
+    },
+    "P062C": {
+     "desc": "Erro CAN do cluster - Perda de informações de velocidade do veículo do cluster",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P062F": {
+     "desc": "ECM EEPROM fault - exchange ECM",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P06B6": {
+     "desc": "ECM Fast ADC fault (knock detection line)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1030": {
+     "desc": "Heater Power Stage fault for lambda sensor upstreams of catalyst - open line",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1036": {
+     "desc": "Heater Power Stage fault for lambda sensor downstreams of catalyst - open line",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1106": {
+     "desc": "Altitude correction factor (fho) not plausible - out of range",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1120": {
+     "desc": "Throttle positions calculated from TPS 1 and TPS 2 not corresponding",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1130": {
+     "desc": "Lambda Sensor fault upstreams of catalyst - open line",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1136": {
+     "desc": "Lambda Sensor fault downstream of catalyst - open line",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1171": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1172": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1264": {
+     "desc": "Ignition Power stage overload",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1502": {
+     "desc": "T.O.P.S. functional problem",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1503": {
+     "desc": "T.O.P.S. switch short circuit to 12V",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1504": {
+     "desc": "T.O.P.S. switch short circuit ground",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1505": {
+     "desc": "T.O.P.S. switch fault non plausible state",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1506": {
+     "desc": "T.O.P.S. switch open circuit",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1550": {
+     "desc": "Otas sensor voltage not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1606": {
+     "desc": "ECM ADC fault - exchange ECM",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P160E": {
+     "desc": "Throttle Actuator - Controller Fault - digital position control below limit",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1610": {
+     "desc": "Throttle Actuator - Power Stage fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1611": {
+     "desc": "Throttle Actuator - Power Stage fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1612": {
+     "desc": "Throttle Actuator - Power Stage fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1613": {
+     "desc": "Throttle Actuator - Power Stage fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1614": {
+     "desc": "Throttle Actuator - Return-Spring check not passed / Spring does not close",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1615": {
+     "desc": "Throttle Actuator - Position monitoring fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1616": {
+     "desc": "Throttle Actuator - Default position check or learning fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1619": {
+     "desc": "Throttle Actuator - Adaptation of upper mechanical limit failed",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1620": {
+     "desc": "Throttle Actuator - Adaptation of lower mechanical limit failed",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1621": {
+     "desc": "Throttle Actuator - Abortion of adaptation",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1622": {
+     "desc": "Throttle Actuator - Repeated abortion of adaptation",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1654": {
+     "desc": "Voltage of D.E.S.S. key switch out of range",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1657": {
+     "desc": "Electrical fault of D.E.S.S. key communication line",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1658": {
+     "desc": "Faulty D.E.S.S. key communication",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1661": {
+     "desc": "iBR malfunction",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1662": {
+     "desc": "iBR torque request is not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1679": {
+     "desc": "Main Relay Sticking",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16B6": {
+     "desc": "ECU Fast ADC fault (knock detection line)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16B7": {
+     "desc": "ECU Fast ADC fault (knock detection line)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16B8": {
+     "desc": "ECU Fast ADC fault (knock detection line)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C0": {
+     "desc": "Fault of ECM ADC",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C1": {
+     "desc": "Fault of ECM ADC",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C2": {
+     "desc": "Fault of ECM monitoring module",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C3": {
+     "desc": "Monitoring fault due to Accelerator Sensor check",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C4": {
+     "desc": "Monitoring fault due to engine speed check",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C5": {
+     "desc": "Safety fuel cut off activ - Monitoring level 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C6": {
+     "desc": "Safety fuel cut off activ - Monitoring level 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C7": {
+     "desc": "Monitoring fault due to throttle valve plausibility check",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C8": {
+     "desc": "Monitoring fault due to exceeding permitted throttle valve position",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C9": {
+     "desc": "Monitoring detected non plausible D.E.S.S. key state",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16CA": {
+     "desc": "ECU detected faulty watch dog line -  ECU defect",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16CB": {
+     "desc": "ECU switch off through watch dog line (hardware fault) - ECU defect",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2080": {
+     "desc": "Exhaust temperature not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2081": {
+     "desc": "Exhaust temperature sensor fault",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212C": {
+     "desc": "Electrical lower-range violation TPS 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212D": {
+     "desc": "Electrical upper-range violation TPS 2",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2159": {
+     "desc": "TAS (Throttle Accelerator sensor) signal not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2245": {
+     "desc": "Lambda Sensor aging fault downstreams of catalyst - Sensor Voltage too low",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2246": {
+     "desc": "Lambda Sensor aging fault downstreams of catalyst - Sensor Voltage too high",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2279": {
+     "desc": "Air intake manifold leak downstream of throttle",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2428": {
+     "desc": "High exhaust temperature detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2620": {
+     "desc": "TPS value not plausible",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2621": {
+     "desc": "Electrical lower-range violation TPS 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2622": {
+     "desc": "Electrical upper-range violation TPS 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "Falha na comunicação CAN",
+     "ecu": "Cluster",
+     "sessions": 3
+    },
+    "U0100": {
+     "desc": "ECU could not establish CAN communication with partner ECU",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "U0129": {
+     "desc": "CAN communication error between ECM and iBR module",
+     "ecu": "ECM",
+     "sessions": 6
+    },
+    "U0300": {
+     "desc": "Exchange security - Wrong ECM",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0401": {
+     "desc": "ECM CAN messages timeout or validity",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "U0402": {
+     "desc": "ECM CAN messages timeout or validity (320)",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "U0403": {
+     "desc": "ECM CAN messages timeout or validity (516)",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "U0457": {
+     "desc": "Cluster CAN messages timeout or validity",
+     "ecu": "IBR",
+     "sessions": 2
+    },
+    "U1301": {
+     "desc": "Software / Data compatibility error between starboard and port ECUs",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A1": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 514h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A2": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 230h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A3": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 408h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A4": {
+     "desc": "iBR CAN Timeout error-Missing CAN ID 010h",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "U16A5": {
+     "desc": "iBR CAN Timeout error-Missing CAN ID 012h",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "U16A6": {
+     "desc": "Cluster check sum error - CAN ID230h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A7": {
+     "desc": "Cluster check sum error - CAN ID408h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A8": {
+     "desc": "iBR check sum error - CAN ID010h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A9": {
+     "desc": "iBR check sum error - CAN ID012h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AA": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 410h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AB": {
+     "desc": "Cluster check sum error - CAN ID410h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AC": {
+     "desc": "Starboard ECU - Check sum error - CAN ID 014h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AD": {
+     "desc": "Port ECU - Check sum error - CAN ID 015h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AE": {
+     "desc": "Starboard ECU - Check sum error - CAN ID 016h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AF": {
+     "desc": "Port ECU - Check sum error - CAN ID 017h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B0": {
+     "desc": "Starboard ECU - Check sum error - CAN ID 01Ah",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B1": {
+     "desc": "Port ECU - Check sum error - CAN ID 01Bh",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B2": {
+     "desc": "Starboard ECU - Check sum error - CAN ID 102h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B3": {
+     "desc": "Port ECU - Check sum error - CAN ID 1A2h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B4": {
+     "desc": "Starboard ECU - CAN Timeout error-Missing CAN ID 014h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B5": {
+     "desc": "Port ECU - CAN Timeout error-Missing CAN ID 015h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B6": {
+     "desc": "Starboard ECU - CAN Timeout error-Missing CAN ID 016h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B7": {
+     "desc": "Port ECU - CAN Timeout error-Missing CAN ID 017h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B8": {
+     "desc": "Starboard ECU - CAN Timeout error-Missing CAN ID 01Ah",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16B9": {
+     "desc": "Port ECU - CAN Timeout error-Missing CAN ID 01Bh",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16BA": {
+     "desc": "Starboard ECU - CAN Timeout error-Missing CAN ID 102h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16BB": {
+     "desc": "Port ECU - CAN Timeout error-Missing CAN ID 1A2h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16BC": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 5B4h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16BD": {
+     "desc": "CAN Timeout or Check sum error of synchronization messages (Twin engine vehicles)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U1700": {
+     "desc": "ECU could not detect its position (starboard/port)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U1701": {
+     "desc": "Partner ECU could not detect its position (starboard/port)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U1702": {
+     "desc": "Both ECUs detected same installation position (starboard/port)",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "sea_doo_my18_gtx_std_1503_na": {
+   "display": "Sea-Doo MY18 GTX STD 1503 NA",
+   "family": "Sea-Doo",
+   "model_year": "MY18",
+   "engine": "1503 NA",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00880000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_00F60200"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [
+    "YDV05396L71B"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  },
+  "sea_doo_my18_spark_903_na": {
+   "display": "Sea-Doo MY18 SPARK 903 NA",
+   "family": "Sea-Doo",
+   "model_year": "MY18",
+   "engine": "903 NA",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00890000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_00F90000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [
+    "YDV00007K718"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "C2102": {
+     "desc": "Actuator movement",
+     "ecu": "IBR",
+     "sessions": 1
+    },
+    "P0546": {
+     "desc": "Exhaust gas temperature sensor open circuit or shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "sea_doo_my19_gtx_fish_1503_na": {
+   "display": "Sea-Doo MY19 GTX FISH 1503 NA",
+   "family": "Sea-Doo",
+   "model_year": "MY19",
+   "engine": "1503 NA",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00880000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [
+    "YDV01054H000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 8,
+   "dtcs": {
+    "P0546": {
+     "desc": "Exhaust gas temperature sensor open circuit or shorted to battery",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U0073": {
+     "desc": "CAN-Bus failure, CAN-Bus OFF",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "U0129": {
+     "desc": "Lost communication with iBR",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "U16A2": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 230h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A3": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 408h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A4": {
+     "desc": "iBR CAN Timeout error-Missing CAN ID 010h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A5": {
+     "desc": "iBR CAN Timeout error-Missing CAN ID 012h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AA": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 410h",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "sea_doo_my19_gtx_std_1503_230": {
+   "display": "Sea-Doo MY19 GTX STD 1503 230",
+   "family": "Sea-Doo",
+   "model_year": "MY19",
+   "engine": "1503 230",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00870000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 3,
+   "dtcs": {
+    "B2A21": {
+     "desc": "Input connector A, pin 4 open circuit or voltage outside the range of faults",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "B2A51": {
+     "desc": "Connector input A, pin 16 open circuit or voltage outside the range of faults",
+     "ecu": "Cluster",
+     "sessions": 1
+    },
+    "P0461": {
+     "desc": "Fuel Level Sensor Input Out of Range / Abnormal Signal Behavior",
+     "ecu": "Cluster",
+     "sessions": 1
+    }
+   }
+  },
+  "sea_doo_my19_rxt_x_1603_xho": {
+   "display": "Sea-Doo MY19 RXT X 1603 XHO",
+   "family": "Sea-Doo",
+   "model_year": "MY19",
+   "engine": "1603 XHO",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "IBR",
+    "IBRM"
+   ],
+   "ecu_variants": [
+    "EV_00810000",
+    "EV_00B90100",
+    "EV_00BA0100",
+    "EV_C10B0000"
+   ],
+   "module_signature": "Cluster|ECM|IBR|IBRM",
+   "vins": [
+    "YDV00654H000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 3,
+   "dtcs": {
+    "U16A2": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 230h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16A3": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 408h",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "U16AA": {
+     "desc": "Cluster CAN Timeout error-Missing CAN ID 410h",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my17_summit_sp_849_e_tec": {
+   "display": "Snowmobile MY17 Summit SP 849 E-TEC",
+   "family": "Snowmobile",
+   "model_year": "MY17",
+   "engine": "849 E-TEC",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "THCM"
+   ],
+   "ecu_variants": [
+    "EV_01E50000",
+    "EV_01EA0400",
+    "EV_01F00100"
+   ],
+   "module_signature": "Cluster|ECM|THCM",
+   "vins": [
+    "2BPSCFHC3HV000438",
+    "2BPSCFHC7HV00024T"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 5,
+   "dtcs": {
+    "P0107": {
+     "desc": "Ambient Pressure Sensor short to gnd",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake air temperautre sensor voltage too high.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0217": {
+     "desc": "High coolant temperature detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1218": {
+     "desc": "Major Engine overheat occurred",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2299": {
+     "desc": "Incompatibility between brake lever position and engine/vehicle speed",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my18_expedition_le_ace_903_etc": {
+   "display": "Snowmobile MY18 Expedition LE ACE 903 ETC",
+   "family": "Snowmobile",
+   "model_year": "MY18",
+   "engine": "ACE 903 ETC",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_00800300",
+    "EV_00850300",
+    "EV_00F30200",
+    "EV_00F50100",
+    "EV_00F60100",
+    "EV_00F70100",
+    "EV_01040000",
+    "EV_01860100"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "YH2SSRJB6JR00113B"
+   ],
+   "observed_vins": [
+    "YDV29279A212",
+    "YDV32835B212",
+    "YDV40657D212",
+    "YDV80143B515"
+   ],
+   "sessions": 19,
+   "dtc_count": 31,
+   "dtcs": {
+    "B2200": {
+     "desc": "GPS lost of signal fault",
+     "ecu": "Cluster",
+     "sessions": 11
+    },
+    "B2212": {
+     "desc": "Suspension UP/DOWN or SPORT / ECO switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2220": {
+     "desc": "Right keypad fault (Switch kept activated more than 60 seconds)",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2222": {
+     "desc": "MODE/SET switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "B2224": {
+     "desc": "UP/DOWN switches disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 2
+    },
+    "P0106": {
+     "desc": "Sensor de pressão de admissão do coletor fora da faixa",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0107": {
+     "desc": "Sensor de pressão absoluta do coletor em curto ou aterrado ou não conectado.",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P0118": {
+     "desc": "Falha no sensor de temperatura do líquido de arrefecimento do motor - Curto-circuito para V + ou conector desconectado.",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0201": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 1",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0202": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 2",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0335": {
+     "desc": "Erro de sinal do virabrequim",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0523": {
+     "desc": "Falha no sensor de pressão do óleo",
+     "ecu": "ECM",
+     "sessions": 13
+    },
+    "P0524": {
+     "desc": "Condição de baixa pressão de óleo",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P0546": {
+     "desc": "Circuito aberto do sensor de temperatura dos gases de escape ou em curto com a bateria",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P0562": {
+     "desc": "Tensão da bateria muito baixa",
+     "ecu": "ECM",
+     "sessions": 4
+    },
+    "P0629": {
+     "desc": "Fuel sensor disconnected fault",
+     "ecu": "Cluster",
+     "sessions": 5
+    },
+    "P1106": {
+     "desc": "Fator de correção de altitude (fho) não plausível – fora do intervalo",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1120": {
+     "desc": "As posições do acelerador calculadas a partir dos TPS 1 e TPS 2 não correspondem",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1505": {
+     "desc": "T.O.P.S. falha de comutação, estado não plausível",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P1506": {
+     "desc": "T.O.P.S. interruptor de circuito aberto",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P1620": {
+     "desc": "Atuador do acelerador - Falha na adaptação do limite mecânico inferior",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1661": {
+     "desc": "Mau funcionamento do iBR",
+     "ecu": "ECM",
+     "sessions": 4
+    },
+    "P1679": {
+     "desc": "Relé principal travado",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P16C7": {
+     "desc": "Falha de monitoramento devido à verificação de plausibilidade da válvula borboleta",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P212C": {
+     "desc": "Violação elétrica de faixa inferior TPS 2",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P2428": {
+     "desc": "Alta temperatura de exaustão detectada",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "P2620": {
+     "desc": "Valor TPS não plausível",
+     "ecu": "ECM",
+     "sessions": 3
+    },
+    "P2621": {
+     "desc": "Violação elétrica de faixa inferior TPS 1",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "U0129": {
+     "desc": "Erro de comunicação CAN entre o ECM e o módulo iBR",
+     "ecu": "ECM",
+     "sessions": 4
+    },
+    "U16A4": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 010h ausente",
+     "ecu": "ECM",
+     "sessions": 2
+    },
+    "U16A5": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 012h ausente",
+     "ecu": "ECM",
+     "sessions": 2
+    }
+   }
+  },
+  "snowmobile_my18_mxz_blizzard_598_he": {
+   "display": "Snowmobile MY18 MXZ Blizzard 598 HE",
+   "family": "Snowmobile",
+   "model_year": "MY18",
+   "engine": "598 HE",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01040100",
+    "EV_01E70000"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSMWJA3JV000015",
+    "2BPSMWJA3JV00001S"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  },
+  "snowmobile_my18_renegade_enduro_797r_e_tec": {
+   "display": "Snowmobile MY18 Renegade Enduro 797R E-TEC",
+   "family": "Snowmobile",
+   "model_year": "MY18",
+   "engine": "797R E-TEC",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "THCM"
+   ],
+   "ecu_variants": [
+    "EV_01000400",
+    "EV_01E20000",
+    "EV_01EA0300"
+   ],
+   "module_signature": "Cluster|ECM|THCM",
+   "vins": [
+    "2BPSURHB4HV00027S"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 2,
+   "dtcs": {
+    "P0217": {
+     "desc": "High coolant temperature detected",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1218": {
+     "desc": "Major Engine overheat occurred",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my18_summit_x_849_e_tec_shot": {
+   "display": "Snowmobile MY18 Summit X 849 E-TEC SHOT",
+   "family": "Snowmobile",
+   "model_year": "MY18",
+   "engine": "849 E-TEC SHOT",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "THCM"
+   ],
+   "ecu_variants": [
+    "EV_01E60000",
+    "EV_01EA0400",
+    "EV_01F00200"
+   ],
+   "module_signature": "Cluster|ECM|THCM",
+   "vins": [
+    "2BPSTDJK4JV000122",
+    "2BPSTDJK4JV00012D"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 5,
+   "dtcs": {
+    "P0107": {
+     "desc": "Ambient Pressure Sensor short to gnd",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake air temperautre sensor voltage too high.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P1351": {
+     "desc": "MAG ignition shorted to system voltage",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P2299": {
+     "desc": "Incompatibility between brake lever position and engine/vehicle speed",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P250F": {
+     "desc": "Low oil level",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my19_boondocker_re_849_e_tec": {
+   "display": "Snowmobile MY19 Boondocker RE 849 E-TEC",
+   "family": "Snowmobile",
+   "model_year": "MY19",
+   "engine": "849 E-TEC",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "THCM"
+   ],
+   "ecu_variants": [
+    "EV_01E50000",
+    "EV_01EA0400",
+    "EV_01F00200"
+   ],
+   "module_signature": "Cluster|ECM|THCM",
+   "vins": [
+    "YH2LSEKE8KR000001"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0428": {
+     "desc": "Exhaust temperature sensor too high (RTD exhaust sensor vehicle only)THCM probe open (THCM exhaust sensor only)",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my19_grand_touring_sport_ace_903_etc": {
+   "display": "Snowmobile MY19 GRAND TOURING  Sport ACE 903 ETC",
+   "family": "Snowmobile",
+   "model_year": "MY19",
+   "engine": "ACE 903 ETC",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01060100",
+    "EV_01860200"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSEAKA8KV000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  },
+  "snowmobile_my19_mxz_p_sport_600": {
+   "display": "Snowmobile MY19 MXZ P-Sport 600",
+   "family": "Snowmobile",
+   "model_year": "MY19",
+   "engine": "600",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01050100",
+    "EV_01C00400"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSBHKA9KV000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0600": {
+     "desc": "",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my19_mxz_x_rs_598_he": {
+   "display": "Snowmobile MY19 MXZ X-RS 598 HE",
+   "family": "Snowmobile",
+   "model_year": "MY19",
+   "engine": "598 HE",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01040100",
+    "EV_01E70000"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSMYKA8KV000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0513": {
+     "desc": "Invalid key detected",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my19_summit_sp_598_he_shot": {
+   "display": "Snowmobile MY19 SUMMIT SP 598 HE SHOT",
+   "family": "Snowmobile",
+   "model_year": "MY19",
+   "engine": "598 HE SHOT",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01EB0000",
+    "EV_01F00200"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSCXKB1KV000000"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 1,
+   "dtcs": {
+    "P0513": {
+     "desc": "Invalid key detected",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my20_backcountry_xrs_850e_tec": {
+   "display": "Snowmobile MY20 Backcountry XRS 850E-TEC",
+   "family": "Snowmobile",
+   "model_year": "MY20",
+   "engine": "850E-TEC",
+   "modules": [
+    "Cluster",
+    "ECM"
+   ],
+   "ecu_variants": [
+    "EV_01E50100",
+    "EV_C10F0000"
+   ],
+   "module_signature": "Cluster|ECM",
+   "vins": [
+    "2BPSUYLC1LV000F12"
+   ],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 4,
+   "dtcs": {
+    "P0107": {
+     "desc": "Ambient Pressure Sensor short to gnd",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0113": {
+     "desc": "Intake air temperautre sensor voltage too high.",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0428": {
+     "desc": "Exhaust temperature sensor too high (RTD exhaust sensor vehicle only)THCM probe open (THCM exhaust sensor only)",
+     "ecu": "ECM",
+     "sessions": 1
+    },
+    "P0513": {
+     "desc": "Invalid key detected",
+     "ecu": "ECM",
+     "sessions": 1
+    }
+   }
+  },
+  "snowmobile_my22_machz_std_t03plus_sdc": {
+   "display": "Snowmobile MY22 MachZ STD T03Plus SDC",
+   "family": "Snowmobile",
+   "model_year": "MY22",
+   "engine": "",
+   "modules": [
+    "Cluster",
+    "ECM",
+    "SDCU"
+   ],
+   "ecu_variants": [
+    "EV_30010000",
+    "EV_C20F0000",
+    "EV_E10F0000"
+   ],
+   "module_signature": "Cluster|ECM|SDCU",
+   "vins": [],
+   "observed_vins": [],
+   "sessions": 1,
+   "dtc_count": 0,
+   "dtcs": {}
+  }
+ },
+ "module_signatures": {
+  "Cluster|Cluster LCD|DPS|ECM|TCM|VCM|WPM": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "Cluster|DPS|ECM|TCM|VCM|WPM": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "Cluster|ECM|VCM": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace",
+   "can_am_3wv_my19_ryker_std_903_ace"
+  ],
+  "Cluster|DPS|ECM|PBM|TCM|VCM": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "Cluster|DPS|ECM|SCM": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "Cluster|DPS|ECM": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c",
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack",
+   "can_am_atv_my19_outlander_l_dps_450_m3c",
+   "can_am_atv_my20_xmr_1000r",
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic",
+   "can_am_ssv_my18_commander_xt_1000r_dps",
+   "can_am_ssv_my18_defender_xt_1000_dps",
+   "can_am_ssv_my18_maverick_trail_50_dps_1000",
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "ABS|Cluster|DPS|ECM": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs",
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "Cluster|DPS|ECM|FDM": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "Cluster|DPS|ECM|FDM|IMOB|SDCU": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "Cluster|ECM|IS": [
+   "can_am_ssv_my22_maverick_trail_700"
+  ],
+  "Cluster|ECM|IBR|IBRM|IMOB": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "Cluster|ECM|IBR|IBRM": [
+   "sea_doo_my17_rxpx_1603_xho",
+   "sea_doo_my18_gtx_std_1503_na",
+   "sea_doo_my18_spark_903_na",
+   "sea_doo_my19_gtx_fish_1503_na",
+   "sea_doo_my19_gtx_std_1503_230",
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "Cluster|ECM|THCM": [
+   "snowmobile_my17_summit_sp_849_e_tec",
+   "snowmobile_my18_renegade_enduro_797r_e_tec",
+   "snowmobile_my18_summit_x_849_e_tec_shot",
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "Cluster|ECM": [
+   "snowmobile_my18_expedition_le_ace_903_etc",
+   "snowmobile_my18_mxz_blizzard_598_he",
+   "snowmobile_my19_grand_touring_sport_ace_903_etc",
+   "snowmobile_my19_mxz_p_sport_600",
+   "snowmobile_my19_mxz_x_rs_598_he",
+   "snowmobile_my19_summit_sp_598_he_shot",
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "Cluster|ECM|SDCU": [
+   "snowmobile_my22_machz_std_t03plus_sdc"
+  ]
+ },
+ "vin_index": {
+  "2BPSBH": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHK": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9K": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV0": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV00": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV000": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV0000": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV00000": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSBHKA9KV000000": [
+   "snowmobile_my19_mxz_p_sport_600"
+  ],
+  "2BPSCF": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFH": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3H": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV0": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV00": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV000": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV0004": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV00043": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC3HV000438": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7H": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV0": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV00": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV000": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV0002": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV00024": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCFHC7HV00024T": [
+   "snowmobile_my17_summit_sp_849_e_tec"
+  ],
+  "2BPSCX": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXK": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1K": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV0": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV00": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV000": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV0000": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV00000": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSCXKB1KV000000": [
+   "snowmobile_my19_summit_sp_598_he_shot"
+  ],
+  "2BPSEA": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAK": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8K": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV0": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV00": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV000": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV0000": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV00000": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSEAKA8KV000000": [
+   "snowmobile_my19_grand_touring_sport_ace_903_etc"
+  ],
+  "2BPSMW": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJ": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3J": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV0": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV00": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV000": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV0000": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV00001": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV000015": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMWJA3JV00001S": [
+   "snowmobile_my18_mxz_blizzard_598_he"
+  ],
+  "2BPSMY": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYK": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8K": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV0": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV00": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV000": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV0000": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV00000": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSMYKA8KV000000": [
+   "snowmobile_my19_mxz_x_rs_598_he"
+  ],
+  "2BPSTD": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJ": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4J": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV0": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV00": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV000": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV0001": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV00012": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV000122": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSTDJK4JV00012D": [
+   "snowmobile_my18_summit_x_849_e_tec_shot"
+  ],
+  "2BPSUR": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURH": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4H": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV0": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV00": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV000": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV0002": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV00027": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSURHB4HV00027S": [
+   "snowmobile_my18_renegade_enduro_797r_e_tec"
+  ],
+  "2BPSUY": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYL": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1L": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV0": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV00": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV000": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV000F": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV000F1": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BPSUYLC1LV000F12": [
+   "snowmobile_my20_backcountry_xrs_850e_tec"
+  ],
+  "2BX2GE": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEG": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8K": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ0": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ00": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ000": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ0000": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ00000": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BX2GEGZ8KJ000000": [
+   "can_am_3wv_my19_ryker_rally_std_903_ace"
+  ],
+  "2BXNBD": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace",
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace",
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD2": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace",
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20J": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV0": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV00": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV002": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV0028": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV00281": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD20JV00281T": [
+   "can_am_3wv_my18_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22G": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV0": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV00": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV004": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV0046": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV00460": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXNBDD22GV004609": [
+   "can_am_3wv_my17_spyder_rt_ltd_1330_ace"
+  ],
+  "2BXRED": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD1": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17K": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV0": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV00": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV000": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV0000": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV00000": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "2BXREDD17KV000002": [
+   "can_am_3wv_my19_spyder_f3_ltd_1330_ace"
+  ],
+  "3JB1BA": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX6": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66L": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK0": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK00": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK000": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK0000": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK00009": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1BAX66LK000096": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JB1GA": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP4": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46J": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK0": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK00": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK000": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK0000": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK00002": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1GAP46JK000029": [
+   "can_am_ssv_my18_maverick_trail_50_dps_1000"
+  ],
+  "3JB1TA": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX4": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40K": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK0": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK00": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK000": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK0000": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK00000": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JB1TAX40KK000000": [
+   "can_am_ssv_my19_maverick_sport_60_dps_1000r"
+  ],
+  "3JBKKA": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX2": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26J": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ0": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ00": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ001": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ0010": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ00104": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBKKAX26JJ00104E": [
+   "can_am_ssv_my18_commander_xt_1000r_dps"
+  ],
+  "3JBLMA": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR4": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47K": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ0": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ00": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ000": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ0000": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ00000": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLMAR47KJ000000": [
+   "can_am_atv_my19_outlander_l_dps_450_m3c"
+  ],
+  "3JBLPA": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX4": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48J": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ0": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ00": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ000": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ0000": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ00000": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLPAX48JJ000001": [
+   "can_am_atv_my18_outlander_1000r_max_xt_p_1000r_m3c"
+  ],
+  "3JBLVA": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1X": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XH": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ0": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ00": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ000": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ0000": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ00000": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLVAX1XHJ000001": [
+   "can_am_atv_my17_outlander_max_1000r_v_twin_efi"
+  ],
+  "3JBLWA": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX2": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20L": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ0": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ00": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ000": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ0003": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ00038": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBLWAX20LJ000384": [
+   "can_am_atv_my20_xmr_1000r"
+  ],
+  "3JBMXA": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ6": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60J": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ0": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ00": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ000": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ0003": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ00039": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBMXAJ60JJ00039A": [
+   "can_am_atv_my18_renegade_x_xc_650_me17_abs"
+  ],
+  "3JBRKA": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4X": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJ": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ0": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ00": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ000": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ0000": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ00008": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBRKAP4XJJ00008T": [
+   "can_am_atv_my18_outlander_xt_6x6_cck_snowtrack"
+  ],
+  "3JBUKA": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP4": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42J": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK0": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK00": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK000": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK0007": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK00074": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBUKAP42JK00074P": [
+   "can_am_ssv_my18_defender_xt_1000_dps"
+  ],
+  "3JBURA": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4X": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XL": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK0": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK00": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK000": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK0002": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK00027": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBURAX4XLK000271": [
+   "can_am_ssv_my20_defender_tex_1010ho"
+  ],
+  "3JBVDA": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW2": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27H": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK0": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK00": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK000": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK0003": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK00031": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVDAW27HK000318": [
+   "can_am_ssv_my17_maverick_x3_64_xds_903_tcic"
+  ],
+  "3JBVNA": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW2": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21J": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK0": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK00": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK000": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK0008": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK00089": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVNAW21JK00089T": [
+   "can_am_ssv_my18_maverick_x3_72_x_rs_903_tcic_fdm"
+  ],
+  "3JBVXA": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV4": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48M": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK0": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK00": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK002": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK0029": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK00296": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "3JBVXAV48MK002969": [
+   "can_am_ssv_my21_maverick_x3_xrs_903_tcic2"
+  ],
+  "YDV000": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV0000": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV00007": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV00007K": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV00007K7": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV00007K71": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV00007K718": [
+   "sea_doo_my18_spark_903_na"
+  ],
+  "YDV006": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV0065": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV00654": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV00654H": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV00654H0": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV00654H00": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV00654H000": [
+   "sea_doo_my19_rxt_x_1603_xho"
+  ],
+  "YDV010": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV0105": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV01054": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV01054H": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV01054H0": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV01054H00": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV01054H000": [
+   "sea_doo_my19_gtx_fish_1503_na"
+  ],
+  "YDV053": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV0539": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV05396": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV05396L": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV05396L7": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV05396L71": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV05396L71B": [
+   "sea_doo_my18_gtx_std_1503_na"
+  ],
+  "YDV108": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV1087": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV10879": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV10879C": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV10879C6": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV10879C61": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV10879C61G": [
+   "sea_doo_my16_gtx_ltd_1603_xho"
+  ],
+  "YDV990": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV9900": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV99006": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV99006C": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV99006C5": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV99006C51": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YDV99006C516": [
+   "sea_doo_my17_rxpx_1603_xho"
+  ],
+  "YH2LSE": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEK": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8K": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR0": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR00": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR000": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR0000": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR00000": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2LSEKE8KR000001": [
+   "snowmobile_my19_boondocker_re_849_e_tec"
+  ],
+  "YH2SSR": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJ": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6J": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR0": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR00": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR001": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR0011": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR00113": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ],
+  "YH2SSRJB6JR00113B": [
+   "snowmobile_my18_expedition_le_ace_903_etc"
+  ]
+ },
+ "unmatched_sessions": [
+  {
+   "session": "YDV05669E111_20260408175713",
+   "created": "2026-04-08T17:57:13.661-0300",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 1,
+   "dtcs": {
+    "P0340": {
+     "desc": "Camshaft 1 signal error",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV05669E111_20260731123420",
+   "created": "2026-07-31T12:34:20.228-0300",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 6,
+   "dtcs": {
+    "P0202": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 2",
+     "ecu": "ECM"
+    },
+    "P1550": {
+     "desc": "Tensão do sensor Otas não plausível",
+     "ecu": "ECM"
+    },
+    "P0203": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 3",
+     "ecu": "ECM"
+    },
+    "U0129": {
+     "desc": "Erro de comunicação CAN entre o ECM e o módulo iBR",
+     "ecu": "ECM"
+    },
+    "P0340": {
+     "desc": "Erro de sinal da árvore de cames 1",
+     "ecu": "ECM"
+    },
+    "P0201": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 1",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV05669E111_20260731124841",
+   "created": "2026-07-31T12:48:41.200-0300",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 3,
+   "dtcs": {
+    "P0122": {
+     "desc": "Falha no TAS (sensor do acelerador do acelerador) 1 (curto-circuito ao GND)",
+     "ecu": "ECM"
+    },
+    "P0340": {
+     "desc": "Erro de sinal da árvore de cames 1",
+     "ecu": "ECM"
+    },
+    "P0222": {
+     "desc": "Falha no TAS (sensor do acelerador do acelerador) 2 (curto-circuito ao GND)",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV05669E111_20260822121235",
+   "created": "2026-08-22T12:12:35.385-0300",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 2,
+   "dtcs": {
+    "P0524": {
+     "desc": "Condição de baixa pressão de óleo",
+     "ecu": "ECM"
+    },
+    "P1550": {
+     "desc": "Tensão do sensor Otas não plausível",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV13579C010_20260813093907",
+   "created": "2026-08-13T09:39:07.328-0300",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 6,
+   "dtcs": {
+    "P0202": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 2",
+     "ecu": "ECM"
+    },
+    "U0129": {
+     "desc": "Erro de comunicação CAN entre o ECM e o módulo iBR",
+     "ecu": "ECM"
+    },
+    "P062C": {
+     "desc": "Erro CAN do cluster - Perda de informações de velocidade do veículo do cluster",
+     "ecu": "ECM"
+    },
+    "U16A5": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 012h ausente",
+     "ecu": "ECM"
+    },
+    "U16A4": {
+     "desc": "Erro de tempo limite do iBR CAN - CAN ID 010h ausente",
+     "ecu": "ECM"
+    },
+    "P0201": {
+     "desc": "Falha no estágio de potência da injeção - linha aberta / cilindro 1",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV13579C010_20261010153720",
+   "created": "2026-10-10T15:37:20.629-0400",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 2,
+   "dtcs": {
+    "P0106": {
+     "desc": "Sensor de pressão de admissão do coletor fora da faixa",
+     "ecu": "ECM"
+    },
+    "U0129": {
+     "desc": "Erro de comunicação CAN entre o ECM e o módulo iBR",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV37826L213_20260930131159",
+   "created": "2026-09-30T13:11:59.616-0400",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 2,
+   "dtcs": {
+    "P0325": {
+     "desc": "Falha no sensor de batida 1",
+     "ecu": "ECM"
+    },
+    "P1505": {
+     "desc": "T.O.P.S. falha de comutação, estado não plausível",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV37826L213_20260930142710",
+   "created": "2026-09-30T14:27:10.188-0400",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 1,
+   "dtcs": {
+    "P0325": {
+     "desc": "Falha no sensor de batida 1",
+     "ecu": "ECM"
+    }
+   }
+  },
+  {
+   "session": "YDV37826L213_20260930143126",
+   "created": "2026-09-30T14:31:26.896-0400",
+   "modules": [
+    "ECM"
+   ],
+   "dtc_count": 1,
+   "dtcs": {
+    "P0325": {
+     "desc": "Falha no sensor de batida 1",
+     "ecu": "ECM"
+    }
+   }
+  }
+ ]
+}

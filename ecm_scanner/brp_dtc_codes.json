@@ -1,0 +1,242 @@
+﻿{
+    "P0030":  {
+                  "desc":  "Circuito de Aquecimento da Sonda Lambda (Banco 1 Sensor 1)",
+                  "sol":  "Verifique fusível, fiação ou troque o sensor."
+              },
+    "P0031":  {
+                  "desc":  "Circuito de Aquecimento da Sonda Lambda Baixo (Banco 1 Sensor 1)",
+                  "sol":  "Verifique curto para terra no chicote."
+              },
+    "P0032":  {
+                  "desc":  "Circuito de Aquecimento da Sonda Lambda Alto (Banco 1 Sensor 1)",
+                  "sol":  "Verifique curto para positivo ou circuito aberto."
+              },
+    "P0106":  {
+                  "desc":  "Faixa/Desempenho do Circuito MAP/Pressão Barométrica",
+                  "sol":  "Verifique vazamentos na admissão, verifique mangueira do sensor."
+              },
+    "P0107":  {
+                  "desc":  "Entrada Baixa do Circuito de Pressão Absoluta do Coletor",
+                  "sol":  "Verifique conexão do sensor MAP. Verifique circuito aberto."
+              },
+    "P0108":  {
+                  "desc":  "Entrada Alta do Circuito de Pressão Absoluta do Coletor",
+                  "sol":  "Verifique curto-circuito para referência de 5V."
+              },
+    "P0112":  {
+                  "desc":  "Entrada Baixa do Circuito do Sensor de Temp. do Ar 1",
+                  "sol":  "Verifique conector e fiação do sensor IAT (Curto para Terra)."
+              },
+    "P0113":  {
+                  "desc":  "Entrada Alta do Circuito do Sensor de Temp. do Ar 1",
+                  "sol":  "Verifique conector do sensor IAT (Circuito Aberto)."
+              },
+    "P0117":  {
+                  "desc":  "Entrada Baixa do Circuito do Sensor de Temp. do Motor 1",
+                  "sol":  "Verifique fiação do Sensor de Temp. (Curto)."
+              },
+    "P0118":  {
+                  "desc":  "Entrada Alta do Circuito do Sensor de Temp. do Motor 1",
+                  "sol":  "Verifique Sensor de Temp. (Circuito Aberto)."
+              },
+    "P0122":  {
+                  "desc":  "Entrada Baixa do Circuito do TPS A",
+                  "sol":  "Verifique conector do TPS, verifique alimentação de 5V."
+              },
+    "P0123":  {
+                  "desc":  "Entrada Alta do Circuito do TPS A",
+                  "sol":  "Verifique ajuste do TPS, curto para 5V."
+              },
+    "P0219":  {
+                  "desc":  "Condição de Sobrerrotação do Motor",
+                  "sol":  "Verifique cavitação da hélice, deslizamento da correia ou redução de marcha."
+              },
+    "P0231":  {
+                  "desc":  "Circuito Secundário da Bomba de Combustível Baixo",
+                  "sol":  "Verifique Relé e Fusível da Bomba de Combustível."
+              },
+    "P0232":  {
+                  "desc":  "Circuito Secundário da Bomba de Combustível Alto",
+                  "sol":  "Verifique fiação da bomba para curto com bateria."
+              },
+    "P0261":  {
+                  "desc":  "Circuito Baixo do Injetor Cilindro 1",
+                  "sol":  "Verifique fiação/conector do Injetor 1."
+              },
+    "P0262":  {
+                  "desc":  "Circuito Alto do Injetor Cilindro 1",
+                  "sol":  "Verifique resistência do Injetor 1."
+              },
+    "P0264":  {
+                  "desc":  "Circuito Baixo do Injetor Cilindro 2",
+                  "sol":  "Verifique fiação/conector do Injetor 2."
+              },
+    "P0265":  {
+                  "desc":  "Circuito Alto do Injetor Cilindro 2",
+                  "sol":  "Verifique resistência do Injetor 2."
+              },
+    "P0300":  {
+                  "desc":  "Falha de Ignição Aleatória/Múltipla Detectada",
+                  "sol":  "Verifique velas, bobinas e pressão de combustível."
+              },
+    "P0301":  {
+                  "desc":  "Falha de Ignição Detectada no Cilindro 1",
+                  "sol":  "Verifique vela/bobina do cil 1."
+              },
+    "P0302":  {
+                  "desc":  "Falha de Ignição Detectada no Cilindro 2",
+                  "sol":  "Verifique vela/bobina do cil 2."
+              },
+    "P0303":  {
+                  "desc":  "Falha de Ignição Detectada no Cilindro 3",
+                  "sol":  "Verifique vela/bobina do cil 3."
+              },
+    "P0335":  {
+                  "desc":  "Circuito do Sensor de Posição do Virabrequim A",
+                  "sol":  "Verifique conector do CPS, verifique sujeira."
+              },
+    "P0336":  {
+                  "desc":  "Faixa/Desempenho do Sensor de Posição do Virabrequim A",
+                  "sol":  "Verifique fixação do sensor e roda fônica."
+              },
+    "P0420":  {
+                  "desc":  "Eficiência do Sistema de Catalisador Abaixo do Limite",
+                  "sol":  "Verifique vazamentos no escape ou catalisador."
+              },
+    "P0462":  {
+                  "desc":  "Entrada Baixa do Circuito do Sensor de Nível de Combustível",
+                  "sol":  "Verifique fiação do sensor de nível."
+              },
+    "P0463":  {
+                  "desc":  "Entrada Alta do Circuito do Sensor de Nível de Combustível",
+                  "sol":  "Verifique conector aberto no tanque."
+              },
+    "P0562":  {
+                  "desc":  "Tensão do Sistema Baixa (Bateria/Carregamento)",
+                  "sol":  "Verifique carga da bateria, estator e retificador."
+              },
+    "P0563":  {
+                  "desc":  "Tensão do Sistema Alta (Falha do Regulador)",
+                  "sol":  "Substitua o Regulador de Voltagem/Retificador."
+              },
+    "P0600":  {
+                  "desc":  "Link de Comunicação Serial (Geral)",
+                  "sol":  "Verifique chicote principal e conectores."
+              },
+    "P1202":  {
+                  "desc":  "Análise do Circuito do Sensor de Pressão do Tanque de Óleo",
+                  "sol":  "Verifique sensor de pressão de óleo."
+              },
+    "P1661":  {
+                  "desc":  "Chave DESS Inválida / Não Reconhecida",
+                  "sol":  "Limpe o ímã da chave, verifique encaixe, verifique poste DESS."
+              },
+    "P2279":  {
+                  "desc":  "Vazamento no Sistema de Ar de Admissão",
+                  "sol":  "Verifique mangueiras soltas ou rachadas."
+              },
+    "P042D":  {
+                  "desc":  "Circuito Alto do Sensor de Temp. do Catalisador (Banco 1 Sensor 2)",
+                  "sol":  "Verifique sensor de temperatura do escape."
+              },
+    "P0431":  {
+                  "desc":  "Eficiência do Catalisador de Aquecimento Abaixo do Limite (Banco 2)",
+                  "sol":  "Verifique catalisador."
+              },
+    "P044F":  {
+                  "desc":  "Circuito de Controle C do EGR Alto / Válvula de Escape",
+                  "sol":  "Verifique atuador da válvula de escape."
+              },
+    "P3050":  {
+                  "desc":  "Falha no Sistema de Ignição / Injeção (Específico)",
+                  "sol":  "Verifique sistema elétrico do motor."
+              },
+    "P3746":  {
+                  "desc":  "Falha de Comunicação ou Sensor Interno (Específico)",
+                  "sol":  "Consulte manual de serviço avançado."
+              },
+    "C0040":  {
+                  "desc":  "Interruptor do Pedal de Freio A",
+                  "sol":  "Verifique ajuste do interruptor de freio."
+              },
+    "C0042":  {
+                  "desc":  "Sensor de Posição do Pedal de Freio - Circuito A",
+                  "sol":  "Verifique sensor de posição do IBR/Freio."
+              },
+    "C0043":  {
+                  "desc":  "Sensor de Posição do Pedal de Freio - Circuito B",
+                  "sol":  "Verifique fiação do sensor de posição."
+              },
+    "C2101":  {
+                  "desc":  "Motor do Atuador IBR (Faixa/Desempenho)",
+                  "sol":  "Verifique obstrução mecânica ou falha no motor IBR."
+              },
+    "C0063":  {
+                  "desc":  "Faixa/Desempenho do Sensor de Inclinação/Guinada",
+                  "sol":  "Verifique montagem do sensor, limpe códigos após capotamento."
+              },
+    "C0064":  {
+                  "desc":  "Sensor de Taxa de Rolagem",
+                  "sol":  "Verifique orientação do sensor."
+              },
+    "C006C":  {
+                  "desc":  "Falha Plausível no Sistema de Controle de Estabilidade (VSS)",
+                  "sol":  "Verifique sensores de roda e módulo VCM."
+              },
+    "C1283":  {
+                  "desc":  "Falha Plausível na Corrente do Motor DPS",
+                  "sol":  "Verifique conexões de energia do DPS."
+              },
+    "C2114":  {
+                  "desc":  "Mecanismo Atuador do IBR Fora da Faixa",
+                  "sol":  "Verifique obstrução na comporta do reverso."
+              },
+    "C2120":  {
+                  "desc":  "Circuito Aberto ou Curto no Motor do Atuador IBR",
+                  "sol":  "Verifique fusíveis e fiação do IBR."
+              },
+    "B2204":  {
+                  "desc":  "Mau Funcionamento do Circuito do Interruptor Run/Stop",
+                  "sol":  "Verifique bloco de interruptores do guidão."
+              },
+    "B2205":  {
+                  "desc":  "Botão Start/Stop Travado",
+                  "sol":  "Limpe ou substitua o botão de partida."
+              },
+    "B2210":  {
+                  "desc":  "Chave DESS Não Lida / Falha de Autenticação",
+                  "sol":  "Tente chave reserva, verifique fiação do módulo DESS."
+              },
+    "B2520":  {
+                  "desc":  "Erro Interno do Painel (Cluster)",
+                  "sol":  "Verifique conector ou substitua painel."
+              },
+    "U0073":  {
+                  "desc":  "Barramento A de Comunicação CAN Desligado",
+                  "sol":  "Verifique resistores de terminação CAN (Painel/ECU). Verifique fios."
+              },
+    "U0100":  {
+                  "desc":  "Perda de Comunicação com ECM/PCM A",
+                  "sol":  "Verifique alimentação e terra da ECU."
+              },
+    "U0122":  {
+                  "desc":  "Perda de Comunicação com Módulo VCM/ABS",
+                  "sol":  "Verifique fusíveis do ABS."
+              },
+    "U0128":  {
+                  "desc":  "Perda de Comunicação com Módulo de Freio de Estacionamento",
+                  "sol":  "Verifique fusível 5."
+              },
+    "U0155":  {
+                  "desc":  "Perda de Comunicação com Painel de Instrumentos",
+                  "sol":  "Verifique conector do Painel."
+              },
+    "U1102":  {
+                  "desc":  "Perda de Comunicação com Módulo de Controle do Motor",
+                  "sol":  "Variante específica BRP, verifique chicote."
+              },
+    "U3003":  {
+                  "desc":  "Tensão da Bateria / Circuito de Alimentação Baixo",
+                  "sol":  "Verifique bateria e fusíveis principais."
+              }
+}

@@ -1,0 +1,94 @@
+name,longNameTi,requestedCanId,responseCanId,functionalRequest,functionalRequestedCanId,extendedId,startOfUse,createdBy,uuid
+Engine Control Module,ECM,710,720,false,,true,2015/01/01,,c752df58-69db-40f0-9edb-60c66b6dede8
+Engine Control Module ETEC,ECM,710,720,false,,true,2016/06/01,Martial Berthod,74f69a11-79a2-4fd3-bc67-88eb4bcb4030
+Engine Control Module KA,ECM,710,720,false,,true,2016/01/05,Martial Berthod,1592c1f2-9dc6-4d75-b77c-2cdf4d52a093
+Engine Control Module M3C,ECM,710,720,false,,true,2016/09/02,,52726a8a-e382-4dab-a933-6330b8037400
+Engine Control Module M3C NG,ECM,710,720,true,,true,2020/05/12,,03bd3c0d-82e8-41e7-8ca8-731bb1e29b34
+Cluster Module,Cluster,713,723,false,,true,2016/06/01,Martial Berthod,7832cb7d-1f98-43ca-9ee4-e9d26d452c01
+Cluster Module Flextronics,Cluster,713,723,false,,true,2016/06/01,Martial Berthod,94b4c273-4e92-475d-b286-bbe3f9929c33
+Cluster Module Flextronics Skidoo,Cluster,713,723,false,,true,2016/06/01,Martial Berthod,ff6acd18-d4b8-43f0-9d75-6d4a1f7d8c1b
+Vehicle Control Module,VCM,715,725,false,,true,2016/06/13,David Fillion,25542eeb-e603-48bc-bd38-aa9772f9c9d7
+Dynamic Power Steering,DPS,716,726,false,,true,2016/06/01,Martial Berthod,b6b78149-382d-4907-91e7-828ae79de046
+Intelligent Brake Reverse Module,IBR,718,728,false,,true,2015/03/10,Martial Berthod,5c1eb6d4-bc99-4deb-a96e-e1ae3cb1707b
+Intelligent Suspension Module,IS,719,729,false,,true,2016/06/01,Martial Berthod,1a2509a2-7be6-456e-9c60-e3f0204b8564
+Intelligent Brake Reverse Monitor,IBRM,71B,72B,false,,true,2016/06/01,Martial Berthod,43a8ba83-263f-439a-872e-a60c4461e96a
+Park Brake Module,PBM,71C,72C,false,,true,2016/02/29,Martial Berthod,5f3852ca-8b19-4bfe-a127-e72706d12f8a
+Windshield Park Brake Module,WPM,71C,72C,false,,true,2016/02/29,Martial Berthod,215eebda-c8b3-41cd-80b8-b7d64e04b9e9
+CAN Configuration Key,CCK,71E,72E,false,,true,2015/02/24,Slam,5c9b3d08-ec34-4e2d-9cc5-0b664c58e6b2
+CAN Configuration Key Australia,CCK Australia,71E,72E,false,,true,2016/06/17,David Fillion,7be33ba0-0f66-4f8f-af3d-26feb2099c2e
+CAN Configuration Key JPS,CCK JPS,71E,72E,false,,true,2016/06/17,David Fillion,20e9342f-f83a-4104-b1a8-93f9a42d4aa4
+CAN Configuration Key Motor Variant,CCK Motor Variant,71E,72E,false,,true,2015/02/24,Slam,77a67a4d-ff3d-450c-92f6-abab3cce0e08
+CAN Configuration Key SKI Mode,CCK SKI Mode,71E,72E,false,,true,2015/02/24,Slam,64921df6-58d4-4da4-adfc-d65b154d39e8
+CAN Configuration Key Track Kit,CCK Track Kit,71E,72E,false,,true,2015/02/24,Slam,36e015d2-d774-4ce0-8f3e-bd096f28b8f7
+CAN Configuration Key Trixx,CCK Trixx,71E,72E,false,,true,2015/02/24,Slam,80295bd6-4755-43c9-af37-91ee6dc5f304
+CAN Configuration Key VTS,CCK VTS,71E,72E,false,,true,2015/02/24,Slam,938f442e-1d30-4f0b-a039-9bdc27e996ce
+CAN Configuration Key XPACK,CCK X-PACK,71E,72E,true,,true,2015/02/24,Slam,23c32f87-fb81-4004-a8b2-4c9ebce9c1a8
+Suspension Control Module,SCM,731,741,false,,true,2016/06/01,Martial Berthod,2bf08223-add8-4cd1-ac72-efc4b2f2b7ec
+Thermocouple Module,THCM,735,745,false,,true,2016/06/01,Martial Berthod,bc6bb79c-21c3-4f77-83c7-a6890a9efed9
+Cluster LCD Module Flextronics,Cluster,740,730,false,,true,2016/02/29,Martial Berthod,73f4a1aa-6c13-43ea-a686-bdfbae775256
+On Board Charger Slave,OBC,760,768,false,,false,2023/08/21,Martial Berthod,535c0417-e410-4659-a4c7-21c55a1a4f1a
+Generic Rotary Actuator,GRA,761,769,true,7D0,false,2023/08/21,Martial Berthod,42a9da96-927a-4c35-9c8f-d1256890d784
+Body Control Module,BCM,762,76A,true,,false,2023/08/21,Martial Berthod,b7758dad-3caf-4e2d-a949-b63c113121fd
+Rotary Actuator - Reserved For Future Use 1,GRA,763,76B,false,,false,2024/10/28,Martial Berthod,2ad62486-649c-4d91-9a19-522d462df8c0
+Rotary Actuator - Reserved For Future Use 2,GRA,764,76C,true,7D0,false,2024/10/28,Martial Berthod,f4a8dd82-e675-4fbb-a6eb-fa28ce2c8167
+Body Control Module PAC,ACM,765,76D,true,,false,2025/01/08,Martial Berthod,a6681bed-dac6-47da-b71f-772402b76964
+On Board Charger,OBC,767,76F,false,,false,2023/08/21,Martial Berthod,329fd573-867e-47cd-ad28-38aa323c5ff2
+On Board Charger PL,OBC,767,76F,false,,false,2023/08/21,Martial Berthod,de4dc8d0-34c2-4afd-9674-2740bdd5b255
+Inverter Module,INV,770,778,false,,false,2023/08/21,Martial Berthod,4a588e7f-336b-413f-966e-c6451617c610
+Smart Regulator Module,SRM,771,779,true,7D0,false,2024/08/20,Martial Berthod,a96dbf7b-2127-49cc-a3a4-da3e669a002c
+Body Control Module SDC,BCM SDC,7A3,7AB,true,,false,2023/08/21,Martial Berthod,ef79e340-fca5-46e9-918c-45065a2cb065
+SemiActive Control Damping,SDCU,7A3,7AB,true,7D0,false,2020/05/12,Martial Berthod,e48bd868-e35a-403c-9739-ac2716196c5b
+SemiActive Control Damping KYB,SDCU,7A3,7AB,true,7D0,false,2021/07/06,Martial Berthod,ae5e974c-82ba-40b0-b9a4-c6dcb0842858
+CAN Configuration Key Gen2 Track Kit,CCK,7A4,7AC,true,7D0,true,2020/05/12,Martial Berthod,1c58fa12-8a65-4924-bfe3-35efa9a0e030
+Commodo 2WV,MSL,7A4,7AC,true,7D0,true,2025/01/10,Martial Berthod,8ffd07ee-66f0-4c19-8e8b-b8e396c5356b
+Commodo 3WV,MSL,7A4,7AC,true,7D0,true,2025/01/10,Martial Berthod,06103551-16ea-4c3c-abbb-eaf3045d0e28
+Depth Finder Module,DFM,7A4,7AC,true,7D0,true,2025/02/03,Martial Berthod,27d34a55-aa68-4170-b128-22378f681154
+Gear Selector Module,GSM,7A4,7AC,true,7D0,true,2023/10/18,Martial Berthod,1a4b4e91-a2a8-4d73-b2e6-6fa47cda6b77
+Heat Cool Seat,HCS,7A4,7AC,true,7D0,true,2024/10/28,Martial Berthod,4a82900f-6e96-47c2-a3fd-19753be0255d
+Thermocouple Module,THCM,7A4,7AC,true,7D0,true,2025/02/03,Martial Berthod,48ebcbe8-d748-4223-a86c-433263c93530
+RF CAN DESS Post,IMOB,7A5,7AD,true,7D0,false,2020/05/12,Martial Berthod,c3ef9a4f-6c3d-4efa-8bcc-bbd2498f43e7
+GPSCAN,GPS,7A6,7AD,true,7D0,false,2020/05/12,Martial Berthod,249943c5-6c34-4a61-bc9a-2bf01efef6ba
+RFComm,RFComm,7A6,7AE,false,,false,2024/10/10,Martial Berthod,ad996782-953e-478b-918d-6bd9da2f29fa
+Transmission Control Module,TCM,7B1,7B9,true,7D0,false,2016/06/13,David Fillion,1f565c11-42d8-49c4-b18d-e4882178e9ac
+Transmission Control Module,TCM,7B1,7B9,true,7D0,false,2016/06/13,David Fillion,32202a9c-51cd-4c0a-be22-4d836a7f1aaa
+EReverse Module,iNR,7B2,7BA,true,7D0,false,2015/03/31,Martial Berthod,367d1645-7a8f-4487-93bd-ff5f664c34ee
+Intelligent Brake Reverse Module,IBR,7B2,7BA,false,,false,2016/06/01,Martial Berthod,524671ca-5721-4190-a4aa-0ea24becfff2
+Intelligent Brake Reverse Module,IBR,7B2,7BA,true,7D0,false,2015/03/31,Martial Berthod,b291f336-0cf5-4d79-bc1a-63f3e1866546
+HUB3 Cluster 5,Cluster,7B3,7BB,false,,false,2024/10/28,Martial Berthod,5580ba01-ecc4-4051-a6c7-b8ad07ef261b
+VIP Cluster,Cluster,7B3,7BB,true,7D0,false,2015/12/03,,a89c7657-4103-4666-84a8-4f2fb8d17836
+EReverse Monitor,iNRM,7B5,7BD,true,7D0,false,2016/06/01,Martial Berthod,1ebca0c6-3b74-4a41-8af1-3b907f69f52c
+Intelligent Brake Reverse Monitor,IBRM,7B5,7BD,false,,false,2016/06/01,Martial Berthod,68ed20cf-1a6d-4893-b06c-dc450737c932
+Intelligent Brake Reverse Monitor,IBRM,7B5,7BD,true,7D0,false,2016/06/01,Martial Berthod,ee8284b7-b5d5-4d1f-ae93-91002dd8d344
+Vehicle Control Module,VCM,7B6,7BE,false,,true,2016/10/25,David Fillion,d3d569e3-8901-42fd-88fb-c893776a543b
+Vehicle Control Module,ABS/VCM,7B6,7BE,true,7D0,false,2025/01/30,Martial Berthod,1aa31357-45fa-412c-bdcf-cd00fb47068f
+Vehicle Control Module 2WV,ABS,7B6,7BE,true,7D0,false,2024/10/28,Martial Berthod,6fb310e2-a9c2-4b22-b420-6130ee3b5859
+HUB2 Cluster,Cluster,7C0,7C0,false,,false,2022/08/26,Martial Berthod,0b4b8917-df8a-41b4-b4ec-a7eb645f9214
+HUB2 Info Display,Info Display,7C0,7C0,true,,false,2022/08/26,Martial Berthod,45045043-31a0-4728-a195-67cf3f68bbc7
+Cluster Module,Cluster,7C0,7C8,true,7D0,false,2016/06/01,Martial Berthod,aab0fae3-9e5a-4c4f-922f-ab5d8bd507da
+Cluster Module Flextronics,Cluster,7C0,7C8,false,,true,2016/06/01,Martial Berthod,1a211cbb-45dd-4ad8-b0a0-768402625e77
+HUB3 Cluster 7_10,Cluster,7C0,7C8,false,,false,2024/10/28,Martial Berthod,3d9c875d-a3e7-4cd2-9974-68d94ec9f0fe
+HUB3 Info Display 7_10,Cluster,7C0,7C8,false,,false,2024/10/28,Martial Berthod,1ed12db7-772a-4461-8ca0-4205b35641b6
+Battery Management System,BMS,7C1,7C9,false,,false,2023/08/21,Martial Berthod,d2fd1c37-b871-4f49-b7cd-3459d4f43994
+Battery Management System NEWX,BMS,7C1,7C9,false,,false,2023/08/21,Martial Berthod,51e17b5a-1b07-4c11-909f-dc54a7b88ab9
+N/A,N/A,7C1,7C9,true,7D0,false,2099/01/01,Martial Berthod,fbecf236-ac6b-41de-b7b5-a1b3756ebb0d
+N/A,N/A,7C2,7CA,true,7D0,false,2099/01/01,Martial Berthod,5550e002-c76b-406f-a375-8e9d1715136f
+Dynamic Power Steering,DPS,7C3,7CB,false,,false,2016/09/02,Martial Berthod,964359a9-c53c-4377-81d3-d88521a43331
+Dynamic Power Steering,DPS,7C3,7CB,false,,false,2016/09/02,Martial Berthod,7136c106-c1db-4f01-991d-1d9d725fdae2
+Shift Drum Actuator,SDA,7C4,7CC,true,7D0,false,2023/08/21,Martial Berthod,8d605ae0-fb42-4bf3-942e-a78cc4bb8038
+Hi Lo Park Actuator,HLPA,7C5,7CD,true,7D0,false,2024/12/19,Martial Berthod,3fafc0c9-5b17-4394-a541-45078c620979
+Thermocouple Module,THCM,7C6,7CE,true,7D0,false,2016/06/01,Martial Berthod,79a33cc2-c3fa-43de-8432-ef87bd204f93
+Body Control Module FDM2,BCM FDM2,7C7,7CF,true,,false,2023/08/21,Martial Berthod,f845bf71-0c4c-4fd5-94c2-060e7ac04e48
+Body Control Module FDM2 HVAC,BCM FDM2 HVAC,7C7,7CF,true,,false,2023/08/21,Martial Berthod,517e9dd2-be0e-4d85-ae61-160712fb194f
+Body Control Module FDM2 SDC,BCM FDM2 SDC,7C7,7CF,true,,false,2023/08/21,Martial Berthod,775521ad-476a-4a98-9ebb-ac3cce6e9cf0
+BodyControlModuleHVAC,BCM HVAC,7C7,7CF,true,7D0,false,2024/12/03,Martial Berthod,c0764e67-cb20-4a03-9988-69b1013e914b
+Front Diff Module,FDM,7C7,7CF,true,7D0,false,2016/06/13,Sylvain Lamontagne,33d24097-0ee4-438c-a92c-2c1be0441409
+Engine Control Module,ECM,7E0,7E8,true,7D0,false,2015/03/31,,bf2a14ae-103d-43e1-8912-dbb139a2468d
+Engine Control Module,ECM,7E0,7E8,true,7D0,false,2020/05/12,Sylvain Lamontagne,b56c79d3-4aa9-479a-90c3-0ec38b88a4e1
+Engine Control Module ETEC 2,ECM,7E0,7E8,true,7D0,false,2016/01/19,Martial Berthod,e708e319-ff59-4e60-ab43-9465960cc2a9
+Engine Control Module EZ,ECM,7E0,7E8,true,7D0,false,2020/05/12,Sylvain Lamontagne,4534d313-3737-4f8e-81ea-dd549d2c318d
+Engine Control Module NEWX,ECM,7E0,7E8,true,7D0,false,2020/05/12,Sylvain Lamontagne,22860af9-e1dd-4004-8b3b-9684dc71eb6a
+N/A,N/A,7E0,7E8,true,7D0,false,2099/01/01,Martial Berthod,5d0a1999-7f58-42e0-bff7-8ede1b1c16a0
+Starboard Engine Control Module,Starboard,7E0,7E8,true,7D0,false,2020/05/12,Sylvain Lamontagne,255a38bf-a3dd-4855-a5ab-94ece7fb9ea7
+Vehicle Control Unit,VCU,7E0,7E8,true,7D0,false,2020/05/12,Sylvain Lamontagne,5bb81bca-03f3-4496-a37e-3bc16a2143cf
+Portside Engine Control Module,Portside,7E1,7E9,true,7D0,false,2020/05/12,Sylvain Lamontagne,33031090-9816-40ca-ac6c-82961c34e905
+Dummy,Dummy,FFF,FFF,false,,false,2016/06/01,Sylvain Lamontagne,502f0eed-242c-42f8-a3e4-0a3fa553bdd9

@@ -1,0 +1,828 @@
+{
+  "source": "docs/seadoo_odx_can_map.csv",
+  "generated_at": "2026-03-26T11:22:02.887015Z",
+  "modules_by_response_id": {
+    "0x720": {
+      "request_ids": [
+        "0x710"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "ECM"
+      ],
+      "long_names": [
+        "Engine Control Module",
+        "Engine Control Module ETEC",
+        "Engine Control Module KA",
+        "Engine Control Module M3C",
+        "Engine Control Module M3C NG"
+      ],
+      "uuids": [
+        "03bd3c0d-82e8-41e7-8ca8-731bb1e29b34",
+        "1592c1f2-9dc6-4d75-b77c-2cdf4d52a093",
+        "52726a8a-e382-4dab-a933-6330b8037400",
+        "74f69a11-79a2-4fd3-bc67-88eb4bcb4030",
+        "c752df58-69db-40f0-9edb-60c66b6dede8"
+      ],
+      "edb_rows": 5
+    },
+    "0x723": {
+      "request_ids": [
+        "0x713"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "Cluster"
+      ],
+      "long_names": [
+        "Cluster Module",
+        "Cluster Module Flextronics",
+        "Cluster Module Flextronics Skidoo"
+      ],
+      "uuids": [
+        "7832cb7d-1f98-43ca-9ee4-e9d26d452c01",
+        "94b4c273-4e92-475d-b286-bbe3f9929c33",
+        "ff6acd18-d4b8-43f0-9d75-6d4a1f7d8c1b"
+      ],
+      "edb_rows": 3
+    },
+    "0x725": {
+      "request_ids": [
+        "0x715"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "VCM"
+      ],
+      "long_names": [
+        "Vehicle Control Module"
+      ],
+      "uuids": [
+        "25542eeb-e603-48bc-bd38-aa9772f9c9d7"
+      ],
+      "edb_rows": 1
+    },
+    "0x726": {
+      "request_ids": [
+        "0x716"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "DPS"
+      ],
+      "long_names": [
+        "Dynamic Power Steering"
+      ],
+      "uuids": [
+        "b6b78149-382d-4907-91e7-828ae79de046"
+      ],
+      "edb_rows": 1
+    },
+    "0x728": {
+      "request_ids": [
+        "0x718"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "IBR"
+      ],
+      "long_names": [
+        "Intelligent Brake Reverse Module"
+      ],
+      "uuids": [
+        "5c1eb6d4-bc99-4deb-a96e-e1ae3cb1707b"
+      ],
+      "edb_rows": 1
+    },
+    "0x729": {
+      "request_ids": [
+        "0x719"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "IS"
+      ],
+      "long_names": [
+        "Intelligent Suspension Module"
+      ],
+      "uuids": [
+        "1a2509a2-7be6-456e-9c60-e3f0204b8564"
+      ],
+      "edb_rows": 1
+    },
+    "0x72B": {
+      "request_ids": [
+        "0x71B"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "IBRM"
+      ],
+      "long_names": [
+        "Intelligent Brake Reverse Monitor"
+      ],
+      "uuids": [
+        "43a8ba83-263f-439a-872e-a60c4461e96a"
+      ],
+      "edb_rows": 1
+    },
+    "0x72C": {
+      "request_ids": [
+        "0x71C"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "PBM",
+        "WPM"
+      ],
+      "long_names": [
+        "Park Brake Module",
+        "Windshield Park Brake Module"
+      ],
+      "uuids": [
+        "215eebda-c8b3-41cd-80b8-b7d64e04b9e9",
+        "5f3852ca-8b19-4bfe-a127-e72706d12f8a"
+      ],
+      "edb_rows": 2
+    },
+    "0x72E": {
+      "request_ids": [
+        "0x71E"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "CCK",
+        "CCK Australia",
+        "CCK JPS",
+        "CCK Motor Variant",
+        "CCK SKI Mode",
+        "CCK Track Kit",
+        "CCK Trixx",
+        "CCK VTS",
+        "CCK X-PACK"
+      ],
+      "long_names": [
+        "CAN Configuration Key",
+        "CAN Configuration Key Australia",
+        "CAN Configuration Key JPS",
+        "CAN Configuration Key Motor Variant",
+        "CAN Configuration Key SKI Mode",
+        "CAN Configuration Key Track Kit",
+        "CAN Configuration Key Trixx",
+        "CAN Configuration Key VTS",
+        "CAN Configuration Key XPACK"
+      ],
+      "uuids": [
+        "20e9342f-f83a-4104-b1a8-93f9a42d4aa4",
+        "23c32f87-fb81-4004-a8b2-4c9ebce9c1a8",
+        "36e015d2-d774-4ce0-8f3e-bd096f28b8f7",
+        "5c9b3d08-ec34-4e2d-9cc5-0b664c58e6b2",
+        "64921df6-58d4-4da4-adfc-d65b154d39e8",
+        "77a67a4d-ff3d-450c-92f6-abab3cce0e08",
+        "7be33ba0-0f66-4f8f-af3d-26feb2099c2e",
+        "80295bd6-4755-43c9-af37-91ee6dc5f304",
+        "938f442e-1d30-4f0b-a039-9bdc27e996ce"
+      ],
+      "edb_rows": 9
+    },
+    "0x730": {
+      "request_ids": [
+        "0x740"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "Cluster"
+      ],
+      "long_names": [
+        "Cluster LCD Module Flextronics"
+      ],
+      "uuids": [
+        "73f4a1aa-6c13-43ea-a686-bdfbae775256"
+      ],
+      "edb_rows": 1
+    },
+    "0x741": {
+      "request_ids": [
+        "0x731"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "SCM"
+      ],
+      "long_names": [
+        "Suspension Control Module"
+      ],
+      "uuids": [
+        "2bf08223-add8-4cd1-ac72-efc4b2f2b7ec"
+      ],
+      "edb_rows": 1
+    },
+    "0x745": {
+      "request_ids": [
+        "0x735"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "THCM"
+      ],
+      "long_names": [
+        "Thermocouple Module"
+      ],
+      "uuids": [
+        "bc6bb79c-21c3-4f77-83c7-a6890a9efed9"
+      ],
+      "edb_rows": 1
+    },
+    "0x768": {
+      "request_ids": [
+        "0x760"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "OBC"
+      ],
+      "long_names": [
+        "On Board Charger Slave"
+      ],
+      "uuids": [
+        "535c0417-e410-4659-a4c7-21c55a1a4f1a"
+      ],
+      "edb_rows": 1
+    },
+    "0x769": {
+      "request_ids": [
+        "0x761"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "GRA"
+      ],
+      "long_names": [
+        "Generic Rotary Actuator"
+      ],
+      "uuids": [
+        "42a9da96-927a-4c35-9c8f-d1256890d784"
+      ],
+      "edb_rows": 1
+    },
+    "0x76A": {
+      "request_ids": [
+        "0x762"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "BCM"
+      ],
+      "long_names": [
+        "Body Control Module"
+      ],
+      "uuids": [
+        "b7758dad-3caf-4e2d-a949-b63c113121fd"
+      ],
+      "edb_rows": 1
+    },
+    "0x76B": {
+      "request_ids": [
+        "0x763"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "GRA"
+      ],
+      "long_names": [
+        "Rotary Actuator - Reserved For Future Use 1"
+      ],
+      "uuids": [
+        "2ad62486-649c-4d91-9a19-522d462df8c0"
+      ],
+      "edb_rows": 1
+    },
+    "0x76C": {
+      "request_ids": [
+        "0x764"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "GRA"
+      ],
+      "long_names": [
+        "Rotary Actuator - Reserved For Future Use 2"
+      ],
+      "uuids": [
+        "f4a8dd82-e675-4fbb-a6eb-fa28ce2c8167"
+      ],
+      "edb_rows": 1
+    },
+    "0x76D": {
+      "request_ids": [
+        "0x765"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "ACM"
+      ],
+      "long_names": [
+        "Body Control Module PAC"
+      ],
+      "uuids": [
+        "a6681bed-dac6-47da-b71f-772402b76964"
+      ],
+      "edb_rows": 1
+    },
+    "0x76F": {
+      "request_ids": [
+        "0x767"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "OBC"
+      ],
+      "long_names": [
+        "On Board Charger",
+        "On Board Charger PL"
+      ],
+      "uuids": [
+        "329fd573-867e-47cd-ad28-38aa323c5ff2",
+        "de4dc8d0-34c2-4afd-9674-2740bdd5b255"
+      ],
+      "edb_rows": 2
+    },
+    "0x778": {
+      "request_ids": [
+        "0x770"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "INV"
+      ],
+      "long_names": [
+        "Inverter Module"
+      ],
+      "uuids": [
+        "4a588e7f-336b-413f-966e-c6451617c610"
+      ],
+      "edb_rows": 1
+    },
+    "0x779": {
+      "request_ids": [
+        "0x771"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "SRM"
+      ],
+      "long_names": [
+        "Smart Regulator Module"
+      ],
+      "uuids": [
+        "a96dbf7b-2127-49cc-a3a4-da3e669a002c"
+      ],
+      "edb_rows": 1
+    },
+    "0x7AB": {
+      "request_ids": [
+        "0x7A3"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "BCM SDC",
+        "SDCU"
+      ],
+      "long_names": [
+        "Body Control Module SDC",
+        "SemiActive Control Damping",
+        "SemiActive Control Damping KYB"
+      ],
+      "uuids": [
+        "ae5e974c-82ba-40b0-b9a4-c6dcb0842858",
+        "e48bd868-e35a-403c-9739-ac2716196c5b",
+        "ef79e340-fca5-46e9-918c-45065a2cb065"
+      ],
+      "edb_rows": 3
+    },
+    "0x7AC": {
+      "request_ids": [
+        "0x7A4"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "CCK",
+        "DFM",
+        "GSM",
+        "HCS",
+        "MSL",
+        "THCM"
+      ],
+      "long_names": [
+        "CAN Configuration Key Gen2 Track Kit",
+        "Commodo 2WV",
+        "Commodo 3WV",
+        "Depth Finder Module",
+        "Gear Selector Module",
+        "Heat Cool Seat",
+        "Thermocouple Module"
+      ],
+      "uuids": [
+        "06103551-16ea-4c3c-abbb-eaf3045d0e28",
+        "1a4b4e91-a2a8-4d73-b2e6-6fa47cda6b77",
+        "1c58fa12-8a65-4924-bfe3-35efa9a0e030",
+        "27d34a55-aa68-4170-b128-22378f681154",
+        "48ebcbe8-d748-4223-a86c-433263c93530",
+        "4a82900f-6e96-47c2-a3fd-19753be0255d",
+        "8ffd07ee-66f0-4c19-8e8b-b8e396c5356b"
+      ],
+      "edb_rows": 7
+    },
+    "0x7AD": {
+      "request_ids": [
+        "0x7A5",
+        "0x7A6"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "GPS",
+        "IMOB"
+      ],
+      "long_names": [
+        "GPSCAN",
+        "RF CAN DESS Post"
+      ],
+      "uuids": [
+        "249943c5-6c34-4a61-bc9a-2bf01efef6ba",
+        "c3ef9a4f-6c3d-4efa-8bcc-bbd2498f43e7"
+      ],
+      "edb_rows": 2
+    },
+    "0x7AE": {
+      "request_ids": [
+        "0x7A6"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "RFComm"
+      ],
+      "long_names": [
+        "RFComm"
+      ],
+      "uuids": [
+        "ad996782-953e-478b-918d-6bd9da2f29fa"
+      ],
+      "edb_rows": 1
+    },
+    "0x7B9": {
+      "request_ids": [
+        "0x7B1"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "TCM"
+      ],
+      "long_names": [
+        "Transmission Control Module"
+      ],
+      "uuids": [
+        "1f565c11-42d8-49c4-b18d-e4882178e9ac",
+        "32202a9c-51cd-4c0a-be22-4d836a7f1aaa"
+      ],
+      "edb_rows": 2
+    },
+    "0x7BA": {
+      "request_ids": [
+        "0x7B2"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "IBR",
+        "iNR"
+      ],
+      "long_names": [
+        "EReverse Module",
+        "Intelligent Brake Reverse Module"
+      ],
+      "uuids": [
+        "367d1645-7a8f-4487-93bd-ff5f664c34ee",
+        "524671ca-5721-4190-a4aa-0ea24becfff2",
+        "b291f336-0cf5-4d79-bc1a-63f3e1866546"
+      ],
+      "edb_rows": 3
+    },
+    "0x7BB": {
+      "request_ids": [
+        "0x7B3"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "Cluster"
+      ],
+      "long_names": [
+        "HUB3 Cluster 5",
+        "VIP Cluster"
+      ],
+      "uuids": [
+        "5580ba01-ecc4-4051-a6c7-b8ad07ef261b",
+        "a89c7657-4103-4666-84a8-4f2fb8d17836"
+      ],
+      "edb_rows": 2
+    },
+    "0x7BD": {
+      "request_ids": [
+        "0x7B5"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "IBRM",
+        "iNRM"
+      ],
+      "long_names": [
+        "EReverse Monitor",
+        "Intelligent Brake Reverse Monitor"
+      ],
+      "uuids": [
+        "1ebca0c6-3b74-4a41-8af1-3b907f69f52c",
+        "68ed20cf-1a6d-4893-b06c-dc450737c932",
+        "ee8284b7-b5d5-4d1f-ae93-91002dd8d344"
+      ],
+      "edb_rows": 3
+    },
+    "0x7BE": {
+      "request_ids": [
+        "0x7B6"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "ABS",
+        "ABS/VCM",
+        "VCM"
+      ],
+      "long_names": [
+        "Vehicle Control Module",
+        "Vehicle Control Module 2WV"
+      ],
+      "uuids": [
+        "1aa31357-45fa-412c-bdcf-cd00fb47068f",
+        "6fb310e2-a9c2-4b22-b420-6130ee3b5859",
+        "d3d569e3-8901-42fd-88fb-c893776a543b"
+      ],
+      "edb_rows": 3
+    },
+    "0x7C0": {
+      "request_ids": [
+        "0x7C0"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "Cluster",
+        "Info Display"
+      ],
+      "long_names": [
+        "HUB2 Cluster",
+        "HUB2 Info Display"
+      ],
+      "uuids": [
+        "0b4b8917-df8a-41b4-b4ec-a7eb645f9214",
+        "45045043-31a0-4728-a195-67cf3f68bbc7"
+      ],
+      "edb_rows": 2
+    },
+    "0x7C8": {
+      "request_ids": [
+        "0x7C0"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "Cluster"
+      ],
+      "long_names": [
+        "Cluster Module",
+        "Cluster Module Flextronics",
+        "HUB3 Cluster 7_10",
+        "HUB3 Info Display 7_10"
+      ],
+      "uuids": [
+        "1a211cbb-45dd-4ad8-b0a0-768402625e77",
+        "1ed12db7-772a-4461-8ca0-4205b35641b6",
+        "3d9c875d-a3e7-4cd2-9974-68d94ec9f0fe",
+        "aab0fae3-9e5a-4c4f-922f-ab5d8bd507da"
+      ],
+      "edb_rows": 4
+    },
+    "0x7C9": {
+      "request_ids": [
+        "0x7C1"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "BMS",
+        "N/A"
+      ],
+      "long_names": [
+        "Battery Management System",
+        "Battery Management System NEWX",
+        "N/A"
+      ],
+      "uuids": [
+        "51e17b5a-1b07-4c11-909f-dc54a7b88ab9",
+        "d2fd1c37-b871-4f49-b7cd-3459d4f43994",
+        "fbecf236-ac6b-41de-b7b5-a1b3756ebb0d"
+      ],
+      "edb_rows": 3
+    },
+    "0x7CA": {
+      "request_ids": [
+        "0x7C2"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "N/A"
+      ],
+      "long_names": [
+        "N/A"
+      ],
+      "uuids": [
+        "5550e002-c76b-406f-a375-8e9d1715136f"
+      ],
+      "edb_rows": 1
+    },
+    "0x7CB": {
+      "request_ids": [
+        "0x7C3"
+      ],
+      "functional_request_ids": [],
+      "short_names": [
+        "DPS"
+      ],
+      "long_names": [
+        "Dynamic Power Steering"
+      ],
+      "uuids": [
+        "7136c106-c1db-4f01-991d-1d9d725fdae2",
+        "964359a9-c53c-4377-81d3-d88521a43331"
+      ],
+      "edb_rows": 2
+    },
+    "0x7CC": {
+      "request_ids": [
+        "0x7C4"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "SDA"
+      ],
+      "long_names": [
+        "Shift Drum Actuator"
+      ],
+      "uuids": [
+        "8d605ae0-fb42-4bf3-942e-a78cc4bb8038"
+      ],
+      "edb_rows": 1
+    },
+    "0x7CD": {
+      "request_ids": [
+        "0x7C5"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "HLPA"
+      ],
+      "long_names": [
+        "Hi Lo Park Actuator"
+      ],
+      "uuids": [
+        "3fafc0c9-5b17-4394-a541-45078c620979"
+      ],
+      "edb_rows": 1
+    },
+    "0x7CE": {
+      "request_ids": [
+        "0x7C6"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "THCM"
+      ],
+      "long_names": [
+        "Thermocouple Module"
+      ],
+      "uuids": [
+        "79a33cc2-c3fa-43de-8432-ef87bd204f93"
+      ],
+      "edb_rows": 1
+    },
+    "0x7CF": {
+      "request_ids": [
+        "0x7C7"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "BCM FDM2",
+        "BCM FDM2 HVAC",
+        "BCM FDM2 SDC",
+        "BCM HVAC",
+        "FDM"
+      ],
+      "long_names": [
+        "Body Control Module FDM2",
+        "Body Control Module FDM2 HVAC",
+        "Body Control Module FDM2 SDC",
+        "BodyControlModuleHVAC",
+        "Front Diff Module"
+      ],
+      "uuids": [
+        "33d24097-0ee4-438c-a92c-2c1be0441409",
+        "517e9dd2-be0e-4d85-ae61-160712fb194f",
+        "775521ad-476a-4a98-9ebb-ac3cce6e9cf0",
+        "c0764e67-cb20-4a03-9988-69b1013e914b",
+        "f845bf71-0c4c-4fd5-94c2-060e7ac04e48"
+      ],
+      "edb_rows": 5
+    },
+    "0x7E8": {
+      "request_ids": [
+        "0x7E0"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "ECM",
+        "N/A",
+        "Starboard",
+        "VCU"
+      ],
+      "long_names": [
+        "Engine Control Module",
+        "Engine Control Module ETEC 2",
+        "Engine Control Module EZ",
+        "Engine Control Module NEWX",
+        "N/A",
+        "Starboard Engine Control Module",
+        "Vehicle Control Unit"
+      ],
+      "uuids": [
+        "22860af9-e1dd-4004-8b3b-9684dc71eb6a",
+        "255a38bf-a3dd-4855-a5ab-94ece7fb9ea7",
+        "4534d313-3737-4f8e-81ea-dd549d2c318d",
+        "5bb81bca-03f3-4496-a37e-3bc16a2143cf",
+        "5d0a1999-7f58-42e0-bff7-8ede1b1c16a0",
+        "b56c79d3-4aa9-479a-90c3-0ec38b88a4e1",
+        "bf2a14ae-103d-43e1-8912-dbb139a2468d",
+        "e708e319-ff59-4e60-ab43-9465960cc2a9"
+      ],
+      "edb_rows": 8
+    },
+    "0x7E9": {
+      "request_ids": [
+        "0x7E1"
+      ],
+      "functional_request_ids": [
+        "0x7D0"
+      ],
+      "short_names": [
+        "Portside"
+      ],
+      "long_names": [
+        "Portside Engine Control Module"
+      ],
+      "uuids": [
+        "33031090-9816-40ca-ac6c-82961c34e905"
+      ],
+      "edb_rows": 1
+    }
+  }
+}

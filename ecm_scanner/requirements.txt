@@ -1,0 +1,4 @@
+﻿pyserial
+customtkinter
+python-can
+pycryptodome

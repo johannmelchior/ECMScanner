@@ -1,0 +1,3 @@
+@echo off
+echo Launching dnSpy with BUDS2 License Registrator...
+start "" "tools\dnSpy\dnSpy.exe" "original-software\BUDS2\BUDS2 License Registrator.exe"

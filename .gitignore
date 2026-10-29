@@ -1,0 +1,148 @@
+# =============================================================================
+#  ECM Scanner — ficheiros que nunca entram no repositório
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+#  Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Ambientes virtuais (locais a cada máquina, centenas de MB)
+.venv/
+venv/
+env/
+ENV/
+python32_env/
+.espressif/
+
+# -----------------------------------------------------------------------------
+#  Build e distribuição
+# -----------------------------------------------------------------------------
+build/
+dist/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+managed_components/
+compile_commands.json
+*.manifest
+*.tmp
+
+# -----------------------------------------------------------------------------
+#  Firmware compilado (gerado a partir de src/)
+# -----------------------------------------------------------------------------
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.a
+*.d
+*.suo
+sdkconfig.old
+flasher_args.json
+
+# -----------------------------------------------------------------------------
+#  Dados proprietários do BUDS2 — NUNCA versionar
+#  Contêm material da BRP e VINs de veículos reais. Regenerar localmente com
+#  tools/build_brp_dtc_by_model.py (ver ecm_scanner/README.md).
+# -----------------------------------------------------------------------------
+sessions_decrypted/
+**/sessions_decrypted/
+*.buds2
+*.i2s
+*.odx
+*.dbf
+*.cab
+
+# -----------------------------------------------------------------------------
+#  Chaves, licenças e identificadores de máquina — NUNCA versionar
+# -----------------------------------------------------------------------------
+*.key
+*.pem
+*.pfx
+*.p12
+keys.json
+buds2_keys.json
+candidate_keys.txt
+currentbuds.key
+license*.xml
+*.lic
+
+# -----------------------------------------------------------------------------
+#  Capturas de barramento e logs de ensaio
+#  São dados de veículos concretos e crescem sem limite.
+# -----------------------------------------------------------------------------
+*.pcapng
+*.pcap
+*.saz
+can_log_*.csv
+kline_log.csv
+yds_bridge*
+yds_emu*
+yds_yds*
+yamaha com *.csv
+yamaha sem *.csv
+status_codes*.txt
+*.log
+logs/
+
+# Capturas do analisador lógico no topo do projecto (≈50 MB no total)
+/yam.txt
+/yamaha *.txt
+/teste.txt
+/teste2.txt
+
+# Ficheiros temporários dos scripts de análise
+__tmp_*
+_an_output.txt
+temp_jar_extract/
+temp_analysis/
+
+# -----------------------------------------------------------------------------
+#  Relatórios gerados (HTML/PNG saem dos scripts de análise)
+# -----------------------------------------------------------------------------
+docs/*.html
+
+# -----------------------------------------------------------------------------
+#  Software de terceiros — instalar a partir da fonte oficial
+# -----------------------------------------------------------------------------
+com0com-*.zip
+l9637-2.pdf
+*.pdf
+upx.exe
+*.exe
+*.dll
+*.msi
+
+# -----------------------------------------------------------------------------
+#  Sistema operativo e editores
+# -----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Metadados de IDE que não fazem parte do projecto
+workspace/.metadata/
+.metadata/
+.classpath
+.project
+.settings/

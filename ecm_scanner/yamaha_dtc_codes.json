@@ -1,0 +1,294 @@
+{
+ "01": {
+  "desc": "Pulser coil",
+  "sol": ""
+ },
+ "02": {
+  "desc": "Crank position sensor",
+  "sol": ""
+ },
+ "03": {
+  "desc": "Water temp sensor",
+  "sol": ""
+ },
+ "04": {
+  "desc": "Throttle position sensor",
+  "sol": ""
+ },
+ "05": {
+  "desc": "Battery voltage",
+  "sol": ""
+ },
+ "06": {
+  "desc": "Atmospheric press sensor",
+  "sol": ""
+ },
+ "07": {
+  "desc": "Intake temp sensor",
+  "sol": ""
+ },
+ "08": {
+  "desc": "Fuel press sensor",
+  "sol": ""
+ },
+ "09": {
+  "desc": "Injector",
+  "sol": ""
+ },
+ "10": {
+  "desc": "Water in fuel",
+  "sol": ""
+ },
+ "11": {
+  "desc": "Shift position switch",
+  "sol": ""
+ },
+ "12": {
+  "desc": "Engine stop lanyard switch",
+  "sol": ""
+ },
+ "13": {
+  "desc": "Intake press sensor",
+  "sol": ""
+ },
+ "14": {
+  "desc": "Intake air passage",
+  "sol": ""
+ },
+ "15": {
+  "desc": "Thermostat",
+  "sol": ""
+ },
+ "16": {
+  "desc": "Oil press switch",
+  "sol": ""
+ },
+ "17": {
+  "desc": "Vary idle speed",
+  "sol": ""
+ },
+ "18": {
+  "desc": "Engine temp sensor",
+  "sol": ""
+ },
+ "19": {
+  "desc": "Overheat thermoswitch",
+  "sol": ""
+ },
+ "20": {
+  "desc": "Shift cut-off switch",
+  "sol": ""
+ },
+ "21": {
+  "desc": "Oil press sensor",
+  "sol": ""
+ },
+ "22": {
+  "desc": "Memory data",
+  "sol": ""
+ },
+ "23": {
+  "desc": "Over cooling",
+  "sol": ""
+ },
+ "24": {
+  "desc": "Cam position sensor",
+  "sol": ""
+ },
+ "25": {
+  "desc": "Turn-over detection switch",
+  "sol": ""
+ },
+ "26": {
+  "desc": "Slant detection switch",
+  "sol": ""
+ },
+ "27": {
+  "desc": "Overheat warning",
+  "sol": ""
+ },
+ "28": {
+  "desc": "Fuel pressure too low",
+  "sol": ""
+ },
+ "29": {
+  "desc": "Overheat",
+  "sol": ""
+ },
+ "30": {
+  "desc": "Low oil pressure warning",
+  "sol": ""
+ },
+ "31": {
+  "desc": "Stepping motor",
+  "sol": ""
+ },
+ "32": {
+  "desc": "Steering switch",
+  "sol": ""
+ },
+ "33": {
+  "desc": "Throttle body",
+  "sol": ""
+ },
+ "34": {
+  "desc": "Exhaust manifold temp sensor",
+  "sol": ""
+ },
+ "35": {
+  "desc": "Ex.manifold water temp. sensor",
+  "sol": ""
+ },
+ "36": {
+  "desc": "Atmosphere pressure sensor",
+  "sol": ""
+ },
+ "37": {
+  "desc": "YPVS",
+  "sol": ""
+ },
+ "38": {
+  "desc": "Stepping motor operation 1",
+  "sol": ""
+ },
+ "39": {
+  "desc": "Stepping motor operation 2",
+  "sol": ""
+ },
+ "40": {
+  "desc": "Bypass valve motor",
+  "sol": ""
+ },
+ "41": {
+  "desc": "Steering sensor",
+  "sol": ""
+ },
+ "42": {
+  "desc": "Throttle position sensor(ETV)",
+  "sol": ""
+ },
+ "43": {
+  "desc": "Accel position sensor(ETV)",
+  "sol": ""
+ },
+ "44": {
+  "desc": "Electronic throttle",
+  "sol": ""
+ },
+ "45": {
+  "desc": "Cam position sensor (EXH)",
+  "sol": ""
+ },
+ "46": {
+  "desc": "Cam position sensor(STBD INT)",
+  "sol": ""
+ },
+ "47": {
+  "desc": "Cam position sensor(PORT INT)",
+  "sol": ""
+ },
+ "48": {
+  "desc": "Variable cam timing (STBD)",
+  "sol": ""
+ },
+ "49": {
+  "desc": "Variable cam timing (PORT)",
+  "sol": ""
+ },
+ "50": {
+  "desc": "Oil control valve (STBD)",
+  "sol": ""
+ },
+ "51": {
+  "desc": "Oil control valve (PORT)",
+  "sol": ""
+ },
+ "52": {
+  "desc": "Knock sensor",
+  "sol": ""
+ },
+ "53": {
+  "desc": "Oxygen sensor",
+  "sol": ""
+ },
+ "54": {
+  "desc": "Throttle position sensor",
+  "sol": ""
+ },
+ "55": {
+  "desc": "Accelerator position sensor",
+  "sol": ""
+ },
+ "56": {
+  "desc": "Electronic throttle system",
+  "sol": ""
+ },
+ "57": {
+  "desc": "Accelerator position sensor 1",
+  "sol": ""
+ },
+ "58": {
+  "desc": "Accelerator position sensor 2",
+  "sol": ""
+ },
+ "59": {
+  "desc": "Variable valve sensor (PORT)",
+  "sol": ""
+ },
+ "60": {
+  "desc": "Variable valve sensor (STBD)",
+  "sol": ""
+ },
+ "61": {
+  "desc": "Variable valve actuator (PORT)",
+  "sol": ""
+ },
+ "62": {
+  "desc": "Variable valve actuator (STBD)",
+  "sol": ""
+ },
+ "63": {
+  "desc": "Trim/tilt sensor",
+  "sol": ""
+ },
+ "64": {
+  "desc": "Trim/tilt sensor",
+  "sol": ""
+ },
+ "65": {
+  "desc": "ION detection module",
+  "sol": ""
+ },
+ "66": {
+  "desc": "Shift position sensor",
+  "sol": ""
+ },
+ "67": {
+  "desc": "ENG-R.C. communication",
+  "sol": ""
+ },
+ "68": {
+  "desc": "Remote control system",
+  "sol": ""
+ },
+ "69": {
+  "desc": "No-Wake mode switch",
+  "sol": ""
+ },
+ "70": {
+  "desc": "Reverse switch",
+  "sol": ""
+ },
+ "71": {
+  "desc": "Immobilizer",
+  "sol": ""
+ },
+ "72": {
+  "desc": "No-Wake/Cruise Assist SW (+)",
+  "sol": ""
+ },
+ "73": {
+  "desc": "No-Wake/Cruise Assist SW (-)",
+  "sol": ""
+ }
+}

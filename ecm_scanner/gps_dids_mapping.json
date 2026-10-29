@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "description": "GPS DID Mapping for BRP SEADOO GTX 2022 (Extracted from diagnostic logs)",
+    "source": "Reverse-engineered from EDB and diagnostic session logs",
+    "note": "DIDs are mapped based on common BRP/CAN GPS implementations and observed frequency in logs"
+  },
+  "gps_navigation_dids": {
+    "0xCF00": {
+      "name": "GPS Status/Fix Quality",
+      "description": "GPS Fix status (0=No Fix, 1=2D, 2=3D, 3=DGPS, etc.)",
+      "data_type": "uint8",
+      "unit": "enum",
+      "observed_responses": ["00", "07"]
+    },
+    "0xCF01": {
+      "name": "GPS Satellites in View",
+      "description": "Number of satellites used in fix calculation",
+      "data_type": "uint8",
+      "unit": "count",
+      "observed_responses": ["DC"]
+    },
+    "0xCF03": {
+      "name": "GPS HDOP (Horizontal Dilution of Precision)",
+      "description": "Horizontal accuracy indicator (lower is better)",
+      "data_type": "uint16_be",
+      "unit": "0.01 (divide by 100)",
+      "observed_responses": ["00 0C"]
+    },
+    "0xCF04": {
+      "name": "GPS VDOP (Vertical Dilution of Precision)",
+      "description": "Vertical accuracy indicator (lower is better)",
+      "data_type": "uint16_be",
+      "unit": "0.01 (divide by 100)",
+      "observed_responses": ["0F FF"]
+    },
+    "0xCF05": {
+      "name": "GPS Altitude / Height Above MSL",
+      "description": "Height above mean sea level",
+      "data_type": "int16_be",
+      "unit": "meters",
+      "parsing": "signed 16-bit, big-endian",
+      "observed_responses": ["00 00", "FF F5", "FF F7"]
+    },
+    "0xCF06": {
+      "name": "GPS Latitude (High)",
+      "description": "Latitude degrees and decimal portion (first 2 bytes)",
+      "data_type": "uint8 (degrees) + fractional",
+      "unit": "degrees",
+      "observed_responses": ["07"],
+      "note": "May be combined with other DIDs for full precision"
+    },
+    "0xCF07": {
+      "name": "GPS Longitude (High)",
+      "description": "Longitude degrees and decimal portion (first 2 bytes)",
+      "data_type": "uint8 (degrees) + fractional",
+      "unit": "degrees",
+      "observed_responses": ["03"],
+      "note": "May be combined with other DIDs for full precision"
+    },
+    "0xCF08": {
+      "name": "GPS Speed/Ground Speed",
+      "description": "Vehicle ground speed over earth",
+      "data_type": "uint16_be",
+      "unit": "0.01 m/s (divide by 100 for m/s)",
+      "observed_responses": []
+    },
+    "0xCF0B": {
+      "name": "GPS Course/Heading",
+      "description": "Direction of motion",
+      "data_type": "uint16_be",
+      "unit": "0.01 degrees (divide by 100)",
+      "observed_responses": []
+    },
+    "0xCF0C": {
+      "name": "GPS Time/UTC",
+      "description": "Current UTC time from GPS",
+      "data_type": "structure",
+      "unit": "HHMMSS or timestamp",
+      "observed_responses": []
+    },
+    "0xF100": {
+      "name": "Unknown (Hardware/Firmware related)",
+      "description": "Possibly hardware/software version marker",
+      "data_type": "uint32_be",
+      "unit": "raw",
+      "observed_responses": ["34 0F 00 00"]
+    },
+    "0xF186": {
+      "name": "GPS Hardware Part Number",
+      "description": "Electronic part number of GPS module",
+      "data_type": "string/ASCII",
+      "unit": "part number",
+      "observed_responses": ["01"]
+    },
+    "0xF18C": {
+      "name": "GPS Serial Number",
+      "description": "Serial number of GPS module",
+      "data_type": "string/ASCII",
+      "unit": "serial",
+      "observed_responses": []
+    },
+    "0xF1F0": {
+      "name": "GPS Calibration Number",
+      "description": "Calibration/variant code for GPS receiver",
+      "data_type": "string/ASCII",
+      "unit": "calibration ID",
+      "observed_responses": []
+    }
+  },
+  "hierarchical_structure": {
+    "identity_dids": ["0xF186", "0xF18C", "0xF1F0", "0xF100", "0xF101"],
+    "position_dids": ["0xCF05", "0xCF06", "0xCF07"],
+    "motion_dids": ["0xCF08", "0xCF0B"],
+    "quality_dids": ["0xCF00", "0xCF01", "0xCF03", "0xCF04"],
+    "time_dids": ["0xCF0C"]
+  },
+  "interpretation_note": "DIDs 0xCF05-0xCF07 are candidates for position data. 0xCF06/0xCF07 appear to be latitude/longitude based on response value ranges (small numbers 0x03, 0x07 suggest angle indication). 0xCF05 contains altitude data based on signed integer responses and typical (00 00, FF F5 = -11, FF F7 = -9 in meters)."
+}

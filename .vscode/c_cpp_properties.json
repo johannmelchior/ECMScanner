@@ -1,0 +1,27 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "AVR ATmega162",
+            "compilerPath": "C:/Users/johan/scoop/shims/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega162",
+                "-DF_CPU=16000000UL"
+            ],
+            "includePath": [
+                "${workspaceFolder}/firmware AVR/include"
+            ],
+            "defines": [
+                "F_CPU=16000000UL"
+            ],
+            "cStandard": "gnu11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/firmware AVR/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}

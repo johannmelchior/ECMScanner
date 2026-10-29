@@ -1,0 +1,245 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "build firmware AVR",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"-C",
+				"firmware AVR",
+				"clean",
+				"all"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

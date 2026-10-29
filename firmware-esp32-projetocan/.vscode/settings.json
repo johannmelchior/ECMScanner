@@ -1,0 +1,14 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\johan\\esp\\v5.4.1\\esp-idf",
+  "idf.pythonInstallPath": "c:\\Users\\johan\\OneDrive\\Documentos\\esp\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM6",
+  "idf.toolsPathWin": "c:\\Users\\johan\\OneDrive\\Documentos\\esp",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "idf.flashType": "UART"
+}

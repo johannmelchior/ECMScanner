@@ -1,0 +1,28 @@
+﻿# Normaliza fins de linha no repositório (LF) e no working tree conforme a plataforma.
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.c    text eol=lf
+*.h    text eol=lf
+*.s    text eol=lf
+*.S    text eol=lf
+Makefile text eol=lf
+*.mk   text eol=lf
+
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Binários
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.hex  binary
+*.bin  binary
+*.pcapng binary

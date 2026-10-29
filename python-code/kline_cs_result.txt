@@ -1,0 +1,303 @@
+﻿Carregando c:\Users\johan\Documents\yamaha funcionando.txt ...
+Amostras: 1047552 | T: 4.773 us | Fs: 209510 Hz
+Sinal ativo a partir de: t=0.01 ms
+
+=== SCAN DE BAUD RATES (bit-center sampling) ===
+
+    Baud      OK     ERR      %OK   Total
+---------------------------------------------
+    4800    1202     148    89.0%    1350
+    7812    1279     622    67.3%    1901
+    8192    1449     484    75.0%    1933
+    9600    1747     268    86.7%    2015
+   10400    1542     483    76.1%    2025
+   14400    1811     683    72.6%    2494
+   15625    2312     386    85.7%    2698
+   16000    1623    1077    60.1%    2700
+   16040    1623    1077    60.1%    2700
+   19200    1405    1952    41.9%    3357
+   28800    2353    1185    66.5%    3538
+
+Melhor: 4800 baud  (89.0% stop OK, 1350 bytes)
+
+    T(ms)   HEX  Dec  Stop
+-----------------------------------
+    4.730  FF  255  OK
+    7.580  F4  244  OK
+
+  --- GAP 4.5ms ---
+
+   12.124  E7  231  OK
+   14.248  FF  255  OK
+
+  --- GAP 5.3ms ---
+
+   19.546  FF  255  OK
+   21.980  C8  200  OK
+
+  --- GAP 5.0ms ---
+
+   26.939  FF  255  OK
+
+  --- GAP 4.5ms ---
+
+   31.469  50   80  OK
+   34.332  FF  255  OK
+   36.471  A5  165  OK
+
+  --- GAP 5.3ms ---
+
+   41.721  FF  255  OK
+
+  --- GAP 4.0ms ---
+
+   45.759  50   80  OK
+
+  --- GAP 3.4ms ---
+
+   49.148  7F  127  OK
+   51.678  FB  251  OK
+
+  --- GAP 4.9ms ---
+
+   56.537  FF  255  OK
+
+  --- GAP 3.5ms ---
+
+   60.064  40   64  OK
+
+  --- GAP 3.9ms ---
+
+   63.930  47   71  OK
+   66.035  FF  255  OK
+
+  --- GAP 5.3ms ---
+
+   71.323  FF  255  OK
+   74.292  F4  244  OK
+
+  --- GAP 4.5ms ---
+
+   78.745  27   39  OK
+   80.836  FF  255  OK
+
+  --- GAP 5.3ms ---
+
+   86.139  FF  255  OK
+   88.731  28   40  OK
+
+  --- GAP 4.8ms ---
+
+   93.499  FF  255  OK
+
+  --- GAP 4.7ms ---
+
+   98.186  40   64  OK
+  100.921  FF  255  OK
+  103.045  2A   42  OK
+
+  --- GAP 5.3ms ---
+
+  108.314  FF  255  OK
+
+  --- GAP 4.1ms ---
+
+  112.400  74  116  OK
+
+  --- GAP 3.3ms ---
+
+  115.708  7F  127  
+  117.908  FB  251  OK
+
+  --- GAP 5.2ms ---
+
+  123.101  FF  255  OK
+
+  --- GAP 3.8ms ---
+
+  126.853  28   40  OK
+
+  --- GAP 3.6ms ---
+
+  130.490  4F   79  
+  132.681  FB  251  OK
+
+  --- GAP 5.2ms ---
+
+  137.917  FF  255  OK
+
+  --- GAP 3.2ms ---
+
+  141.091  48   72  OK
+
+  --- GAP 4.2ms ---
+
+  145.339  D1  209  
+  147.453  FF  255  OK
+
+  --- GAP 5.2ms ---
+
+  152.699  FF  255  OK
+  155.372  48   72  OK
+
+  --- GAP 4.7ms ---
+
+  160.092  FF  255  OK
+
+  --- GAP 4.8ms ---
+
+  164.913  48   72  OK
+  167.514  FF  255  OK
+  169.762  2A   42  OK
+
+  --- GAP 5.1ms ---
+
+  174.908  FF  255  OK
+
+  --- GAP 4.2ms ---
+
+  179.103  F4  244  OK
+
+  --- GAP 3.2ms ---
+
+  182.301  7F  127  
+  184.621  FB  251  OK
+
+  --- GAP 5.1ms ---
+
+  189.690  FF  255  OK
+
+  --- GAP 3.9ms ---
+
+  193.556  28   40  OK
+
+  --- GAP 3.6ms ---
+
+  197.112  3F   63  
+  199.389  F9  249  OK
+
+  --- GAP 5.1ms ---
+
+  204.505  FF  255  OK
+
+  --- GAP 3.3ms ---
+
+  207.823  D8  216  OK
+
+  --- GAP 4.0ms ---
+
+  211.870  83  131  
+  214.161  FF  255  OK
+
+  --- GAP 5.1ms ---
+
+  219.292  FF  255  OK
+  222.108  D8  216  OK
+
+  --- GAP 4.6ms ---
+
+  226.686  FF  255  OK
+
+  --- GAP 4.9ms ---
+
+  231.602  C0  192  OK
+  234.074  FF  255  OK
+  236.370  48   72  OK
+
+  --- GAP 5.1ms ---
+
+  241.468  FF  255  OK
+
+  --- GAP 4.3ms ---
+
+  245.816  F4  244  OK
+
+  --- GAP 3.0ms ---
+
+  248.861  FF  255  OK
+  250.971  B5  181  OK
+
+  --- GAP 5.3ms ---
+
+  256.283  FF  255  OK
+
+  --- GAP 4.0ms ---
+
+  260.297  68  104  OK
+
+  --- GAP 3.4ms ---
+
+  263.677  3F   63  
+  266.097  FB  251  OK
+
+  --- GAP 5.0ms ---
+
+  271.065  FF  255  OK
+
+  --- GAP 3.5ms ---
+
+  274.521  D8  216  OK
+
+  --- GAP 3.9ms ---
+
+  278.459  9F  159  OK
+  280.545  FF  255  OK
+
+  --- GAP 5.3ms ---
+
+  285.881  FF  255  OK
+  288.783  40   64  OK
+
+  --- GAP 4.5ms ---
+
+  293.274  FF  255  OK
+
+  --- GAP 5.0ms ---
+
+  298.319  48   72  OK
+
+=== HEX STREAM (stop=OK): 1202 bytes ===
+     0: FF F4 E7 FF FF C8 FF 50 FF A5 FF 50 7F FB FF 40   .......P...P...@
+    16: 47 FF FF F4 27 FF FF 28 FF 40 FF 2A FF 74 FB FF   G...'..(.@.*.t..
+    32: 28 FB FF 48 FF FF 48 FF 48 FF 2A FF F4 FB FF 28   (..H..H.H.*....(
+    48: F9 FF D8 FF FF D8 FF C0 FF 48 FF F4 FF B5 FF 68   .........H.....h
+    64: FB FF D8 9F FF FF 40 FF 48 FF 74 FF 74 A8 FF 48   ......@.H.t.t..H
+    80: FB FF C8 3F FF FF D8 0B FF FF FF C8 FF 28 FF 48   ...?.........(.H
+    96: FB FF 54 2F FB FF C8 D3 FF FF D0 FF D4 FF 48 FF   ..T/..........H.
+   112: 38 FB FF 40 F9 FF 68 FF FF 74 FF F4 FF 48 FF 68   8..@..h..t...H.h
+   128: FF F4 FF 50 F9 FF 48 FF FF 50 FF 50 FF 48 FF 68   ...P..H..P.P.H.h
+   144: A5 FF 70 F9 FF 48 5F FF FF 50 27 FF FF 48 FF 48   ..p..H_..P'..H.H
+   160: FF 28 FF D0 FB FF C8 5F FB FF C8 57 FF FF 50 FF   .(....._...W..P.
+   176: 48 FF F4 FF C8 FF F9 FF 48 F9 FF F4 FF FF C8 FF   H.......H.......
+   192: 48 FF F4 FF 50 D4 FF 40 FB FF F4 FF FF 28 E9 FF   H...P..@.....(..
+
+=== ANALISE DE FRAMES ===
+  N=2: [FF 48]x13  |  [FF 50]x12  |  [FB FF]x9
+  N=3: [FF F4 FF]x5  |  [FF 48 FF]x4  |  [FF 50 FF]x3
+  N=4: [47 FF FF F4]x2  |  [FF 74 FF F4]x2  |  [FF 48 FF 68]x2
+  N=5: [FF FF 48 FF 48]x2  |  [FF F4 E7 FF FF]x1  |  [C8 FF 50 FF A5]x1
+  N=6: [FF F4 E7 FF FF C8]x1  |  [FF 50 FF A5 FF 50]x1  |  [7F FB FF 40 47 FF]x1
+
+=== HISTOGRAMA DE GAPS (>3.0ms) ===
+    3ms:  91  ########################################
+    4ms: 211  ########################################
+    5ms: 493  ########################################
+    6ms:  81  ########################################
+    7ms:  13  #############
+
+=== PRIMEIROS 15 GAPS ===
+  t=7.6ms  gap=4.5ms  | ...FF F4 || E7 FF FF...
+  t=14.2ms  gap=5.3ms  | ...F4 E7 FF || FF C8 FF...
+  t=22.0ms  gap=5.0ms  | ...FF FF C8 || FF 50 FF...
+  t=26.9ms  gap=4.5ms  | ...FF C8 FF || 50 FF A5...
+  t=36.5ms  gap=5.3ms  | ...50 FF A5 || FF 50 7F...
+  t=41.7ms  gap=4.0ms  | ...FF A5 FF || 50 7F FB...
+  t=45.8ms  gap=3.4ms  | ...A5 FF 50 || 7F FB FF...
+  t=51.7ms  gap=4.9ms  | ...50 7F FB || FF 40 47...
+  t=56.5ms  gap=3.5ms  | ...7F FB FF || 40 47 FF...
+  t=60.1ms  gap=3.9ms  | ...FB FF 40 || 47 FF FF...
+  t=66.0ms  gap=5.3ms  | ...40 47 FF || FF F4 27...
+  t=74.3ms  gap=4.5ms  | ...FF FF F4 || 27 FF FF...
+  t=80.8ms  gap=5.3ms  | ...F4 27 FF || FF 28 FF...
+  t=88.7ms  gap=4.8ms  | ...FF FF 28 || FF 40 FF...
+  t=93.5ms  gap=4.7ms  | ...FF 28 FF || 40 FF 2A...

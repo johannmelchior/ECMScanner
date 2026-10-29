@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "C:/Users/johan/Documents/projetoCAN/firmware-esp32-projetocan",
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}

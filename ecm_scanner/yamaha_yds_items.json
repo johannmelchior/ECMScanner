@@ -1,0 +1,8031 @@
+{
+ "schema": 2,
+ "generated_at": "2026-10-29T00:40:45+00:00",
+ "source": "C:\\Program Files\\YDS\\InstImage",
+ "config": {
+  "VER": "1.87.0.0",
+  "YAMAHA": "60V8533006",
+  "MELCO": "F007T90881",
+  "TRIAL": "F-9302-138",
+  "DSPVER": "1.33"
+ },
+ "table_headers": {
+  "SEItem.dbf": {
+   "part_number": "F007T90878F-9302-116SE06121",
+   "date": "20061209",
+   "version": "1.73.0.0",
+   "description": "Item File"
+  },
+  "SEConv.dbf": {
+   "part_number": "F007T90881F-9302-132SE07031",
+   "date": "20090513",
+   "version": "1.83.0.0"
+  },
+  "SEUnit.dbf": {
+   "part_number": "F007T90881F-9302-132SE07031",
+   "date": "20090513",
+   "version": "1.83.0.0",
+   "description": "Unit File"
+  },
+  "SEMess.dbf": {
+   "part_number": "F007T90878F-9302-116SE06121",
+   "date": "20061209",
+   "version": "1.73.0.0",
+   "description": "Message File"
+  },
+  "SEAct.dbf": {
+   "part_number": "F007T90881F-9302-132SE07031",
+   "date": "20090513",
+   "version": "1.83.0.0",
+   "description": "Actuator File"
+  },
+  "SEAnybit.dbf": {
+   "date": "20090513",
+   "version": "1.83.0.0",
+   "description": "Anybit File"
+  },
+  "SEByte.dbf": {
+   "part_number": "F007T90881F-9302-132SE07031",
+   "date": "20090513",
+   "version": "1.83.0.0",
+   "description": "ByteDiag File"
+  }
+ },
+ "items": [
+  {
+   "index": 1,
+   "text": "Engine speed"
+  },
+  {
+   "index": 2,
+   "text": "Fuel pressure (5.010.8)"
+  },
+  {
+   "index": 3,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "index": 4,
+   "text": "Ignition timing"
+  },
+  {
+   "index": 5,
+   "text": "Battery voltage (12-16)"
+  },
+  {
+   "index": 6,
+   "text": "Oxygen sensor voltage (0-1.0)"
+  },
+  {
+   "index": 7,
+   "text": "TPS voltage (0.5-4.5)"
+  },
+  {
+   "index": 8,
+   "text": "Fuel injection duration"
+  },
+  {
+   "index": 9,
+   "text": "Number of driving cylinders"
+  },
+  {
+   "index": 10,
+   "text": "Water temperature (below 90)"
+  },
+  {
+   "index": 11,
+   "text": "Intake temperature (below 70)"
+  },
+  {
+   "index": 12,
+   "text": "Starter switch"
+  },
+  {
+   "index": 13,
+   "text": "Engine stop lanyard switch"
+  },
+  {
+   "index": 14,
+   "text": "Over-rev control release lead"
+  },
+  {
+   "index": 15,
+   "text": "Shift cut-off switch"
+  },
+  {
+   "index": 16,
+   "text": "Main switch"
+  },
+  {
+   "index": 17,
+   "text": "Shift position switch"
+  },
+  {
+   "index": 18,
+   "text": "Water temp switch (over heat)"
+  },
+  {
+   "index": 19,
+   "text": "Oil level switch (remote tank)"
+  },
+  {
+   "index": 20,
+   "text": "Oil level switch1(engine tank)"
+  },
+  {
+   "index": 21,
+   "text": "Oil level switch2(engine tank)"
+  },
+  {
+   "index": 22,
+   "text": "Oil level switch3(engine tank)"
+  },
+  {
+   "index": 23,
+   "text": "Dual engine system switch"
+  },
+  {
+   "index": 24,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "index": 25,
+   "text": "Water temperature (below 194)"
+  },
+  {
+   "index": 26,
+   "text": "Intake temperature (below 158)"
+  },
+  {
+   "index": 27,
+   "text": "Water detection switch"
+  },
+  {
+   "index": 28,
+   "text": "Oxygen sensor voltage (max)"
+  },
+  {
+   "index": 29,
+   "text": "Oxygen sensor voltage (min)"
+  },
+  {
+   "index": 30,
+   "text": "Firing of cylinder #1"
+  },
+  {
+   "index": 31,
+   "text": "Firing of cylinder #2"
+  },
+  {
+   "index": 32,
+   "text": "Firing of cylinder #3"
+  },
+  {
+   "index": 33,
+   "text": "Firing of cylinder #4"
+  },
+  {
+   "index": 34,
+   "text": "Firing of cylinder #5"
+  },
+  {
+   "index": 35,
+   "text": "Firing of cylinder #6"
+  },
+  {
+   "index": 36,
+   "text": "Electric oil pump"
+  },
+  {
+   "index": 37,
+   "text": "Fuel pressure (7251116)"
+  },
+  {
+   "index": 38,
+   "text": "Throttle valve opening (0-90)"
+  },
+  {
+   "index": 39,
+   "text": "ISC valve opening  (0-100)"
+  },
+  {
+   "index": 40,
+   "text": "Intake pressure"
+  },
+  {
+   "index": 41,
+   "text": "Intake pressure"
+  },
+  {
+   "index": 42,
+   "text": "Oil pressure switch"
+  },
+  {
+   "index": 43,
+   "text": "Total hours of operation"
+  },
+  {
+   "index": 44,
+   "text": "Fuel pressure"
+  },
+  {
+   "index": 45,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "index": 46,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "index": 47,
+   "text": "Throttle valve opening (0-90)"
+  },
+  {
+   "index": 48,
+   "text": "Battery voltage (12-16)"
+  },
+  {
+   "index": 49,
+   "text": "Idle speed"
+  },
+  {
+   "index": 50,
+   "text": "ISC valve opening"
+  },
+  {
+   "index": 51,
+   "text": "Oil press switch"
+  },
+  {
+   "index": 52,
+   "text": "Idle speed (present)"
+  },
+  {
+   "index": 53,
+   "text": "Idle speed (original)"
+  },
+  {
+   "index": 54,
+   "text": "Engine temperature (below 120)"
+  },
+  {
+   "index": 55,
+   "text": "Engine temperature (below 248)"
+  },
+  {
+   "index": 56,
+   "text": "Oil pressure (below 842)"
+  },
+  {
+   "index": 57,
+   "text": "Oil pressure (below 122)"
+  },
+  {
+   "index": 64,
+   "text": "Overheat thermoswitch"
+  },
+  {
+   "index": 65,
+   "text": "Body temperature"
+  },
+  {
+   "index": 66,
+   "text": "Oil pressure"
+  },
+  {
+   "index": 67,
+   "text": "Turn-over detection switch"
+  },
+  {
+   "index": 68,
+   "text": "Engine temperature (below 130)"
+  },
+  {
+   "index": 69,
+   "text": "Engine temperature (below 266)"
+  },
+  {
+   "index": 70,
+   "text": "Slant detection switch"
+  },
+  {
+   "index": 71,
+   "text": "Fuel pressure (7.011.0)"
+  },
+  {
+   "index": 72,
+   "text": "Fuel pressure (10151163)"
+  },
+  {
+   "index": 73,
+   "text": "Engine speed maximum"
+  },
+  {
+   "index": 74,
+   "text": "Fuel pressure minimum"
+  },
+  {
+   "index": 75,
+   "text": "Over rev.control record"
+  },
+  {
+   "index": 76,
+   "text": "over heat record"
+  },
+  {
+   "index": 77,
+   "text": "Fuel pressure (7.011.5)"
+  },
+  {
+   "index": 78,
+   "text": "Fuel pressure (10151217)"
+  },
+  {
+   "index": 79,
+   "text": "Overheat record"
+  },
+  {
+   "index": 80,
+   "text": "Water temp switch (overheat)"
+  },
+  {
+   "index": 81,
+   "text": "Stepping motor"
+  },
+  {
+   "index": 82,
+   "text": "Steering switch"
+  },
+  {
+   "index": 83,
+   "text": "Oil press switch 2"
+  },
+  {
+   "index": 84,
+   "text": "Throttle switch"
+  },
+  {
+   "index": 85,
+   "text": "Exhaust manifold temp sensor"
+  },
+  {
+   "index": 86,
+   "text": "Ex.manifold water temp. sensor"
+  },
+  {
+   "index": 87,
+   "text": "YPVS"
+  },
+  {
+   "index": 88,
+   "text": "Oil press switch (15kPa)"
+  },
+  {
+   "index": 89,
+   "text": "Oil press switch (200kPa)"
+  },
+  {
+   "index": 96,
+   "text": "Throttle valve opening (-1-90)"
+  },
+  {
+   "index": 97,
+   "text": "Bypass valve motor"
+  },
+  {
+   "index": 98,
+   "text": "Steering sensor"
+  },
+  {
+   "index": 99,
+   "text": "Throttle position sensor 1"
+  },
+  {
+   "index": 100,
+   "text": "Throttle position sensor 2"
+  },
+  {
+   "index": 101,
+   "text": "Accel position sensor 1"
+  },
+  {
+   "index": 102,
+   "text": "Accel position sensor 2"
+  },
+  {
+   "index": 103,
+   "text": "Throttle position F/B (V)"
+  },
+  {
+   "index": 104,
+   "text": "Throttle position F/B (deg)"
+  },
+  {
+   "index": 105,
+   "text": "Throttle position (base)"
+  },
+  {
+   "index": 106,
+   "text": "Accel position (base)"
+  },
+  {
+   "index": 107,
+   "text": "Throttle position"
+  },
+  {
+   "index": 108,
+   "text": "Accel position"
+  },
+  {
+   "index": 109,
+   "text": "Main relay"
+  },
+  {
+   "index": 110,
+   "text": "ETV relay"
+  },
+  {
+   "index": 111,
+   "text": "Fuel pump relay"
+  },
+  {
+   "index": 112,
+   "text": "No wake mode switch"
+  },
+  {
+   "index": 113,
+   "text": "Engine stop mode"
+  },
+  {
+   "index": 114,
+   "text": "Engine start mode"
+  },
+  {
+   "index": 115,
+   "text": "Engine stop mode with SW"
+  },
+  {
+   "index": 116,
+   "text": "Time"
+  },
+  {
+   "index": 117,
+   "text": "Code"
+  },
+  {
+   "index": 118,
+   "text": "Engine hours"
+  },
+  {
+   "index": 119,
+   "text": "Trig"
+  },
+  {
+   "index": 120,
+   "text": "ISC throttle position"
+  },
+  {
+   "index": 121,
+   "text": "Engine start switch"
+  },
+  {
+   "index": 122,
+   "text": "Intake cam timing(S bank)"
+  },
+  {
+   "index": 123,
+   "text": "Intake cam timing(P bank)"
+  },
+  {
+   "index": 124,
+   "text": "Dual engine system switch"
+  },
+  {
+   "index": 125,
+   "text": "Overheat warning"
+  },
+  {
+   "index": 126,
+   "text": "Throttle position sensor"
+  },
+  {
+   "index": 127,
+   "text": "Oil pressure (below 942)"
+  },
+  {
+   "index": 128,
+   "text": "Low oil pressure warning"
+  },
+  {
+   "index": 129,
+   "text": "Low oil pressure"
+  },
+  {
+   "index": 130,
+   "text": "TPS voltage"
+  },
+  {
+   "index": 131,
+   "text": "Intake temperature"
+  },
+  {
+   "index": 132,
+   "text": "Accelerator position sensor 1"
+  },
+  {
+   "index": 133,
+   "text": "Accelerator position sensor 2"
+  },
+  {
+   "index": 134,
+   "text": "Intake cam timing (STBD)"
+  },
+  {
+   "index": 135,
+   "text": "Intake cam timing (PORT)"
+  },
+  {
+   "index": 136,
+   "text": "Electronic throttle relay"
+  },
+  {
+   "index": 137,
+   "text": "Target TPS voltage"
+  },
+  {
+   "index": 138,
+   "text": "Ref. TPS voltage"
+  },
+  {
+   "index": 139,
+   "text": "Ref. acc. pos. sensor voltage"
+  },
+  {
+   "index": 140,
+   "text": "Target TPS voltage for ISC"
+  },
+  {
+   "index": 141,
+   "text": "Battery voltage"
+  },
+  {
+   "index": 142,
+   "text": "Throttle position sensor(main)"
+  },
+  {
+   "index": 143,
+   "text": "Throttle position sensor(sub)"
+  },
+  {
+   "index": 144,
+   "text": "Throttle request"
+  },
+  {
+   "index": 145,
+   "text": "Lever position sensor1(main)"
+  },
+  {
+   "index": 146,
+   "text": "Lever position sensor1(sub)"
+  },
+  {
+   "index": 147,
+   "text": "Lever position sensor2(main)"
+  },
+  {
+   "index": 148,
+   "text": "Lever position sensor2(sub)"
+  },
+  {
+   "index": 149,
+   "text": "Shift position sensor(main)"
+  },
+  {
+   "index": 150,
+   "text": "Shift position sensor(sub)"
+  },
+  {
+   "index": 151,
+   "text": "Shift request"
+  },
+  {
+   "index": 152,
+   "text": "Lever position sensor1"
+  },
+  {
+   "index": 153,
+   "text": "Shift position sensor"
+  },
+  {
+   "index": 154,
+   "text": "Variable Intake length sensor("
+  },
+  {
+   "index": 155,
+   "text": "Variable Intake length sensor("
+  },
+  {
+   "index": 156,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "index": 157,
+   "text": "Shift position judgment"
+  },
+  {
+   "index": 158,
+   "text": "Shift cut-off"
+  },
+  {
+   "index": 159,
+   "text": "Main switch(wakeup)"
+  },
+  {
+   "index": 160,
+   "text": "Main switch(Receive data)"
+  },
+  {
+   "index": 161,
+   "text": "Shift relay"
+  },
+  {
+   "index": 162,
+   "text": "Free throttle switch"
+  },
+  {
+   "index": 163,
+   "text": "PT/T up switch"
+  },
+  {
+   "index": 164,
+   "text": "PT/T down switch"
+  },
+  {
+   "index": 165,
+   "text": "Start-up switch"
+  },
+  {
+   "index": 166,
+   "text": "PC-switch(PORT)"
+  },
+  {
+   "index": 167,
+   "text": "PC-switch(CENTER)"
+  },
+  {
+   "index": 168,
+   "text": "Intake temperature"
+  },
+  {
+   "index": 169,
+   "text": "Oil Pressure"
+  },
+  {
+   "index": 170,
+   "text": "Maximum engine speed"
+  },
+  {
+   "index": 171,
+   "text": "Over rev. count"
+  },
+  {
+   "index": 172,
+   "text": "Overheat count"
+  },
+  {
+   "index": 173,
+   "text": "Low oil pressure count"
+  },
+  {
+   "index": 174,
+   "text": "Knocking control count"
+  },
+  {
+   "index": 175,
+   "text": "Active Remote Control"
+  },
+  {
+   "index": 176,
+   "text": "No-Wake mode switch"
+  },
+  {
+   "index": 177,
+   "text": "Reverse switch"
+  },
+  {
+   "index": 180,
+   "text": "OTS mode"
+  },
+  {
+   "index": 181,
+   "text": "Cruise assist mode"
+  },
+  {
+   "index": 182,
+   "text": "Reverse mode"
+  },
+  {
+   "index": 183,
+   "text": "No-Wake mode"
+  },
+  {
+   "index": 184,
+   "text": "Low-RPM mode"
+  },
+  {
+   "index": 185,
+   "text": "Warning"
+  },
+  {
+   "index": 186,
+   "text": "ETV limit"
+  },
+  {
+   "index": 187,
+   "text": "Engine temperature (below 135)"
+  },
+  {
+   "index": 188,
+   "text": "Engine temperature (below 275)"
+  },
+  {
+   "index": 189,
+   "text": "Engine temperature (below 150)"
+  },
+  {
+   "index": 190,
+   "text": "Engine temperature (below 302)"
+  },
+  {
+   "index": 3841,
+   "text": "LPS_PORT(main)"
+  },
+  {
+   "index": 3842,
+   "text": "LPS(main)"
+  },
+  {
+   "index": 3843,
+   "text": "LPS_PORT(sub)"
+  },
+  {
+   "index": 3844,
+   "text": "LPS(sub)"
+  },
+  {
+   "index": 3845,
+   "text": "LPS_STBD(main)"
+  },
+  {
+   "index": 3847,
+   "text": "LPS_STBD(sub)"
+  },
+  {
+   "index": 3848,
+   "text": "Cruise assist switch"
+  },
+  {
+   "index": 3849,
+   "text": "Cruise assist up switch"
+  },
+  {
+   "index": 3850,
+   "text": "Cruise assist down switch"
+  },
+  {
+   "index": 3851,
+   "text": "Coolant Pressure"
+  },
+  {
+   "index": 3852,
+   "text": "Speed"
+  },
+  {
+   "index": 3853,
+   "text": "Start stop switch"
+  },
+  {
+   "index": 3854,
+   "text": "Possible to start"
+  },
+  {
+   "index": 3855,
+   "text": "No-Wake/Cruise Assist SW (+)"
+  },
+  {
+   "index": 3856,
+   "text": "No-Wake/Cruise Assist SW (-)"
+  },
+  {
+   "index": 36865,
+   "text": "Spark ignition coil #1"
+  },
+  {
+   "index": 36866,
+   "text": "Spark ignition coil #2"
+  },
+  {
+   "index": 36867,
+   "text": "Spark ignition coil #3"
+  },
+  {
+   "index": 36868,
+   "text": "Spark ignition coil #4"
+  },
+  {
+   "index": 36869,
+   "text": "Spark ignition coil #5"
+  },
+  {
+   "index": 36870,
+   "text": "Spark ignition coil #6"
+  },
+  {
+   "index": 36871,
+   "text": "Operate injector #1"
+  },
+  {
+   "index": 36872,
+   "text": "Operate injector #2"
+  },
+  {
+   "index": 36873,
+   "text": "Operate injector #3"
+  },
+  {
+   "index": 36874,
+   "text": "Operate injector #4"
+  },
+  {
+   "index": 36875,
+   "text": "Operate injector #5"
+  },
+  {
+   "index": 36876,
+   "text": "Operate injector #6"
+  },
+  {
+   "index": 36877,
+   "text": "Drop cylinder #1"
+  },
+  {
+   "index": 36878,
+   "text": "Drop cylinder #2"
+  },
+  {
+   "index": 36879,
+   "text": "Drop cylinder #3"
+  },
+  {
+   "index": 36880,
+   "text": "Drop cylinder #4"
+  },
+  {
+   "index": 36881,
+   "text": "Drop cylinder #5"
+  },
+  {
+   "index": 36882,
+   "text": "Drop cylinder #6"
+  },
+  {
+   "index": 36883,
+   "text": "Operate electric fuel pump"
+  },
+  {
+   "index": 36884,
+   "text": "Operate electric oil pump"
+  },
+  {
+   "index": 36885,
+   "text": "Stopping injector #1"
+  },
+  {
+   "index": 36886,
+   "text": "Stopping injector #2"
+  },
+  {
+   "index": 36887,
+   "text": "Stopping injector #3"
+  },
+  {
+   "index": 36888,
+   "text": "Stopping injector #4"
+  },
+  {
+   "index": 36889,
+   "text": "Stopping injector #5"
+  },
+  {
+   "index": 36890,
+   "text": "Stopping injector #6"
+  },
+  {
+   "index": 36891,
+   "text": "O2sensor?????"
+  },
+  {
+   "index": 36892,
+   "text": "Erase EEPROM"
+  },
+  {
+   "index": 36893,
+   "text": "Ignite ignition coils #1 && #4"
+  },
+  {
+   "index": 36894,
+   "text": "Ignite ignition coils #2 && #3"
+  },
+  {
+   "index": 36895,
+   "text": "Operate injectors #1 && #4"
+  },
+  {
+   "index": 36896,
+   "text": "Operate injectors #2 && #3"
+  },
+  {
+   "index": 36897,
+   "text": "Fully open ISC valve"
+  },
+  {
+   "index": 36898,
+   "text": "Angle of ISC valve opening"
+  },
+  {
+   "index": 36899,
+   "text": "Vary idle speed"
+  },
+  {
+   "index": 36900,
+   "text": "Operate ISC valve"
+  },
+  {
+   "index": 36901,
+   "text": "Ignite ignition coils #2 && #5"
+  },
+  {
+   "index": 36902,
+   "text": "Ignite ignition coils #3 && #6"
+  },
+  {
+   "index": 36903,
+   "text": "Operate injectors #2 && #5"
+  },
+  {
+   "index": 36904,
+   "text": "Operate injectors #3 && #6"
+  },
+  {
+   "index": 36905,
+   "text": "Operate elect. fuel feed pump"
+  },
+  {
+   "index": 36906,
+   "text": "Erase EEPROM (old)"
+  },
+  {
+   "index": 36907,
+   "text": "Operate stepping motor"
+  },
+  {
+   "index": 36908,
+   "text": "Ignite ignition coil #1"
+  },
+  {
+   "index": 36909,
+   "text": "Ignite ignition coil #2"
+  },
+  {
+   "index": 36910,
+   "text": "Ignite ignition coil #3"
+  },
+  {
+   "index": 36911,
+   "text": "Operate stepping motor"
+  },
+  {
+   "index": 36912,
+   "text": "YPVS"
+  },
+  {
+   "index": 36913,
+   "text": "Operate Bypassvalvemotor"
+  },
+  {
+   "index": 36914,
+   "text": "Ignite ignition coil #4"
+  },
+  {
+   "index": 36915,
+   "text": "Ignite ignition coil #5"
+  },
+  {
+   "index": 36916,
+   "text": "Ignite ignition coil #6"
+  },
+  {
+   "index": 36917,
+   "text": "Operate oil control valve(S ba"
+  },
+  {
+   "index": 36918,
+   "text": "Operate oil control valve(P ba"
+  },
+  {
+   "index": 36919,
+   "text": "Oil ctrl. valve drive (STBD)"
+  },
+  {
+   "index": 36920,
+   "text": "Oil ctrl. valve drive (PORT)"
+  },
+  {
+   "index": 36921,
+   "text": "Drop cylinder #7"
+  },
+  {
+   "index": 36922,
+   "text": "Drop cylinder #8"
+  },
+  {
+   "index": 36923,
+   "text": "Ignite ignition coil #7"
+  },
+  {
+   "index": 36924,
+   "text": "Ignite ignition coil #8"
+  },
+  {
+   "index": 36925,
+   "text": "Operate injector #7"
+  },
+  {
+   "index": 36926,
+   "text": "Operate injector #8"
+  },
+  {
+   "index": 40961,
+   "text": "Pulser coil"
+  },
+  {
+   "index": 40962,
+   "text": "Crank position sensor"
+  },
+  {
+   "index": 40963,
+   "text": "Water temp sensor"
+  },
+  {
+   "index": 40964,
+   "text": "Throttle position sensor"
+  },
+  {
+   "index": 40965,
+   "text": "Battery voltage"
+  },
+  {
+   "index": 40966,
+   "text": "Atmospheric press sensor"
+  },
+  {
+   "index": 40967,
+   "text": "Intake temp sensor"
+  },
+  {
+   "index": 40968,
+   "text": "Fuel press sensor"
+  },
+  {
+   "index": 40969,
+   "text": "Injector"
+  },
+  {
+   "index": 40970,
+   "text": "Water in fuel"
+  },
+  {
+   "index": 40971,
+   "text": "Shift position switch"
+  },
+  {
+   "index": 40972,
+   "text": "Engine stop lanyard switch"
+  },
+  {
+   "index": 40973,
+   "text": "Intake press sensor"
+  },
+  {
+   "index": 40974,
+   "text": "Intake air passage"
+  },
+  {
+   "index": 40975,
+   "text": "Thermostat"
+  },
+  {
+   "index": 40976,
+   "text": "Oil press switch"
+  },
+  {
+   "index": 40977,
+   "text": "Vary idle speed"
+  },
+  {
+   "index": 40978,
+   "text": "Engine temp sensor"
+  },
+  {
+   "index": 40979,
+   "text": "Overheat thermoswitch"
+  },
+  {
+   "index": 40980,
+   "text": "Shift cut-off switch"
+  },
+  {
+   "index": 40981,
+   "text": "Oil press sensor"
+  },
+  {
+   "index": 40982,
+   "text": "Memory data"
+  },
+  {
+   "index": 40983,
+   "text": "Over cooling"
+  },
+  {
+   "index": 40984,
+   "text": "Cam position sensor"
+  },
+  {
+   "index": 40985,
+   "text": "Turn-over detection switch"
+  },
+  {
+   "index": 40986,
+   "text": "Slant detection switch"
+  },
+  {
+   "index": 40987,
+   "text": "Overheat warning"
+  },
+  {
+   "index": 40988,
+   "text": "Fuel pressure too low"
+  },
+  {
+   "index": 40989,
+   "text": "Overheat"
+  },
+  {
+   "index": 40990,
+   "text": "Low oil pressure warning"
+  },
+  {
+   "index": 40991,
+   "text": "Stepping motor"
+  },
+  {
+   "index": 40992,
+   "text": "Steering switch"
+  },
+  {
+   "index": 40993,
+   "text": "Throttle body"
+  },
+  {
+   "index": 40994,
+   "text": "Exhaust manifold temp sensor"
+  },
+  {
+   "index": 40995,
+   "text": "Ex.manifold water temp. sensor"
+  },
+  {
+   "index": 40996,
+   "text": "Atmosphere pressure sensor"
+  },
+  {
+   "index": 40997,
+   "text": "YPVS"
+  },
+  {
+   "index": 40998,
+   "text": "Stepping motor operation 1"
+  },
+  {
+   "index": 40999,
+   "text": "Stepping motor operation 2"
+  },
+  {
+   "index": 41000,
+   "text": "Bypass valve motor"
+  },
+  {
+   "index": 41001,
+   "text": "Steering sensor"
+  },
+  {
+   "index": 41002,
+   "text": "Throttle position sensor(ETV)"
+  },
+  {
+   "index": 41003,
+   "text": "Accel position sensor(ETV)"
+  },
+  {
+   "index": 41004,
+   "text": "Electronic throttle"
+  },
+  {
+   "index": 41005,
+   "text": "Cam position sensor (EXH)"
+  },
+  {
+   "index": 41006,
+   "text": "Cam position sensor(STBD INT)"
+  },
+  {
+   "index": 41007,
+   "text": "Cam position sensor(PORT INT)"
+  },
+  {
+   "index": 41008,
+   "text": "Variable cam timing (STBD)"
+  },
+  {
+   "index": 41009,
+   "text": "Variable cam timing (PORT)"
+  },
+  {
+   "index": 41010,
+   "text": "Oil control valve (STBD)"
+  },
+  {
+   "index": 41011,
+   "text": "Oil control valve (PORT)"
+  },
+  {
+   "index": 41012,
+   "text": "Knock sensor"
+  },
+  {
+   "index": 41013,
+   "text": "Oxygen sensor"
+  },
+  {
+   "index": 41014,
+   "text": "Throttle position sensor"
+  },
+  {
+   "index": 41015,
+   "text": "Accelerator position sensor"
+  },
+  {
+   "index": 41016,
+   "text": "Electronic throttle system"
+  },
+  {
+   "index": 41017,
+   "text": "Accelerator position sensor 1"
+  },
+  {
+   "index": 41018,
+   "text": "Accelerator position sensor 2"
+  },
+  {
+   "index": 41019,
+   "text": "Variable valve sensor (PORT)"
+  },
+  {
+   "index": 41020,
+   "text": "Variable valve sensor (STBD)"
+  },
+  {
+   "index": 41021,
+   "text": "Variable valve actuator (PORT)"
+  },
+  {
+   "index": 41022,
+   "text": "Variable valve actuator (STBD)"
+  },
+  {
+   "index": 41023,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "index": 41024,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "index": 41025,
+   "text": "ION detection module"
+  },
+  {
+   "index": 41026,
+   "text": "Shift position sensor"
+  },
+  {
+   "index": 41027,
+   "text": "ENG-R.C. communication"
+  },
+  {
+   "index": 41028,
+   "text": "Remote control system"
+  },
+  {
+   "index": 41029,
+   "text": "No-Wake mode switch"
+  },
+  {
+   "index": 41030,
+   "text": "Reverse switch"
+  },
+  {
+   "index": 41031,
+   "text": "Immobilizer"
+  },
+  {
+   "index": 41032,
+   "text": "No-Wake/Cruise Assist SW (+)"
+  },
+  {
+   "index": 41033,
+   "text": "No-Wake/Cruise Assist SW (-)"
+  },
+  {
+   "index": 49153,
+   "text": "Pulser coil"
+  },
+  {
+   "index": 49154,
+   "text": "Crank position sensor"
+  },
+  {
+   "index": 49155,
+   "text": "Water temp sensor"
+  },
+  {
+   "index": 49156,
+   "text": "Throttle position sensor"
+  },
+  {
+   "index": 49157,
+   "text": "Battery voltage"
+  },
+  {
+   "index": 49158,
+   "text": "Atmospheric press sensor"
+  },
+  {
+   "index": 49159,
+   "text": "Intake temp sensor"
+  },
+  {
+   "index": 49160,
+   "text": "Fuel press sensor"
+  },
+  {
+   "index": 49161,
+   "text": "Injector"
+  },
+  {
+   "index": 49162,
+   "text": "Water in fuel"
+  },
+  {
+   "index": 49163,
+   "text": "Shift position switch"
+  },
+  {
+   "index": 49164,
+   "text": "Tacho pulse stop control"
+  },
+  {
+   "index": 49165,
+   "text": "Warming up operation"
+  },
+  {
+   "index": 49166,
+   "text": "Over-rev control"
+  },
+  {
+   "index": 49167,
+   "text": "Speed down control"
+  },
+  {
+   "index": 49168,
+   "text": "Buzzer control"
+  },
+  {
+   "index": 49169,
+   "text": "Emergency stop switch"
+  },
+  {
+   "index": 49170,
+   "text": "Steering sensor"
+  },
+  {
+   "index": 49171,
+   "text": "Throttle position sensor(ETV)"
+  },
+  {
+   "index": 49172,
+   "text": "Accel position sensor(ETV)"
+  },
+  {
+   "index": 49173,
+   "text": "Electronic throttle control sy"
+  },
+  {
+   "index": 53249,
+   "text": "- 1000 r/min"
+  },
+  {
+   "index": 53250,
+   "text": "1000 - 2000 r/min"
+  },
+  {
+   "index": 53251,
+   "text": "2000 - 3000 r/min"
+  },
+  {
+   "index": 53252,
+   "text": "3000 - 4000 r/min"
+  },
+  {
+   "index": 53253,
+   "text": "4000 - 5000 r/min"
+  },
+  {
+   "index": 53254,
+   "text": "5000 - 6000 r/min"
+  },
+  {
+   "index": 53255,
+   "text": "6000 - 7000 r/min"
+  },
+  {
+   "index": 53256,
+   "text": "Total hours of operation"
+  },
+  {
+   "index": 53257,
+   "text": "Engine hours"
+  },
+  {
+   "index": 53258,
+   "text": "-   2000 r/min"
+  },
+  {
+   "index": 53259,
+   "text": "2000 -   4000 r/min"
+  },
+  {
+   "index": 53260,
+   "text": "4000 -   6000 r/min"
+  },
+  {
+   "index": 53261,
+   "text": "6000 -   8000 r/min"
+  },
+  {
+   "index": 53262,
+   "text": "8000 - 10000 r/min"
+  },
+  {
+   "index": 53263,
+   "text": "10000 - 12000 r/min"
+  },
+  {
+   "index": 57345,
+   "text": "Time before engine stop"
+  }
+ ],
+ "monitor_items": [
+  {
+   "code": 1,
+   "text": "Engine speed"
+  },
+  {
+   "code": 2,
+   "text": "Fuel pressure (5.010.8)"
+  },
+  {
+   "code": 3,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "code": 4,
+   "text": "Ignition timing"
+  },
+  {
+   "code": 5,
+   "text": "Battery voltage (12-16)"
+  },
+  {
+   "code": 6,
+   "text": "Oxygen sensor voltage (0-1.0)"
+  },
+  {
+   "code": 7,
+   "text": "TPS voltage (0.5-4.5)"
+  },
+  {
+   "code": 8,
+   "text": "Fuel injection duration"
+  },
+  {
+   "code": 9,
+   "text": "Number of driving cylinders"
+  },
+  {
+   "code": 10,
+   "text": "Water temperature (below 90)"
+  },
+  {
+   "code": 11,
+   "text": "Intake temperature (below 70)"
+  },
+  {
+   "code": 12,
+   "text": "Starter switch"
+  },
+  {
+   "code": 13,
+   "text": "Engine stop lanyard switch"
+  },
+  {
+   "code": 14,
+   "text": "Over-rev control release lead"
+  },
+  {
+   "code": 15,
+   "text": "Shift cut-off switch"
+  },
+  {
+   "code": 16,
+   "text": "Main switch"
+  },
+  {
+   "code": 17,
+   "text": "Shift position switch"
+  },
+  {
+   "code": 18,
+   "text": "Water temp switch (over heat)"
+  },
+  {
+   "code": 19,
+   "text": "Oil level switch (remote tank)"
+  },
+  {
+   "code": 20,
+   "text": "Oil level switch1(engine tank)"
+  },
+  {
+   "code": 21,
+   "text": "Oil level switch2(engine tank)"
+  },
+  {
+   "code": 22,
+   "text": "Oil level switch3(engine tank)"
+  },
+  {
+   "code": 23,
+   "text": "Dual engine system switch"
+  },
+  {
+   "code": 24,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "code": 25,
+   "text": "Water temperature (below 194)"
+  },
+  {
+   "code": 26,
+   "text": "Intake temperature (below 158)"
+  },
+  {
+   "code": 27,
+   "text": "Water detection switch"
+  },
+  {
+   "code": 28,
+   "text": "Oxygen sensor voltage (max)"
+  },
+  {
+   "code": 29,
+   "text": "Oxygen sensor voltage (min)"
+  },
+  {
+   "code": 30,
+   "text": "Firing of cylinder #1"
+  },
+  {
+   "code": 31,
+   "text": "Firing of cylinder #2"
+  },
+  {
+   "code": 32,
+   "text": "Firing of cylinder #3"
+  },
+  {
+   "code": 33,
+   "text": "Firing of cylinder #4"
+  },
+  {
+   "code": 34,
+   "text": "Firing of cylinder #5"
+  },
+  {
+   "code": 35,
+   "text": "Firing of cylinder #6"
+  },
+  {
+   "code": 36,
+   "text": "Electric oil pump"
+  },
+  {
+   "code": 37,
+   "text": "Fuel pressure (7251116)"
+  },
+  {
+   "code": 38,
+   "text": "Throttle valve opening (0-90)"
+  },
+  {
+   "code": 39,
+   "text": "ISC valve opening  (0-100)"
+  },
+  {
+   "code": 40,
+   "text": "Intake pressure"
+  },
+  {
+   "code": 41,
+   "text": "Intake pressure"
+  },
+  {
+   "code": 42,
+   "text": "Oil pressure switch"
+  },
+  {
+   "code": 43,
+   "text": "Total hours of operation"
+  },
+  {
+   "code": 44,
+   "text": "Fuel pressure"
+  },
+  {
+   "code": 45,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "code": 46,
+   "text": "Atmospheric pressure"
+  },
+  {
+   "code": 47,
+   "text": "Throttle valve opening (0-90)"
+  },
+  {
+   "code": 48,
+   "text": "Battery voltage (12-16)"
+  },
+  {
+   "code": 49,
+   "text": "Idle speed"
+  },
+  {
+   "code": 50,
+   "text": "ISC valve opening"
+  },
+  {
+   "code": 51,
+   "text": "Oil press switch"
+  },
+  {
+   "code": 52,
+   "text": "Idle speed (present)"
+  },
+  {
+   "code": 53,
+   "text": "Idle speed (original)"
+  },
+  {
+   "code": 54,
+   "text": "Engine temperature (below 120)"
+  },
+  {
+   "code": 55,
+   "text": "Engine temperature (below 248)"
+  },
+  {
+   "code": 56,
+   "text": "Oil pressure (below 842)"
+  },
+  {
+   "code": 57,
+   "text": "Oil pressure (below 122)"
+  },
+  {
+   "code": 64,
+   "text": "Overheat thermoswitch"
+  },
+  {
+   "code": 65,
+   "text": "Body temperature"
+  },
+  {
+   "code": 66,
+   "text": "Oil pressure"
+  },
+  {
+   "code": 67,
+   "text": "Turn-over detection switch"
+  },
+  {
+   "code": 68,
+   "text": "Engine temperature (below 130)"
+  },
+  {
+   "code": 69,
+   "text": "Engine temperature (below 266)"
+  },
+  {
+   "code": 70,
+   "text": "Slant detection switch"
+  },
+  {
+   "code": 71,
+   "text": "Fuel pressure (7.011.0)"
+  },
+  {
+   "code": 72,
+   "text": "Fuel pressure (10151163)"
+  },
+  {
+   "code": 73,
+   "text": "Engine speed maximum"
+  },
+  {
+   "code": 74,
+   "text": "Fuel pressure minimum"
+  },
+  {
+   "code": 75,
+   "text": "Over rev.control record"
+  },
+  {
+   "code": 76,
+   "text": "over heat record"
+  },
+  {
+   "code": 77,
+   "text": "Fuel pressure (7.011.5)"
+  },
+  {
+   "code": 78,
+   "text": "Fuel pressure (10151217)"
+  },
+  {
+   "code": 79,
+   "text": "Overheat record"
+  },
+  {
+   "code": 80,
+   "text": "Water temp switch (overheat)"
+  },
+  {
+   "code": 81,
+   "text": "Stepping motor"
+  },
+  {
+   "code": 82,
+   "text": "Steering switch"
+  },
+  {
+   "code": 83,
+   "text": "Oil press switch 2"
+  },
+  {
+   "code": 84,
+   "text": "Throttle switch"
+  },
+  {
+   "code": 85,
+   "text": "Exhaust manifold temp sensor"
+  },
+  {
+   "code": 86,
+   "text": "Ex.manifold water temp. sensor"
+  },
+  {
+   "code": 87,
+   "text": "YPVS"
+  },
+  {
+   "code": 88,
+   "text": "Oil press switch (15kPa)"
+  },
+  {
+   "code": 89,
+   "text": "Oil press switch (200kPa)"
+  },
+  {
+   "code": 96,
+   "text": "Throttle valve opening (-1-90)"
+  },
+  {
+   "code": 97,
+   "text": "Bypass valve motor"
+  },
+  {
+   "code": 98,
+   "text": "Steering sensor"
+  },
+  {
+   "code": 99,
+   "text": "Throttle position sensor 1"
+  },
+  {
+   "code": 100,
+   "text": "Throttle position sensor 2"
+  },
+  {
+   "code": 101,
+   "text": "Accel position sensor 1"
+  },
+  {
+   "code": 102,
+   "text": "Accel position sensor 2"
+  },
+  {
+   "code": 103,
+   "text": "Throttle position F/B (V)"
+  },
+  {
+   "code": 104,
+   "text": "Throttle position F/B (deg)"
+  },
+  {
+   "code": 105,
+   "text": "Throttle position (base)"
+  },
+  {
+   "code": 106,
+   "text": "Accel position (base)"
+  },
+  {
+   "code": 107,
+   "text": "Throttle position"
+  },
+  {
+   "code": 108,
+   "text": "Accel position"
+  },
+  {
+   "code": 109,
+   "text": "Main relay"
+  },
+  {
+   "code": 110,
+   "text": "ETV relay"
+  },
+  {
+   "code": 111,
+   "text": "Fuel pump relay"
+  },
+  {
+   "code": 112,
+   "text": "No wake mode switch"
+  },
+  {
+   "code": 113,
+   "text": "Engine stop mode"
+  },
+  {
+   "code": 114,
+   "text": "Engine start mode"
+  },
+  {
+   "code": 115,
+   "text": "Engine stop mode with SW"
+  },
+  {
+   "code": 116,
+   "text": "Time"
+  },
+  {
+   "code": 117,
+   "text": "Code"
+  },
+  {
+   "code": 118,
+   "text": "Engine hours"
+  },
+  {
+   "code": 119,
+   "text": "Trig"
+  },
+  {
+   "code": 120,
+   "text": "ISC throttle position"
+  },
+  {
+   "code": 121,
+   "text": "Engine start switch"
+  },
+  {
+   "code": 122,
+   "text": "Intake cam timing(S bank)"
+  },
+  {
+   "code": 123,
+   "text": "Intake cam timing(P bank)"
+  },
+  {
+   "code": 124,
+   "text": "Dual engine system switch"
+  },
+  {
+   "code": 125,
+   "text": "Overheat warning"
+  },
+  {
+   "code": 126,
+   "text": "Throttle position sensor"
+  },
+  {
+   "code": 127,
+   "text": "Oil pressure (below 942)"
+  },
+  {
+   "code": 128,
+   "text": "Low oil pressure warning"
+  },
+  {
+   "code": 129,
+   "text": "Low oil pressure"
+  },
+  {
+   "code": 130,
+   "text": "TPS voltage"
+  },
+  {
+   "code": 131,
+   "text": "Intake temperature"
+  },
+  {
+   "code": 132,
+   "text": "Accelerator position sensor 1"
+  },
+  {
+   "code": 133,
+   "text": "Accelerator position sensor 2"
+  },
+  {
+   "code": 134,
+   "text": "Intake cam timing (STBD)"
+  },
+  {
+   "code": 135,
+   "text": "Intake cam timing (PORT)"
+  },
+  {
+   "code": 136,
+   "text": "Electronic throttle relay"
+  },
+  {
+   "code": 137,
+   "text": "Target TPS voltage"
+  },
+  {
+   "code": 138,
+   "text": "Ref. TPS voltage"
+  },
+  {
+   "code": 139,
+   "text": "Ref. acc. pos. sensor voltage"
+  },
+  {
+   "code": 140,
+   "text": "Target TPS voltage for ISC"
+  },
+  {
+   "code": 141,
+   "text": "Battery voltage"
+  },
+  {
+   "code": 142,
+   "text": "Throttle position sensor(main)"
+  },
+  {
+   "code": 143,
+   "text": "Throttle position sensor(sub)"
+  },
+  {
+   "code": 144,
+   "text": "Throttle request"
+  },
+  {
+   "code": 145,
+   "text": "Lever position sensor1(main)"
+  },
+  {
+   "code": 146,
+   "text": "Lever position sensor1(sub)"
+  },
+  {
+   "code": 147,
+   "text": "Lever position sensor2(main)"
+  },
+  {
+   "code": 148,
+   "text": "Lever position sensor2(sub)"
+  },
+  {
+   "code": 149,
+   "text": "Shift position sensor(main)"
+  },
+  {
+   "code": 150,
+   "text": "Shift position sensor(sub)"
+  },
+  {
+   "code": 151,
+   "text": "Shift request"
+  },
+  {
+   "code": 152,
+   "text": "Lever position sensor1"
+  },
+  {
+   "code": 153,
+   "text": "Shift position sensor"
+  },
+  {
+   "code": 154,
+   "text": "Variable Intake length sensor("
+  },
+  {
+   "code": 155,
+   "text": "Variable Intake length sensor("
+  },
+  {
+   "code": 156,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "code": 157,
+   "text": "Shift position judgment"
+  },
+  {
+   "code": 158,
+   "text": "Shift cut-off"
+  },
+  {
+   "code": 159,
+   "text": "Main switch(wakeup)"
+  },
+  {
+   "code": 160,
+   "text": "Main switch(Receive data)"
+  },
+  {
+   "code": 161,
+   "text": "Shift relay"
+  },
+  {
+   "code": 162,
+   "text": "Free throttle switch"
+  },
+  {
+   "code": 163,
+   "text": "PT/T up switch"
+  },
+  {
+   "code": 164,
+   "text": "PT/T down switch"
+  },
+  {
+   "code": 165,
+   "text": "Start-up switch"
+  },
+  {
+   "code": 166,
+   "text": "PC-switch(PORT)"
+  },
+  {
+   "code": 167,
+   "text": "PC-switch(CENTER)"
+  },
+  {
+   "code": 168,
+   "text": "Intake temperature"
+  },
+  {
+   "code": 169,
+   "text": "Oil Pressure"
+  },
+  {
+   "code": 170,
+   "text": "Maximum engine speed"
+  },
+  {
+   "code": 171,
+   "text": "Over rev. count"
+  },
+  {
+   "code": 172,
+   "text": "Overheat count"
+  },
+  {
+   "code": 173,
+   "text": "Low oil pressure count"
+  },
+  {
+   "code": 174,
+   "text": "Knocking control count"
+  },
+  {
+   "code": 175,
+   "text": "Active Remote Control"
+  },
+  {
+   "code": 176,
+   "text": "No-Wake mode switch"
+  },
+  {
+   "code": 177,
+   "text": "Reverse switch"
+  },
+  {
+   "code": 180,
+   "text": "OTS mode"
+  },
+  {
+   "code": 181,
+   "text": "Cruise assist mode"
+  },
+  {
+   "code": 182,
+   "text": "Reverse mode"
+  },
+  {
+   "code": 183,
+   "text": "No-Wake mode"
+  },
+  {
+   "code": 184,
+   "text": "Low-RPM mode"
+  },
+  {
+   "code": 185,
+   "text": "Warning"
+  },
+  {
+   "code": 186,
+   "text": "ETV limit"
+  },
+  {
+   "code": 187,
+   "text": "Engine temperature (below 135)"
+  },
+  {
+   "code": 188,
+   "text": "Engine temperature (below 275)"
+  },
+  {
+   "code": 189,
+   "text": "Engine temperature (below 150)"
+  },
+  {
+   "code": 190,
+   "text": "Engine temperature (below 302)"
+  }
+ ],
+ "actuation_items": [
+  {
+   "code": 1,
+   "text": "Spark ignition coil #1"
+  },
+  {
+   "code": 2,
+   "text": "Spark ignition coil #2"
+  },
+  {
+   "code": 3,
+   "text": "Spark ignition coil #3"
+  },
+  {
+   "code": 4,
+   "text": "Spark ignition coil #4"
+  },
+  {
+   "code": 5,
+   "text": "Spark ignition coil #5"
+  },
+  {
+   "code": 6,
+   "text": "Spark ignition coil #6"
+  },
+  {
+   "code": 7,
+   "text": "Operate injector #1"
+  },
+  {
+   "code": 8,
+   "text": "Operate injector #2"
+  },
+  {
+   "code": 9,
+   "text": "Operate injector #3"
+  },
+  {
+   "code": 10,
+   "text": "Operate injector #4"
+  },
+  {
+   "code": 11,
+   "text": "Operate injector #5"
+  },
+  {
+   "code": 12,
+   "text": "Operate injector #6"
+  },
+  {
+   "code": 13,
+   "text": "Drop cylinder #1"
+  },
+  {
+   "code": 14,
+   "text": "Drop cylinder #2"
+  },
+  {
+   "code": 15,
+   "text": "Drop cylinder #3"
+  },
+  {
+   "code": 16,
+   "text": "Drop cylinder #4"
+  },
+  {
+   "code": 17,
+   "text": "Drop cylinder #5"
+  },
+  {
+   "code": 18,
+   "text": "Drop cylinder #6"
+  },
+  {
+   "code": 19,
+   "text": "Operate electric fuel pump"
+  },
+  {
+   "code": 20,
+   "text": "Operate electric oil pump"
+  },
+  {
+   "code": 21,
+   "text": "Stopping injector #1"
+  },
+  {
+   "code": 22,
+   "text": "Stopping injector #2"
+  },
+  {
+   "code": 23,
+   "text": "Stopping injector #3"
+  },
+  {
+   "code": 24,
+   "text": "Stopping injector #4"
+  },
+  {
+   "code": 25,
+   "text": "Stopping injector #5"
+  },
+  {
+   "code": 26,
+   "text": "Stopping injector #6"
+  },
+  {
+   "code": 27,
+   "text": "O2sensor?????"
+  },
+  {
+   "code": 28,
+   "text": "Erase EEPROM"
+  },
+  {
+   "code": 29,
+   "text": "Ignite ignition coils #1 && #4"
+  },
+  {
+   "code": 30,
+   "text": "Ignite ignition coils #2 && #3"
+  },
+  {
+   "code": 31,
+   "text": "Operate injectors #1 && #4"
+  },
+  {
+   "code": 32,
+   "text": "Operate injectors #2 && #3"
+  },
+  {
+   "code": 33,
+   "text": "Fully open ISC valve"
+  },
+  {
+   "code": 34,
+   "text": "Angle of ISC valve opening"
+  },
+  {
+   "code": 35,
+   "text": "Vary idle speed"
+  },
+  {
+   "code": 36,
+   "text": "Operate ISC valve"
+  },
+  {
+   "code": 37,
+   "text": "Ignite ignition coils #2 && #5"
+  },
+  {
+   "code": 38,
+   "text": "Ignite ignition coils #3 && #6"
+  },
+  {
+   "code": 39,
+   "text": "Operate injectors #2 && #5"
+  },
+  {
+   "code": 40,
+   "text": "Operate injectors #3 && #6"
+  },
+  {
+   "code": 41,
+   "text": "Operate elect. fuel feed pump"
+  },
+  {
+   "code": 42,
+   "text": "Erase EEPROM (old)"
+  },
+  {
+   "code": 43,
+   "text": "Operate stepping motor"
+  },
+  {
+   "code": 44,
+   "text": "Ignite ignition coil #1"
+  },
+  {
+   "code": 45,
+   "text": "Ignite ignition coil #2"
+  },
+  {
+   "code": 46,
+   "text": "Ignite ignition coil #3"
+  },
+  {
+   "code": 47,
+   "text": "Operate stepping motor"
+  },
+  {
+   "code": 48,
+   "text": "YPVS"
+  },
+  {
+   "code": 49,
+   "text": "Operate Bypassvalvemotor"
+  },
+  {
+   "code": 50,
+   "text": "Ignite ignition coil #4"
+  },
+  {
+   "code": 51,
+   "text": "Ignite ignition coil #5"
+  },
+  {
+   "code": 52,
+   "text": "Ignite ignition coil #6"
+  },
+  {
+   "code": 53,
+   "text": "Operate oil control valve(S ba"
+  },
+  {
+   "code": 54,
+   "text": "Operate oil control valve(P ba"
+  },
+  {
+   "code": 55,
+   "text": "Oil ctrl. valve drive (STBD)"
+  },
+  {
+   "code": 56,
+   "text": "Oil ctrl. valve drive (PORT)"
+  },
+  {
+   "code": 57,
+   "text": "Drop cylinder #7"
+  },
+  {
+   "code": 58,
+   "text": "Drop cylinder #8"
+  },
+  {
+   "code": 59,
+   "text": "Ignite ignition coil #7"
+  },
+  {
+   "code": 60,
+   "text": "Ignite ignition coil #8"
+  },
+  {
+   "code": 61,
+   "text": "Operate injector #7"
+  },
+  {
+   "code": 62,
+   "text": "Operate injector #8"
+  }
+ ],
+ "dtc_items": [
+  {
+   "code": 1,
+   "text": "Pulser coil"
+  },
+  {
+   "code": 2,
+   "text": "Crank position sensor"
+  },
+  {
+   "code": 3,
+   "text": "Water temp sensor"
+  },
+  {
+   "code": 4,
+   "text": "Throttle position sensor"
+  },
+  {
+   "code": 5,
+   "text": "Battery voltage"
+  },
+  {
+   "code": 6,
+   "text": "Atmospheric press sensor"
+  },
+  {
+   "code": 7,
+   "text": "Intake temp sensor"
+  },
+  {
+   "code": 8,
+   "text": "Fuel press sensor"
+  },
+  {
+   "code": 9,
+   "text": "Injector"
+  },
+  {
+   "code": 10,
+   "text": "Water in fuel"
+  },
+  {
+   "code": 11,
+   "text": "Shift position switch"
+  },
+  {
+   "code": 12,
+   "text": "Engine stop lanyard switch"
+  },
+  {
+   "code": 13,
+   "text": "Intake press sensor"
+  },
+  {
+   "code": 14,
+   "text": "Intake air passage"
+  },
+  {
+   "code": 15,
+   "text": "Thermostat"
+  },
+  {
+   "code": 16,
+   "text": "Oil press switch"
+  },
+  {
+   "code": 17,
+   "text": "Vary idle speed"
+  },
+  {
+   "code": 18,
+   "text": "Engine temp sensor"
+  },
+  {
+   "code": 19,
+   "text": "Overheat thermoswitch"
+  },
+  {
+   "code": 20,
+   "text": "Shift cut-off switch"
+  },
+  {
+   "code": 21,
+   "text": "Oil press sensor"
+  },
+  {
+   "code": 22,
+   "text": "Memory data"
+  },
+  {
+   "code": 23,
+   "text": "Over cooling"
+  },
+  {
+   "code": 24,
+   "text": "Cam position sensor"
+  },
+  {
+   "code": 25,
+   "text": "Turn-over detection switch"
+  },
+  {
+   "code": 26,
+   "text": "Slant detection switch"
+  },
+  {
+   "code": 27,
+   "text": "Overheat warning"
+  },
+  {
+   "code": 28,
+   "text": "Fuel pressure too low"
+  },
+  {
+   "code": 29,
+   "text": "Overheat"
+  },
+  {
+   "code": 30,
+   "text": "Low oil pressure warning"
+  },
+  {
+   "code": 31,
+   "text": "Stepping motor"
+  },
+  {
+   "code": 32,
+   "text": "Steering switch"
+  },
+  {
+   "code": 33,
+   "text": "Throttle body"
+  },
+  {
+   "code": 34,
+   "text": "Exhaust manifold temp sensor"
+  },
+  {
+   "code": 35,
+   "text": "Ex.manifold water temp. sensor"
+  },
+  {
+   "code": 36,
+   "text": "Atmosphere pressure sensor"
+  },
+  {
+   "code": 37,
+   "text": "YPVS"
+  },
+  {
+   "code": 38,
+   "text": "Stepping motor operation 1"
+  },
+  {
+   "code": 39,
+   "text": "Stepping motor operation 2"
+  },
+  {
+   "code": 40,
+   "text": "Bypass valve motor"
+  },
+  {
+   "code": 41,
+   "text": "Steering sensor"
+  },
+  {
+   "code": 42,
+   "text": "Throttle position sensor(ETV)"
+  },
+  {
+   "code": 43,
+   "text": "Accel position sensor(ETV)"
+  },
+  {
+   "code": 44,
+   "text": "Electronic throttle"
+  },
+  {
+   "code": 45,
+   "text": "Cam position sensor (EXH)"
+  },
+  {
+   "code": 46,
+   "text": "Cam position sensor(STBD INT)"
+  },
+  {
+   "code": 47,
+   "text": "Cam position sensor(PORT INT)"
+  },
+  {
+   "code": 48,
+   "text": "Variable cam timing (STBD)"
+  },
+  {
+   "code": 49,
+   "text": "Variable cam timing (PORT)"
+  },
+  {
+   "code": 50,
+   "text": "Oil control valve (STBD)"
+  },
+  {
+   "code": 51,
+   "text": "Oil control valve (PORT)"
+  },
+  {
+   "code": 52,
+   "text": "Knock sensor"
+  },
+  {
+   "code": 53,
+   "text": "Oxygen sensor"
+  },
+  {
+   "code": 54,
+   "text": "Throttle position sensor"
+  },
+  {
+   "code": 55,
+   "text": "Accelerator position sensor"
+  },
+  {
+   "code": 56,
+   "text": "Electronic throttle system"
+  },
+  {
+   "code": 57,
+   "text": "Accelerator position sensor 1"
+  },
+  {
+   "code": 58,
+   "text": "Accelerator position sensor 2"
+  },
+  {
+   "code": 59,
+   "text": "Variable valve sensor (PORT)"
+  },
+  {
+   "code": 60,
+   "text": "Variable valve sensor (STBD)"
+  },
+  {
+   "code": 61,
+   "text": "Variable valve actuator (PORT)"
+  },
+  {
+   "code": 62,
+   "text": "Variable valve actuator (STBD)"
+  },
+  {
+   "code": 63,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "code": 64,
+   "text": "Trim/tilt sensor"
+  },
+  {
+   "code": 65,
+   "text": "ION detection module"
+  },
+  {
+   "code": 66,
+   "text": "Shift position sensor"
+  },
+  {
+   "code": 67,
+   "text": "ENG-R.C. communication"
+  },
+  {
+   "code": 68,
+   "text": "Remote control system"
+  },
+  {
+   "code": 69,
+   "text": "No-Wake mode switch"
+  },
+  {
+   "code": 70,
+   "text": "Reverse switch"
+  },
+  {
+   "code": 71,
+   "text": "Immobilizer"
+  },
+  {
+   "code": 72,
+   "text": "No-Wake/Cruise Assist SW (+)"
+  },
+  {
+   "code": 73,
+   "text": "No-Wake/Cruise Assist SW (-)"
+  }
+ ],
+ "control_items": [
+  {
+   "code": 1,
+   "text": "Pulser coil"
+  },
+  {
+   "code": 2,
+   "text": "Crank position sensor"
+  },
+  {
+   "code": 3,
+   "text": "Water temp sensor"
+  },
+  {
+   "code": 4,
+   "text": "Throttle position sensor"
+  },
+  {
+   "code": 5,
+   "text": "Battery voltage"
+  },
+  {
+   "code": 6,
+   "text": "Atmospheric press sensor"
+  },
+  {
+   "code": 7,
+   "text": "Intake temp sensor"
+  },
+  {
+   "code": 8,
+   "text": "Fuel press sensor"
+  },
+  {
+   "code": 9,
+   "text": "Injector"
+  },
+  {
+   "code": 10,
+   "text": "Water in fuel"
+  },
+  {
+   "code": 11,
+   "text": "Shift position switch"
+  },
+  {
+   "code": 12,
+   "text": "Tacho pulse stop control"
+  },
+  {
+   "code": 13,
+   "text": "Warming up operation"
+  },
+  {
+   "code": 14,
+   "text": "Over-rev control"
+  },
+  {
+   "code": 15,
+   "text": "Speed down control"
+  },
+  {
+   "code": 16,
+   "text": "Buzzer control"
+  },
+  {
+   "code": 17,
+   "text": "Emergency stop switch"
+  },
+  {
+   "code": 18,
+   "text": "Steering sensor"
+  },
+  {
+   "code": 19,
+   "text": "Throttle position sensor(ETV)"
+  },
+  {
+   "code": 20,
+   "text": "Accel position sensor(ETV)"
+  },
+  {
+   "code": 21,
+   "text": "Electronic throttle control sy"
+  }
+ ],
+ "hours_items": [
+  {
+   "code": 1,
+   "text": "- 1000 r/min"
+  },
+  {
+   "code": 2,
+   "text": "1000 - 2000 r/min"
+  },
+  {
+   "code": 3,
+   "text": "2000 - 3000 r/min"
+  },
+  {
+   "code": 4,
+   "text": "3000 - 4000 r/min"
+  },
+  {
+   "code": 5,
+   "text": "4000 - 5000 r/min"
+  },
+  {
+   "code": 6,
+   "text": "5000 - 6000 r/min"
+  },
+  {
+   "code": 7,
+   "text": "6000 - 7000 r/min"
+  },
+  {
+   "code": 8,
+   "text": "Total hours of operation"
+  },
+  {
+   "code": 9,
+   "text": "Engine hours"
+  },
+  {
+   "code": 10,
+   "text": "-   2000 r/min"
+  },
+  {
+   "code": 11,
+   "text": "2000 -   4000 r/min"
+  },
+  {
+   "code": 12,
+   "text": "4000 -   6000 r/min"
+  },
+  {
+   "code": 13,
+   "text": "6000 -   8000 r/min"
+  },
+  {
+   "code": 14,
+   "text": "8000 - 10000 r/min"
+  },
+  {
+   "code": 15,
+   "text": "10000 - 12000 r/min"
+  }
+ ],
+ "other_items": [
+  {
+   "index": 3841,
+   "text": "LPS_PORT(main)"
+  },
+  {
+   "index": 3842,
+   "text": "LPS(main)"
+  },
+  {
+   "index": 3843,
+   "text": "LPS_PORT(sub)"
+  },
+  {
+   "index": 3844,
+   "text": "LPS(sub)"
+  },
+  {
+   "index": 3845,
+   "text": "LPS_STBD(main)"
+  },
+  {
+   "index": 3847,
+   "text": "LPS_STBD(sub)"
+  },
+  {
+   "index": 3848,
+   "text": "Cruise assist switch"
+  },
+  {
+   "index": 3849,
+   "text": "Cruise assist up switch"
+  },
+  {
+   "index": 3850,
+   "text": "Cruise assist down switch"
+  },
+  {
+   "index": 3851,
+   "text": "Coolant Pressure"
+  },
+  {
+   "index": 3852,
+   "text": "Speed"
+  },
+  {
+   "index": 3853,
+   "text": "Start stop switch"
+  },
+  {
+   "index": 3854,
+   "text": "Possible to start"
+  },
+  {
+   "index": 3855,
+   "text": "No-Wake/Cruise Assist SW (+)"
+  },
+  {
+   "index": 3856,
+   "text": "No-Wake/Cruise Assist SW (-)"
+  },
+  {
+   "index": 57345,
+   "text": "Time before engine stop"
+  }
+ ],
+ "conversions": [
+  {
+   "index": 0,
+   "text": "X"
+  },
+  {
+   "index": 1,
+   "text": "X*25"
+  },
+  {
+   "index": 2,
+   "text": "(X*5/256-0.5)*7.84/4"
+  },
+  {
+   "index": 3,
+   "text": "X*5/256*760*1.33/4"
+  },
+  {
+   "index": 4,
+   "text": "X-30"
+  },
+  {
+   "index": 5,
+   "text": "X*5/256*3.75"
+  },
+  {
+   "index": 6,
+   "text": "X*5/256"
+  },
+  {
+   "index": 7,
+   "text": "X*4/1000"
+  },
+  {
+   "index": 8,
+   "text": "X/10"
+  },
+  {
+   "index": 9,
+   "text": "(X*5/256*760/4)/25.4"
+  },
+  {
+   "index": 10,
+   "text": "X*5/1024"
+  },
+  {
+   "index": 11,
+   "text": "X*50"
+  },
+  {
+   "index": 12,
+   "text": "X*1.33"
+  },
+  {
+   "index": 13,
+   "text": "X/25.4"
+  },
+  {
+   "index": 14,
+   "text": "X/10-50"
+  },
+  {
+   "index": 15,
+   "text": "X/1000"
+  },
+  {
+   "index": 16,
+   "text": "X*105/1024-10.5"
+  },
+  {
+   "index": 17,
+   "text": "X*1.33/10"
+  },
+  {
+   "index": 18,
+   "text": "X/254"
+  },
+  {
+   "index": 19,
+   "text": "X*5/1023"
+  },
+  {
+   "index": 20,
+   "text": "X*125.0/1023-17.5"
+  },
+  {
+   "index": 21,
+   "text": "(X*950/256)*1.33/10"
+  },
+  {
+   "index": 22,
+   "text": "X*10"
+  },
+  {
+   "index": 23,
+   "text": "X*125.0/1024-17.5"
+  },
+  {
+   "index": 24,
+   "text": "X-40"
+  },
+  {
+   "index": 25,
+   "text": "X*1.8-40"
+  },
+  {
+   "index": 33,
+   "text": "X*0.5+8.5"
+  },
+  {
+   "index": 34,
+   "text": "X*5"
+  },
+  {
+   "index": 35,
+   "text": "X*100/120"
+  },
+  {
+   "index": 36,
+   "text": "X/100"
+  },
+  {
+   "index": 37,
+   "text": "X*(950*0.1333)/1024"
+  },
+  {
+   "index": 38,
+   "text": "X*950/1024/25.4"
+  },
+  {
+   "index": 39,
+   "text": "X*18.75/1024"
+  },
+  {
+   "index": 40,
+   "text": "X*125/1024"
+  },
+  {
+   "index": 41,
+   "text": "X*18.75/256"
+  },
+  {
+   "index": 42,
+   "text": "X*(950*0.1333)/256"
+  },
+  {
+   "index": 43,
+   "text": "X*(950*1.333)/1024"
+  },
+  {
+   "index": 44,
+   "text": "X*6"
+  },
+  {
+   "index": 45,
+   "text": "X*125.0/1024-16.5"
+  },
+  {
+   "index": 46,
+   "text": "(X-102)*980/1024"
+  },
+  {
+   "index": 47,
+   "text": "(X-102)*980*0.145/1024"
+  },
+  {
+   "index": 48,
+   "text": "X*1000/256"
+  },
+  {
+   "index": 49,
+   "text": "X*126.6/256"
+  },
+  {
+   "index": 50,
+   "text": "X/10-40"
+  },
+  {
+   "index": 51,
+   "text": "X*105/1024-10.5"
+  },
+  {
+   "index": 52,
+   "text": "X*5/4096"
+  },
+  {
+   "index": 53,
+   "text": "X*105/4096-10.5"
+  },
+  {
+   "index": 54,
+   "text": "X/10-20"
+  },
+  {
+   "index": 55,
+   "text": "(X-26)*980/256"
+  },
+  {
+   "index": 56,
+   "text": "X-20"
+  },
+  {
+   "index": 57,
+   "text": "(X-26)*980*0.145/256"
+  },
+  {
+   "index": 58,
+   "text": "X*160/65536-80"
+  },
+  {
+   "index": 59,
+   "text": "X-128"
+  },
+  {
+   "index": 60,
+   "text": "X*10*0.133"
+  },
+  {
+   "index": 61,
+   "text": "(X/1023+0.0673)/0.007833"
+  },
+  {
+   "index": 62,
+   "text": "X*125/1023-15"
+  },
+  {
+   "index": 63,
+   "text": "X*5/255*6"
+  },
+  {
+   "index": 64,
+   "text": "(X/255+0.0673)/0.007833"
+  },
+  {
+   "index": 65,
+   "text": "(X/1023+0.0673)/0.0007833"
+  },
+  {
+   "index": 66,
+   "text": "X*5/255"
+  },
+  {
+   "index": 67,
+   "text": "X/10*0.145"
+  },
+  {
+   "index": 68,
+   "text": "X/100*3.6"
+  },
+  {
+   "index": 69,
+   "text": "X/100*2.237"
+  }
+ ],
+ "units": [
+  {
+   "index": 2,
+   "text": "r/min"
+  },
+  {
+   "index": 3,
+   "text": "MPa"
+  },
+  {
+   "index": 4,
+   "text": "HPa"
+  },
+  {
+   "index": 5,
+   "text": "deg"
+  },
+  {
+   "index": 6,
+   "text": "V"
+  },
+  {
+   "index": 7,
+   "text": "ms"
+  },
+  {
+   "index": 8,
+   "text": "0C"
+  },
+  {
+   "index": 9,
+   "text": "0F"
+  },
+  {
+   "index": 10,
+   "text": "h"
+  },
+  {
+   "index": 11,
+   "text": "min"
+  },
+  {
+   "index": 12,
+   "text": "inHg"
+  },
+  {
+   "index": 13,
+   "text": "psi"
+  },
+  {
+   "index": 14,
+   "text": "%"
+  },
+  {
+   "index": 15,
+   "text": "0:OFF 1:ON"
+  },
+  {
+   "index": 16,
+   "text": "hPa"
+  },
+  {
+   "index": 17,
+   "text": "kPa"
+  },
+  {
+   "index": 18,
+   "text": "sec"
+  },
+  {
+   "index": 19,
+   "text": "Times"
+  },
+  {
+   "index": 20,
+   "text": "step"
+  },
+  {
+   "index": 21,
+   "text": "km/h"
+  },
+  {
+   "index": 22,
+   "text": "mph"
+  }
+ ],
+ "messages": [
+  {
+   "index": 1,
+   "text": "Ignition coil #1 selected."
+  },
+  {
+   "index": 2,
+   "text": "Ignition coil #2 selected."
+  },
+  {
+   "index": 3,
+   "text": "Ignition coil #3 selected."
+  },
+  {
+   "index": 4,
+   "text": "Ignition coil #4 selected."
+  },
+  {
+   "index": 5,
+   "text": "Ignition coil #5 selected."
+  },
+  {
+   "index": 6,
+   "text": "Ignition coil #6 selected."
+  },
+  {
+   "index": 7,
+   "text": "Injector #1 selected."
+  },
+  {
+   "index": 8,
+   "text": "Injector #2 selected."
+  },
+  {
+   "index": 9,
+   "text": "Injector #3 selected."
+  },
+  {
+   "index": 10,
+   "text": "Injector #4 selected."
+  },
+  {
+   "index": 11,
+   "text": "Injector #5 selected."
+  },
+  {
+   "index": 12,
+   "text": "Injector #6 selected."
+  },
+  {
+   "index": 13,
+   "text": "Electric fuel pump selected."
+  },
+  {
+   "index": 14,
+   "text": "Electric oil pump selected."
+  },
+  {
+   "index": 15,
+   "text": "Cylinder #1 selected."
+  },
+  {
+   "index": 16,
+   "text": "Cylinder #2 selected."
+  },
+  {
+   "index": 17,
+   "text": "Cylinder #3 selected."
+  },
+  {
+   "index": 18,
+   "text": "Cylinder #4 selected."
+  },
+  {
+   "index": 19,
+   "text": "Cylinder #5 selected."
+  },
+  {
+   "index": 20,
+   "text": "Cylinder #6 selected."
+  },
+  {
+   "index": 21,
+   "text": "Injector #1 is stopped."
+  },
+  {
+   "index": 22,
+   "text": "Injector #2 is stopped."
+  },
+  {
+   "index": 23,
+   "text": "Injector #3 is stopped."
+  },
+  {
+   "index": 24,
+   "text": "Injector #4 is stopped."
+  },
+  {
+   "index": 25,
+   "text": "Injector #5 is stopped."
+  },
+  {
+   "index": 26,
+   "text": "Injector #6 is stopped."
+  },
+  {
+   "index": 27,
+   "text": "O2sensor?????"
+  },
+  {
+   "index": 28,
+   "text": "Erase the data from EEPROM."
+  },
+  {
+   "index": 29,
+   "text": "Fully open the ISC valve."
+  },
+  {
+   "index": 30,
+   "text": "Angle of ISC valve opening selected. Adjust throttle valve opening while testing."
+  },
+  {
+   "index": 31,
+   "text": "Idle speed selected. ECM program data can be updated after testing."
+  },
+  {
+   "index": 32,
+   "text": "Ignition coils #1 && #4 selected."
+  },
+  {
+   "index": 33,
+   "text": "Ignition coils #2 && #3 selected."
+  },
+  {
+   "index": 34,
+   "text": "Injectors #1 && #4 selected."
+  },
+  {
+   "index": 35,
+   "text": "Injectors #2 && #3 selected."
+  },
+  {
+   "index": 36,
+   "text": "ISC valve selected."
+  },
+  {
+   "index": 37,
+   "text": "Ignition coils #2 && #5 selected."
+  },
+  {
+   "index": 38,
+   "text": "Ignition coils #3 && #6 selected."
+  },
+  {
+   "index": 39,
+   "text": "Injectors #2 && #5 selected."
+  },
+  {
+   "index": 40,
+   "text": "Injectors #3 && #6 selected."
+  },
+  {
+   "index": 41,
+   "text": "Electric fuel feed pump selected."
+  },
+  {
+   "index": 42,
+   "text": "Stepping motor selected."
+  },
+  {
+   "index": 43,
+   "text": "YPVS selected."
+  },
+  {
+   "index": 44,
+   "text": "Bypassvalvemotor selected."
+  },
+  {
+   "index": 45,
+   "text": "Operate oil control valve(S bank) Selected."
+  },
+  {
+   "index": 46,
+   "text": "Operate oil control valve(P bank) Selected."
+  },
+  {
+   "index": 47,
+   "text": "Oil Control Valve (STBD) selected."
+  },
+  {
+   "index": 48,
+   "text": "Oil Control Valve (PORT) selected."
+  },
+  {
+   "index": 49,
+   "text": "Cylinder #7 selected."
+  },
+  {
+   "index": 50,
+   "text": "Cylinder #8 selected."
+  },
+  {
+   "index": 51,
+   "text": "Ignition coil #7 selected."
+  },
+  {
+   "index": 52,
+   "text": "Ignition coil #8 selected."
+  },
+  {
+   "index": 53,
+   "text": "Injector #7 selected."
+  },
+  {
+   "index": 54,
+   "text": "Injector #8 selected."
+  },
+  {
+   "index": 4097,
+   "text": "Make sure that the engine is not running. Install spark gap tester."
+  },
+  {
+   "index": 4098,
+   "text": "Make sure that the engine is not running."
+  },
+  {
+   "index": 4099,
+   "text": "Set shift into the neutral position."
+  },
+  {
+   "index": 4100,
+   "text": "????????(O2sensor)"
+  },
+  {
+   "index": 4101,
+   "text": "Make sure that the engine is not running."
+  },
+  {
+   "index": 4102,
+   "text": "Set shift into the neutral position, and warm up the engine. Test finishes in 30 minutes."
+  },
+  {
+   "index": 4103,
+   "text": "Set shift into the neutral position. Warm up engine. Input idle speed on PC."
+  },
+  {
+   "index": 4104,
+   "text": "Return the throttle lever."
+  },
+  {
+   "index": 8193,
+   "text": "NOTE: Ignition coil is being tested for spark. Check spark. Do not touch spark plug lead."
+  },
+  {
+   "index": 8194,
+   "text": "NOTE: Activate fuel pump and carry out test. Listen for activation. Do not touch injector connector."
+  },
+  {
+   "index": 8195,
+   "text": "NOTE: Electric fuel pump is activated. Listen for activation."
+  },
+  {
+   "index": 8196,
+   "text": "NOTE: Check if engine speed has decreased."
+  },
+  {
+   "index": 8197,
+   "text": "NOTE: For operation procedures refer to the instruction manual."
+  },
+  {
+   "index": 8198,
+   "text": "????????(Injector Stop)"
+  },
+  {
+   "index": 8199,
+   "text": "????????(O2sensor)"
+  },
+  {
+   "index": 8200,
+   "text": "NOTE: ISC valve is being tested. Listen for activation."
+  },
+  {
+   "index": 8201,
+   "text": "NOTE: The fully open ISC valve is being tested. Check that engine speed increases."
+  },
+  {
+   "index": 8202,
+   "text": "NOTE: The angle of ISC valve opening is being tested. Refer to the service manual for this test."
+  },
+  {
+   "index": 8203,
+   "text": "NOTE: Test is activated. Change shift and confirm engine speed. Set shift into N to operate PC."
+  },
+  {
+   "index": 8204,
+   "text": "NOTE: Do not operate without fuel. Electric fuel feed pump is activated. Listen for activation."
+  },
+  {
+   "index": 8205,
+   "text": "NOTE: Injector is activated. Listen for activation. Do not touch injector connector."
+  },
+  {
+   "index": 8206,
+   "text": "NOTE: Do not operate without fuel. Electric fuel pump is activated. Listen for activation."
+  },
+  {
+   "index": 8207,
+   "text": "NOTE:Stepping motor is activated. Listen for activation. Do not touch stepping motor connector."
+  },
+  {
+   "index": 8208,
+   "text": "NOTE:YPVS is activated. Listen for activation. Do not touch stepping motor connector."
+  },
+  {
+   "index": 8209,
+   "text": "NOTE: Ignition coils are being tested for spark. Check spark. Do not touch spark plug lead."
+  },
+  {
+   "index": 8210,
+   "text": "NOTE:Bypassvalvemotor is activated. Listen for activation. Do not touch bypassvalvemotor connector."
+  },
+  {
+   "index": 8211,
+   "text": "NOTE: Oil Control Valve is being tested. Listen for activation."
+  },
+  {
+   "index": 12289,
+   "text": "Ignition test has been conducted on ignition coil #1."
+  },
+  {
+   "index": 12290,
+   "text": "Ignition test has been conducted on ignition coil #2."
+  },
+  {
+   "index": 12291,
+   "text": "Ignition test has been conducted on ignition coil #3."
+  },
+  {
+   "index": 12292,
+   "text": "Ignition test has been conducted on ignition coil #4."
+  },
+  {
+   "index": 12293,
+   "text": "Ignition test has been conducted on ignition coil #5."
+  },
+  {
+   "index": 12294,
+   "text": "Ignition test has been conducted on ignition coil #6."
+  },
+  {
+   "index": 12295,
+   "text": "Injector test has been conducted on injector #1."
+  },
+  {
+   "index": 12296,
+   "text": "Injector test has been conducted on injector #2."
+  },
+  {
+   "index": 12297,
+   "text": "Injector test has been conducted on injector #3."
+  },
+  {
+   "index": 12298,
+   "text": "Injector test has been conducted on injector #4."
+  },
+  {
+   "index": 12299,
+   "text": "Injector test has been conducted on injector #5."
+  },
+  {
+   "index": 12300,
+   "text": "Injector test has been conducted on injector #6."
+  },
+  {
+   "index": 12301,
+   "text": "Electric fuel pump test has been conducted."
+  },
+  {
+   "index": 12302,
+   "text": "Electric oil pump test has been conducted."
+  },
+  {
+   "index": 12303,
+   "text": "Test has been conducted on cylinder #1."
+  },
+  {
+   "index": 12304,
+   "text": "Test has been conducted on cylinder #2."
+  },
+  {
+   "index": 12305,
+   "text": "Test has been conducted on cylinder #3."
+  },
+  {
+   "index": 12306,
+   "text": "Test has been conducted on cylinder #4."
+  },
+  {
+   "index": 12307,
+   "text": "Test has been conducted on cylinder #5."
+  },
+  {
+   "index": 12308,
+   "text": "Test has been conducted on cylinder #6."
+  },
+  {
+   "index": 12309,
+   "text": "Engine partial service test has been conducted on injector #1."
+  },
+  {
+   "index": 12310,
+   "text": "Engine partial service test has been conducted on injector #2."
+  },
+  {
+   "index": 12311,
+   "text": "Engine partial service test has been conducted on injector #3."
+  },
+  {
+   "index": 12312,
+   "text": "Engine partial service test has been conducted on injector #4."
+  },
+  {
+   "index": 12313,
+   "text": "Engine partial service test has been conducted on injector #5."
+  },
+  {
+   "index": 12314,
+   "text": "Engine partial service test has been conducted on injector #6."
+  },
+  {
+   "index": 12315,
+   "text": "????????(O2sensor)"
+  },
+  {
+   "index": 12316,
+   "text": "Test has been conducted on the fully open ISC valve."
+  },
+  {
+   "index": 12317,
+   "text": "Idle speed test has been conducted."
+  },
+  {
+   "index": 12318,
+   "text": "Ignition test has been conducted on ignition coils #1 && #4."
+  },
+  {
+   "index": 12319,
+   "text": "Ignition test has been conducted on ignition coils #2 && #3."
+  },
+  {
+   "index": 12320,
+   "text": "Injector test has been conducted on injectors #1 && #4."
+  },
+  {
+   "index": 12321,
+   "text": "Injector test has been conducted on injectors #2 && #3."
+  },
+  {
+   "index": 12322,
+   "text": "ISC valve opening test has been conducted."
+  },
+  {
+   "index": 12323,
+   "text": "Ignition test has been conducted on ignition coils #2 && #5."
+  },
+  {
+   "index": 12324,
+   "text": "Ignition test has been conducted on ignition coils #3 && #6."
+  },
+  {
+   "index": 12325,
+   "text": "Injector test has been conducted on injectors #2 && #5."
+  },
+  {
+   "index": 12326,
+   "text": "Injector test has been conducted on injectors #3 && #6."
+  },
+  {
+   "index": 12327,
+   "text": "Electric fuel feed pump test has been conducted."
+  },
+  {
+   "index": 12328,
+   "text": "Test has been conducted on ISC valve opening angle."
+  },
+  {
+   "index": 12329,
+   "text": "Stepping motor test has been conducted."
+  },
+  {
+   "index": 12330,
+   "text": "YPVS test has been conducted."
+  },
+  {
+   "index": 12332,
+   "text": "Bypassvalvemotor test has been conducted."
+  },
+  {
+   "index": 12333,
+   "text": "Oil Control Valve (STBD) test has been conducted."
+  },
+  {
+   "index": 12334,
+   "text": "Oil Control Valve (PORT) test has been conducted."
+  },
+  {
+   "index": 12335,
+   "text": "Test has been conducted on cylinder #7."
+  },
+  {
+   "index": 12336,
+   "text": "Test has been conducted on cylinder #8."
+  },
+  {
+   "index": 12337,
+   "text": "Ignition test has been conducted on ignition coil #7."
+  },
+  {
+   "index": 12338,
+   "text": "Ignition test has been conducted on ignition coil #8."
+  },
+  {
+   "index": 12339,
+   "text": "Injector test has been conducted on injector #7."
+  },
+  {
+   "index": 12340,
+   "text": "Injector test has been conducted on injector #8."
+  },
+  {
+   "index": 16385,
+   "text": "Engine is running. Test again after turning the engine off."
+  },
+  {
+   "index": 16386,
+   "text": "Engine has stopped or shift set  to F or R. Test again after starting engine or setting shift into N"
+  },
+  {
+   "index": 16387,
+   "text": "Engine is running or low fuel pressure. Retest after turning off engine or checking for enough fuel."
+  },
+  {
+   "index": 16388,
+   "text": "Water temperature is cold. Test again after warming up."
+  },
+  {
+   "index": 16389,
+   "text": "Test again after starting engine or setting shift into N."
+  },
+  {
+   "index": 16390,
+   "text": "Engine has stopped or shifter is in F or R. Test again after starting engine or setting shift into N"
+  },
+  {
+   "index": 16391,
+   "text": "Test again after starting engine or setting shift into N, and again after warming up the engine."
+  },
+  {
+   "index": 16392,
+   "text": "Engine is running or shifter is in F or R. Test again after stopping engine or setting shift into N."
+  },
+  {
+   "index": 16393,
+   "text": "Engine is running or the throttle is too open. Test again after turning engine off or closing valve."
+  },
+  {
+   "index": 16394,
+   "text": "Engine has stopped or the throttle is too open. Test again after starting engine or closing valve."
+  },
+  {
+   "index": 20481,
+   "text": "Engine may start running during test."
+  },
+  {
+   "index": 20482,
+   "text": "Do not touch the engine."
+  },
+  {
+   "index": 20483,
+   "text": "ISC valve is fully open. The engine speed is increased."
+  },
+  {
+   "index": 20484,
+   "text": "Refer to service manual for adjustment of the throttle valve opening."
+  },
+  {
+   "index": 20485,
+   "text": "Reset if you want idle speed to be reset to condition at shipping."
+  },
+  {
+   "index": 20486,
+   "text": "ECM program data is updated after executing Update."
+  },
+  {
+   "index": 20487,
+   "text": "Stay clear of rotating."
+  },
+  {
+   "index": 20488,
+   "text": "Do not operate without fuel."
+  },
+  {
+   "index": 20489,
+   "text": "ISC valve is fully open. The engine speed is increased. Do not change shifter during test."
+  },
+  {
+   "index": 20490,
+   "text": "Refer to the service manual for adjusting the throttle valve opening."
+  },
+  {
+   "index": 20491,
+   "text": "Status:ISC valve opening is fixed during testing."
+  },
+  {
+   "index": 20492,
+   "text": "Test pattern"
+  },
+  {
+   "index": 20493,
+   "text": "10sec: all cyl.  ->  5sec: Drop a selected cyl.  ->  5sec: all cyl."
+  },
+  {
+   "index": 40961,
+   "text": "Irregular signal"
+  },
+  {
+   "index": 40962,
+   "text": "Out of specification"
+  },
+  {
+   "index": 40963,
+   "text": "Below specified voltage"
+  },
+  {
+   "index": 40964,
+   "text": "Water in fuel"
+  },
+  {
+   "index": 40965,
+   "text": "Engine stop lanyard switch ON"
+  },
+  {
+   "index": 40966,
+   "text": "Air leak"
+  },
+  {
+   "index": 40967,
+   "text": "Choke"
+  },
+  {
+   "index": 40968,
+   "text": "Memory data is incorrect"
+  },
+  {
+   "index": 40969,
+   "text": "Engine temperature too low"
+  },
+  {
+   "index": 40970,
+   "text": "Water temperature too high"
+  },
+  {
+   "index": 40971,
+   "text": "Oil pressure too low"
+  },
+  {
+   "index": 40972,
+   "text": "Overheat"
+  },
+  {
+   "index": 40973,
+   "text": "Fuel pressure too low"
+  },
+  {
+   "index": 40974,
+   "text": "Irregular intake air"
+  },
+  {
+   "index": 40975,
+   "text": "Irregular cam timing"
+  },
+  {
+   "index": 40976,
+   "text": "Irregular electric current"
+  },
+  {
+   "index": 40977,
+   "text": "Irregular load current value"
+  },
+  {
+   "index": 40978,
+   "text": "Throttle valve malfunction"
+  },
+  {
+   "index": 40979,
+   "text": "Stuck open or close"
+  },
+  {
+   "index": 40980,
+   "text": "Communication error"
+  },
+  {
+   "index": 40981,
+   "text": "LPS Irregular signal"
+  },
+  {
+   "index": 45057,
+   "text": "1. Check wiring for proper connection or damage."
+  },
+  {
+   "index": 45058,
+   "text": "2. Check connection between battery cable and battery terminal."
+  },
+  {
+   "index": 45059,
+   "text": "1.Check no air is leaking in intake passage."
+  },
+  {
+   "index": 45063,
+   "text": "1. Check engine stop lanyard connection."
+  },
+  {
+   "index": 45064,
+   "text": "2. Check coil resistance."
+  },
+  {
+   "index": 45065,
+   "text": "2. Check sensor resistance."
+  },
+  {
+   "index": 45066,
+   "text": "2. Check operation of injector using the Stationary Test."
+  },
+  {
+   "index": 45067,
+   "text": "2. Check for shift position switch using the Engine Monitor."
+  },
+  {
+   "index": 45068,
+   "text": "3. Check battery voltage for a minimum of 12V."
+  },
+  {
+   "index": 45069,
+   "text": "2. ISC2"
+  },
+  {
+   "index": 45073,
+   "text": "2. Test the operation of the engine stop lanyard switch using the Engine Monitor."
+  },
+  {
+   "index": 45074,
+   "text": "2. Check wiring for proper connection or damage."
+  },
+  {
+   "index": 45082,
+   "text": "3. Check output peak voltage."
+  },
+  {
+   "index": 45083,
+   "text": "1. Check the Engine Monitor."
+  },
+  {
+   "index": 45084,
+   "text": "3. Check sensor resistance."
+  },
+  {
+   "index": 45085,
+   "text": "3. Check output voltage."
+  },
+  {
+   "index": 45086,
+   "text": "1. Check for water in fuel filter."
+  },
+  {
+   "index": 45087,
+   "text": "3. Check the water detection switch in fuel filter."
+  },
+  {
+   "index": 45089,
+   "text": "3. Check wiring for proper connection or damage."
+  },
+  {
+   "index": 45090,
+   "text": "3. Check sensor resistance. 4. Check output voltage."
+  },
+  {
+   "index": 45091,
+   "text": "2. Check the Engine Monitor."
+  },
+  {
+   "index": 45092,
+   "text": "3. Check output voltage."
+  },
+  {
+   "index": 45093,
+   "text": "3. Check sensor resistance. 4. Check output voltage."
+  },
+  {
+   "index": 45094,
+   "text": "2. Check for oil press switch using the Engine Monitor when engine is"
+  },
+  {
+   "index": 45095,
+   "text": "1. Check thermostat is choked."
+  },
+  {
+   "index": 45096,
+   "text": "not running."
+  },
+  {
+   "index": 45097,
+   "text": "1. Check the overheat thermoswitch with Engine Monitor."
+  },
+  {
+   "index": 45098,
+   "text": "1. Check the time of operation record."
+  },
+  {
+   "index": 45099,
+   "text": "3. Check the charging system output peak voltage."
+  },
+  {
+   "index": 45100,
+   "text": "3. Check switch for continuity when shifter is in F or R."
+  },
+  {
+   "index": 45101,
+   "text": "3. Check input and output voltage."
+  },
+  {
+   "index": 45102,
+   "text": "2. Check the engine stop lanyard switch with Engine Monitor."
+  },
+  {
+   "index": 45103,
+   "text": "1. Check the shift cut-off switch with Engine Monitor."
+  },
+  {
+   "index": 45107,
+   "text": "1. Check the engine temp sensor with Engine Monitor."
+  },
+  {
+   "index": 45108,
+   "text": "1. Check the throttle position sensor with Engine Monitor."
+  },
+  {
+   "index": 45109,
+   "text": "1. Check the battery voltage with Engine Monitor."
+  },
+  {
+   "index": 45110,
+   "text": "1. Check the intake temp sensor with Engine Monitor."
+  },
+  {
+   "index": 45111,
+   "text": "1. Check the shift position switch with Engine Monitor."
+  },
+  {
+   "index": 45112,
+   "text": "1. Check for water in fuel filter. 2. Check the Engine Monitor."
+  },
+  {
+   "index": 45113,
+   "text": "1. Check the oil pressure sensor with Engine Monitor."
+  },
+  {
+   "index": 45114,
+   "text": "1. Check the oil press sensor with the Engine Monitor."
+  },
+  {
+   "index": 45115,
+   "text": "3. Check sensor resistance. 4. Check input and output voltage."
+  },
+  {
+   "index": 45116,
+   "text": "1. Check the water temp sensor with Engine Monitor."
+  },
+  {
+   "index": 45117,
+   "text": "1. Check the intake pressure sensor with Engine Monitor."
+  },
+  {
+   "index": 45118,
+   "text": "1. Check thermostat operation and cooling system."
+  },
+  {
+   "index": 45119,
+   "text": "3. Check output voltage when shift cut-off switch is off."
+  },
+  {
+   "index": 45120,
+   "text": "3. Check overheat thermoswitch for continuity."
+  },
+  {
+   "index": 45121,
+   "text": "4. Check water detection switch for continuity."
+  },
+  {
+   "index": 45122,
+   "text": "1. Check no air is leaking in intake passage."
+  },
+  {
+   "index": 45123,
+   "text": "2. Check input and output voltage."
+  },
+  {
+   "index": 45124,
+   "text": "1. Check the slant detection switch with Engine Monitor."
+  },
+  {
+   "index": 45125,
+   "text": "3. Check output voltage when slant detection switch is off."
+  },
+  {
+   "index": 45126,
+   "text": "1. Check oil level."
+  },
+  {
+   "index": 45127,
+   "text": "2. Check water inlet for obstructions."
+  },
+  {
+   "index": 45128,
+   "text": "3. Check oil level."
+  },
+  {
+   "index": 45129,
+   "text": "2. Check fuel filter for obstructions."
+  },
+  {
+   "index": 45130,
+   "text": "3. Check fuel pipe for damage or bends."
+  },
+  {
+   "index": 45131,
+   "text": "2. Check intake air pipe for damage or bends."
+  },
+  {
+   "index": 45132,
+   "text": "1. Check the stepping motor with Engine Monitor."
+  },
+  {
+   "index": 45133,
+   "text": "1. Check the steering switch with Engine Monitor."
+  },
+  {
+   "index": 45134,
+   "text": "1. Check the exhaust manifold water temp. sensor with Engine Monitor."
+  },
+  {
+   "index": 45135,
+   "text": "1. Check the YPVS with Engine Monitor."
+  },
+  {
+   "index": 45136,
+   "text": "1. Check the bypass valve motor with Engine Monitor."
+  },
+  {
+   "index": 45137,
+   "text": "1. Check the Throttle position sensor with Engine Monitor."
+  },
+  {
+   "index": 45138,
+   "text": "1. Check the Accel position sensor with Engine Monitor."
+  },
+  {
+   "index": 45139,
+   "text": "1. Check the Code with Diagnosis record."
+  },
+  {
+   "index": 45140,
+   "text": "2. ****"
+  },
+  {
+   "index": 45141,
+   "text": "1. Check the cam timing with Engine Monitor."
+  },
+  {
+   "index": 45142,
+   "text": "2. Check oil control valve resistance."
+  },
+  {
+   "index": 45143,
+   "text": "1. Check for air leaking in intake passage."
+  },
+  {
+   "index": 45144,
+   "text": "1. Check camshaft timing with Engine Monitor."
+  },
+  {
+   "index": 45145,
+   "text": "1. Check oil control valve operation using the Stationary Test."
+  },
+  {
+   "index": 45146,
+   "text": "2. Check IN cam timing: 100 or less with Engine Monitor in N shift."
+  },
+  {
+   "index": 45147,
+   "text": "3. Check oil control valve oil filter."
+  },
+  {
+   "index": 45148,
+   "text": "1. Check sensor 1 and sensor 2 output voltage with Engine Monitor."
+  },
+  {
+   "index": 45149,
+   "text": "1. Check throttle valve motor wiring for proper connection or damage."
+  },
+  {
+   "index": 45150,
+   "text": "2. Check throttle valve motor resistance."
+  },
+  {
+   "index": 45151,
+   "text": "3. Check throttle valve operation."
+  },
+  {
+   "index": 45152,
+   "text": "1. Check the steering sensor with Engine Monitor."
+  },
+  {
+   "index": 45153,
+   "text": "1. Check intake cam timing with Engine Monitor."
+  },
+  {
+   "index": 45154,
+   "text": "1. Check intake cam timing (STBD) with Engine Monitor."
+  },
+  {
+   "index": 45155,
+   "text": "1. Check intake cam timing (PORT) with Engine Monitor."
+  },
+  {
+   "index": 45156,
+   "text": "1. Check the Variable valve sensor with Engine Monitor."
+  },
+  {
+   "index": 45157,
+   "text": "2. Check oil actuator resistance."
+  },
+  {
+   "index": 45158,
+   "text": "1. Check the Trim/tilt sensor with Engine Monitor."
+  },
+  {
+   "index": 45159,
+   "text": "2. Check free movement of sensor."
+  },
+  {
+   "index": 45160,
+   "text": "1. Check the shift position sensor with Engine Monitor."
+  },
+  {
+   "index": 45161,
+   "text": "1. Check the Lever position sensor with Engine Monitor."
+  },
+  {
+   "index": 45162,
+   "text": "1. Check No-Wake Mode switch with Engine Monitor."
+  },
+  {
+   "index": 45163,
+   "text": "1. Check the cruise assist switch with Engine Monitor."
+  },
+  {
+   "index": 45164,
+   "text": "1. Check the reverse switch with Engine Monitor."
+  },
+  {
+   "index": 45165,
+   "text": "1 .Check No-Wake/Cruise Assist SW (+) with Engine Monitor."
+  },
+  {
+   "index": 45166,
+   "text": "1. Check No-Wake/Cruise Assist SW (-) with Engine Monitor."
+  },
+  {
+   "index": 45167,
+   "text": "2. Check wiring for proper connection or damage."
+  },
+  {
+   "index": 45168,
+   "text": "3. Check output voltage."
+  }
+ ],
+ "binary_tables": {
+  "seact": {
+   "record_size": 6,
+   "records": 417
+  },
+  "seanybit": {
+   "record_size": 6,
+   "records": 25
+  },
+  "sebyte": {
+   "record_size": 5,
+   "records": 62
+  }
+ },
+ "systems": {
+  "SE0000.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     16385,
+     256,
+     1
+    ],
+    [
+     511,
+     11,
+     2
+    ],
+    [
+     2,
+     3583,
+     65472
+    ]
+   ]
+  },
+  "SE0001.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     256,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0002.dbf": {
+   "header": {
+    "part_number": "F007T90881F-9302-128SE09011",
+    "date": "20081216",
+    "version": "1.80.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0003.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0004.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0005.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     16385,
+     256,
+     1
+    ],
+    [
+     511,
+     11,
+     2
+    ],
+    [
+     2,
+     7679,
+     65472
+    ]
+   ]
+  },
+  "SE0006.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0007.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-094SE04061",
+    "date": "20040512",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     256,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0008.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20041022",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65280,
+     65535
+    ],
+    [
+     511,
+     8448,
+     65535
+    ]
+   ]
+  },
+  "SE0009.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20041022",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65280,
+     65535
+    ],
+    [
+     511,
+     8704,
+     65535
+    ]
+   ]
+  },
+  "SE0010.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-094SE04061",
+    "date": "20041022",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     8960,
+     65535
+    ]
+   ]
+  },
+  "SE0011.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20041022",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65280,
+     65535
+    ],
+    [
+     511,
+     9216,
+     65535
+    ]
+   ]
+  },
+  "SE0012.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-094SE04061",
+    "date": "20041022",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     9472,
+     65535
+    ]
+   ]
+  },
+  "SE0013.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-118SE07031",
+    "date": "20070301",
+    "version": "1.74.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     1,
+     260,
+     170
+    ],
+    [
+     694,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65464
+    ]
+   ]
+  },
+  "SE0014.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-124SE07031",
+    "date": "20080123",
+    "version": "1.77.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     1,
+     260,
+     170
+    ],
+    [
+     694,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65464
+    ]
+   ]
+  },
+  "SE0015.dbf": {
+   "header": {
+    "part_number": "F007T90879F-9302-401SE08021",
+    "date": "20080328",
+    "version": "1.79.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE0016.dbf": {
+   "header": {
+    "part_number": "F007T90881F-9302-131SE09011",
+    "date": "20090303",
+    "version": "1.82.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     1,
+     260,
+     170
+    ],
+    [
+     694,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65464
+    ]
+   ]
+  },
+  "SE0017.dbf": {
+   "header": {
+    "part_number": "F007T90881F-9302-132SE07031",
+    "date": "20090513",
+    "version": "1.83.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     1,
+     260,
+     170
+    ],
+    [
+     694,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65464
+    ]
+   ]
+  },
+  "SE0018.dbf": {
+   "header": {
+    "part_number": "F007T90881F-9302-136SE09101",
+    "date": "20091001",
+    "version": "1.85.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     1,
+     260,
+     170
+    ],
+    [
+     694,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65464
+    ]
+   ]
+  },
+  "SE1000.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE1001.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06121",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE1002.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-091SE03061",
+    "date": "20030616",
+    "version": "1.60.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     2
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE1003.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06121",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     257,
+     257,
+     1
+    ],
+    [
+     512,
+     0,
+     16
+    ],
+    [
+     2,
+     255,
+     65535
+    ]
+   ]
+  },
+  "SE1004.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06121",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     9728,
+     65535
+    ]
+   ]
+  },
+  "SE1005.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06121",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     9984,
+     65535
+    ]
+   ]
+  },
+  "SE1006.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06041",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65280,
+     65535
+    ],
+    [
+     511,
+     10240,
+     65535
+    ]
+   ]
+  },
+  "SE1007.dbf": {
+   "header": {
+    "part_number": "F007T90876F-9302-095SE04061",
+    "date": "20041022",
+    "version": "1.61.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     10496,
+     65535
+    ]
+   ]
+  },
+  "SE1010.dbf": {
+   "header": {
+    "part_number": "F007T90878F-9302-116SE06121",
+    "date": "20061209",
+    "version": "1.73.0.0",
+    "description": "System File"
+   },
+   "entries": [
+    [
+     20,
+     24,
+     1
+    ],
+    [
+     21,
+     25,
+     1
+    ],
+    [
+     22,
+     26,
+     1
+    ],
+    [
+     23,
+     27,
+     1
+    ],
+    [
+     24,
+     28,
+     2
+    ],
+    [
+     25,
+     30,
+     2
+    ],
+    [
+     26,
+     32,
+     2
+    ],
+    [
+     27,
+     34,
+     2
+    ],
+    [
+     28,
+     36,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     31,
+     42,
+     2
+    ],
+    [
+     32,
+     44,
+     4
+    ],
+    [
+     33,
+     48,
+     4
+    ],
+    [
+     34,
+     52,
+     4
+    ],
+    [
+     35,
+     56,
+     1
+    ],
+    [
+     36,
+     57,
+     2
+    ],
+    [
+     37,
+     59,
+     2
+    ],
+    [
+     4097,
+     65024,
+     65535
+    ],
+    [
+     511,
+     12544,
+     65535
+    ]
+   ]
+  }
+ },
+ "ydis_categories": {
+  "COMMON MESSAGE ---->START": [
+   "",
+   "OK",
+   "Cancel",
+   "Return [ESC]",
+   "Error",
+   "Command Confirmation",
+   "Main Menu",
+   "Diagnosis",
+   "Diagnosis Record",
+   "Engine Monitor",
+   "Stationary Test",
+   "Active Test",
+   "Data Logger",
+   "Some Files",
+   "Exit",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "Unavailable",
+   "No.",
+   "Code",
+   "Item",
+   "Result",
+   "Unit",
+   "Monitor Item",
+   "Press Enter to previous menu.",
+   "Press Enter to return to first menu.",
+   "Press Enter to exit program.",
+   "Press Enter to return to previous screen."
+  ],
+  "TITLEDLG---->START": [
+   "Starting service tool             [Enter]",
+   "Update database                 [F1]",
+   "Change Colors                     [F10]"
+  ],
+  "SELECT DRIVE---->START": [
+   "Select drive",
+   "Select the installation source drive."
+  ],
+  "TOPMESSAGE---->START": [
+   "SAFETY INFORMATION",
+   "Make sure to read the YAMAHA DIAGNOSTIC SYSTEM instruction manual and warnings \\rand cautions in the service manual concerned before operating the diagnostic system.\\rDo not conduct the diagnostic test without reviewing these manuals.",
+   "CAUTION",
+   "Make sure to read your PC user's manual before operating the  diagnostic system.\\rMake sure that the PC and communication cable terminal are not splashed \\rwith water during operation.",
+   "SET UP",
+   "To set up the diagnostic system, take the following steps to prevent the PC \\rfrom malfunctioning or being damaged.(Outboard Engine,WaterCraft)\\rCheck that the battery is fully charged. (Outboard Engine,WaterCraft)\\rCheck that the battery terminals are not corroded and that the battery cable is connected securely. (Outboard Engine,WaterCraft)\\rCheck that the connections of the communication cable and electrical wiring are secure. (Outboard Engine,WaterCraft)\\rCheck that the fuse is not burned out. (Outboard Engine,WaterCraft)\\rSet the shift into the neutral position. (Outboard Engine)\\rMake sure to moor the WaterCraft. (WaterCraft).\\rConnect the communication cable to the PC and ECM. (Outboard Engine,WaterCraft)\\rTurn the engine main switch to ON. (Outboard Engine)\\rPush the start switch to start the engine. (WaterCraft)",
+   "Click or press any key to continue."
+  ],
+  "Menu EXIT Confirmation": [
+   "Exit program?",
+   "Press Esc to return to previous menu."
+  ],
+  "App & DBfile is not installed properly": [
+   "Program file or Database file is not installed properly.\\rPlease install again."
+  ],
+  "COM & ECM ERROR": [
+   "OffLine",
+   "Communication error occurred between \\rthe PC and ECM.\\r",
+   "Check that the main switch is ON and that \\rthe communication cable is connected properly.",
+   "Check that the engine is running and that \\rthe communication cable is connected properly.",
+   "This software is exclusive use for WaterCraft.\\rConnect the communication cable to the PC and WaterCraft."
+  ],
+  "System File ERROR": [
+   "System file not found \"%s\"."
+  ],
+  "DataBase File ERROR": [
+   "Database file not found \"%s\"."
+  ],
+  "UPDATE DATABASE": [
+   "Updating Database File",
+   "Insert update disk to update database.",
+   "Press Enter to update database file.\\rPress Esc to cancel."
+  ],
+  "UPDATING DATABASE": [
+   "Please wait while your computer updates the database file."
+  ],
+  "ERROR(UPDATING DATABASE)": [
+   "Database file not found on disk.\\rExit program."
+  ],
+  "AFTER UPDATING DATABASE": [
+   "Press Esc to return to first menu."
+  ],
+  "Diagnosis Record Confirmation": [
+   "Diagnosis record available.",
+   "Press Enter to go to Main Menu."
+  ],
+  "MAIN MENU(RIGHT)---->START": [
+   "Click or press the 1 - 8 keys to select a menu."
+  ],
+  "DIAGNOSIS---->START": [
+   "Condition",
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress F1 to print, F2 to save.",
+   "Print [F1]",
+   "Save [F2]"
+  ],
+  "Diagnosis Record---->START": [
+   "Occurred",
+   "Total hours of operation",
+   "Use UP and DN arrow keys to select item.\\rPress F3 to delete.\\rPress F1 to print, F2 to save.",
+   "Print [F1]",
+   "Save [F2]",
+   "Delete[F3]",
+   "Diagnosis Record is unavailable.",
+   "Engine Record"
+  ],
+  "Diagnosis Record ERASE Confirmation": [
+   "Delete Diagnosis Record No. %d?",
+   "Press Enter to delete Diagnosis Record.\\rPress Esc to cancel."
+  ],
+  "Diagnosis Record ERASE ERROR": [
+   "Diagnosis Record could not be deleted.",
+   "Engine Record could not be deleted."
+  ],
+  "Engine Monitor---->START": [
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress F1 to print, F2 to save, F3 to display data.\\rPress F4 to Engine Monitor Comparison Graph.",
+   "Print [F1]",
+   "Save [F2]",
+   "Select [F3]",
+   "Graph [F4]"
+  ],
+  "Monitor Item Selection---->START": [
+   "Monitor Item Selection",
+   "Use UP and DN arrow keys to scroll page.\\rPress spacebar to select items. Press Enter to display item.\\rPress Esc to return to previous screen."
+  ],
+  "Engine Monitor Comparison Graph---->START": [
+   "Engine Monitor Comparison Graph",
+   "Time",
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress F1 to print, F2 to save,Press F3 to start to monitor.\\rPress ESC to return to previous screen.",
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress F3 to end to monitor.",
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress F1 to print.\\rPress ESC to return to previous screen.",
+   "Print [F1]",
+   "Save [F2]",
+   "Start [F3]",
+   "Stop [F3]",
+   "*4",
+   "*2",
+   "/2",
+   "/4",
+   "<<",
+   "<",
+   ">",
+   ">>",
+   "All",
+   "Reset[F5]",
+   "Property[F6]",
+   "Load[F10]",
+   "Time [Sec]"
+  ],
+  "NO MONITOR PARAMETER ERROR": [
+   "None of the parameters was selected."
+  ],
+  "Engine Graph Data Exist Confirmation": [
+   "Engine Graph Data exists.\\rSave?",
+   "Press Enter to save.\\rPress Esc to continue."
+  ],
+  "Comparison Graph Property---->START": [
+   "Comparison Graph Property",
+   "Logging",
+   "Graph",
+   "Color",
+   "Step[sec]",
+   "Total Time[sec]",
+   "Engine Parameter List",
+   "Selected Monitor Item List",
+   ">>",
+   "<<",
+   "Up",
+   "Down",
+   "Graph1",
+   "Graph2",
+   "Graph3",
+   "Graph4",
+   "Graph5",
+   "Y1 View",
+   "Y2 View",
+   "X Step[sec]",
+   "Y1 Scale Max",
+   "Y1 Scale Min",
+   "Y2 Scale Max",
+   "Y2 Scale Min",
+   "Initialize",
+   "Line Style",
+   "Line Width",
+   "Background",
+   "Color",
+   "Sample",
+   "SOLID",
+   "DASH",
+   "DOT",
+   "DASHDOT",
+   "DASHDOTDOT"
+  ],
+  "GRAPH PROPERTY SELECT ERROR": [
+   "This item has already been selected."
+  ],
+  "ActDlg(Stationary Test--Active Test)---->START": [
+   "Select",
+   "Use UP and DN arrow keys to scroll page.\\rUse LH and RH arrow keys to move page up or down.\\rPress Enter to test selection.",
+   "Press Enter to test selection."
+  ],
+  "ActOptDlg(Stationary Test--Active Test)---->START": [
+   "Conduct Stationary Test",
+   "Test Item",
+   "Test situation",
+   "%d sec. remaining.",
+   "%d times remaining.",
+   "Execute",
+   "WARNING",
+   "Press Enter to carry out test.",
+   "Press Esc to return to previous screen.",
+   "Press Esc to cancel or return to previous screen."
+  ],
+  "ACT TEST ERROR(Stationary Test--Active Test)": [
+   "Stationary test failure.\\rExit program and start again.",
+   "Stationary test failure.\\rPush the engine stop switch to stop the engine and wait more than ten seconds.\\rExit program and press the start switch to restart the engine.",
+   "Active test failure.\\rExit program and start again.",
+   "Active test failure.\\rPush the engine stop switch to stop the engine and wait more than ten seconds.\\rExit program and press the start switch to restart the engine.",
+   "Operation has failed. Test has been stopped."
+  ],
+  "Data Logger---->START": [
+   "Data comparison graph",
+   "Engine operating hours according to engine speed",
+   "Use UP and DN arrow keys to select item.\\rPress Enter to go to selection."
+  ],
+  "Data item selection---->START": [
+   "Data item selection",
+   "Use UP and DN arrow keys to scroll item.\\rPress spacebar to select items. Press Enter to display graph.\\rPress Esc to return to previous screen.",
+   "Graph"
+  ],
+  "Data comparison graph---->START": [
+   "Press F1 to print, F2 to save.\\rPress Esc to return to previous screen.",
+   "Solid-",
+   " / Dot-",
+   "Print [F1]",
+   "Save [F2]"
+  ],
+  "Engine operating hours according to engine speed---->START": [
+   "Engine speed",
+   "Time[h]",
+   "Press F1 to print, F2 to save.\\rPress Esc to return to previous screen.",
+   "Print [F1]",
+   "Save [F2]"
+  ],
+  "ECM No": [
+   "ECM No.:"
+  ],
+  "Some Files ERROR": [
+   "File cannot opened. \\rInstall appropriate application."
+  ],
+  "DBLOAD-ERR": [
+   "Database reading was unsuccessful."
+  ],
+  "ECU DataBase unmatch ERROR": [
+   "Connected ECM does not match loaded database file.\\rApplication will close. Please restart the application."
+  ],
+  "ECU DataBase unmatch ERROR2": [
+   "Connected ECM does not match loaded database file."
+  ],
+  "SAVE DLG": [
+   "Please wait while your computer gets data from the ECM."
+  ],
+  "File ACCESS ERROR": [
+   "The specified file is being used.\\rCannot replace the file."
+  ],
+  "FILE ACCESS 2 ERROR": [
+   "The specified file is being used.\\rCannot open the file."
+  ],
+  "FILE FORMAT ERROR": [
+   "The format of the specified file is wrong.\\rCannot open the file."
+  ],
+  "DISK FULL ERROR": [
+   "Destination disk is full."
+  ],
+  "OTHER FILE ERROR": [
+   "\\r File error."
+  ],
+  "MEMORY ERROR": [
+   "The system may be running out of memory.\\rTry stopping other running applications."
+  ],
+  "File Save Title": [
+   "Save date"
+  ],
+  "Extended Data Logger ---->START": [
+   "ECM record data graph"
+  ],
+  "Extended Data Logger - Get Logger data wait Message": [
+   "Please wait while your computer gets data from the ECM."
+  ],
+  "=Extended Data Logger - No Data Message": [
+   "Data is not recorded on ECM."
+  ],
+  "Extended Data Logger - ECU Record data broken.": [
+   "Record data has broken.\\rErase the record data on ECM."
+  ],
+  "Extended Data Logger - Pattern Select Title": [
+   "Data Logger"
+  ],
+  "Extended Data Logger - Pattern Select 1": [
+   "Display pattern 1"
+  ],
+  "Extended Data Logger - Pattern Select 2": [
+   "Display pattern 2"
+  ],
+  "Extended Data Logger - Pattern Select 3": [
+   "Display pattern 3"
+  ],
+  "Extended Data Logger - Pattern Select select": [
+   "Display item selection"
+  ],
+  "Extended Data Logger - Error dialog": [
+   "Press Enter to go to Data Logger Menu."
+  ],
+  "Diag Code": [
+   "CODE : "
+  ],
+  "Run Time": [
+   "TRIG : "
+  ],
+  "Title": [
+   "Data Logger Comparison Graph",
+   "Language                        [F9]"
+  ],
+  "LanguageSelect": [
+   "Language Select",
+   "English",
+   "Spanish",
+   "French",
+   "German",
+   "Japanese",
+   "Set",
+   "Return[ESC]",
+   "Use UP and DN arrow  keys to select system.\\rPress Enter to set language.\\rPress Esc to go to previous screen."
+  ],
+  "SelectMenu(Left)": [
+   "Scan Tool",
+   "Special Function",
+   "Maintenance",
+   "Information     3"
+  ],
+  "SelectMenu(Right)": [
+   "Maintenance Information",
+   "Use UP and DN arrow keys to select system.\\rPress Enter to go to menu.",
+   "Remote control System Reset",
+   "Click or press the 1 - 8 keys to select a menu.",
+   "PDI Measurement",
+   "PDI sheet creation",
+   "Record of Engine Oil Exchange",
+   "Click or press the 1 - 8 keys to select a menu."
+  ],
+  "MainMenu No": [
+   "0"
+  ],
+  "SpecialMenu(Left)": [
+   "Tilt Limiter Set",
+   "Remote control",
+   "System Reset   2"
+  ],
+  "MaintenanceInfoMenu(Left)": [
+   "PDI",
+   "Measurement  1",
+   "PDI sheet",
+   "creation        2",
+   "Record of Engine",
+   "Oil Exchange   1"
+  ],
+  "Tilt Sensor Error": [
+   "The tilt angle sensor is out of order.\\rPlease check the sensor.",
+   "Press Enter to return to special function menu."
+  ],
+  "Tilt Limiter Set Before": [
+   "OPERATION",
+   "1. Stop the engine.\\r2. Set to the Full Tilt Down position of Outboard Motors.\\r3. For two or more units watch steering for proper clearance.\\rPress enter or below buttons for next step.",
+   "CAUTION",
+   "- Make sure the proper Outboard Motor mounting as referred to in the Rigging Guide or Service Manual.\\r- When mounting twin or triple motors, make sure the motor has the enough clearance to provide full movement between each motor as well as during trim/tilt functions.\\r- Skilled Technician is required.",
+   "Condition of tilt limiter",
+   "Press Enter to continue.\\rPress Esc to go to previous screen.\\rPress F1 to reset the current tilt limit angle.",
+   "Reset [F1]",
+   "Next",
+   "Return[ESC]"
+  ],
+  "Tilt Limiter Set Init Before Message": [
+   "Do you wish to clear the current Tilt Limiter Setting?",
+   "Press Enter to clear the tilt limit angle.\\rPress ESC to cancel."
+  ],
+  "Tilt Limiter Set Init After Message": [
+   "Be careful, since the tilt angle goes to the maximum.",
+   "Press Enter to clear the tilt limit angle.\\rPress ESC to cancel."
+  ],
+  "Tilt Limiter Set": [
+   "1. By operating the PTT switch on the Bottom Cowling, tilt to the suitable tilt up position.\\r2. Check for any contact with cowling. ",
+   "- To prevent contact of motor well and cowling, do not use the PTT switch on the Remote Control.\\r - Pay attention to your surroundings.",
+   "Press Enter to set the current tilt up position.\\rPress Esc to go to menu."
+  ],
+  "Tilt Limiter Set Complete Message": [
+   "Tilt Limiter Set is complete.\\rPlease operate the PTT switch and check tilt operation.",
+   "Press Enter to return to special function menu."
+  ],
+  "Tilt Limiter Set Error Message": [
+   "Setting error occurred.\\rPlease check the setting range.",
+   "Press Enter to return to previous screen."
+  ],
+  "Remote control System Reset": [
+   "OPERATION",
+   "1. For Remote control System Reset, it is necessary to confirm all is correct.\\r2. Please click on \"next button\", when you reset.",
+   "Press Enter to Remote control System Reset.\\rPress Esc to return to previous screen.",
+   "Next",
+   "Return[ESC]"
+  ],
+  "Remote control System Reset Before Message": [
+   "Do you wish to reset the Remote control System Reset?",
+   "Press Enter to execute.\\rPress Esc to previous screen."
+  ],
+  "Remote control System Reset Complete Message": [
+   "Remote control System Reset is completed.\\rTurn off the main switch and remove the Remote Control harness.\\rClose the YDIS program.\\r\\rNote:\\rWhen the main switch is turned on again, the Remote control System will identify automatically.",
+   "Press Enter to return to special function menu."
+  ],
+  "Remote control System Reset Error Message": [
+   "Remote control System was not able to be reset.",
+   "Press Enter to return to previous screen."
+  ],
+  "Record of Engine Oil Exchange": [
+   "The number of times of exchange",
+   "Engine hour[h]",
+   "Press Enter to record the maintenance time.\\rPress Esc to go to menu.",
+   "Print [F1]",
+   "Save [F2]",
+   "Set",
+   "Return[ESC]"
+  ],
+  "Record of Engine Oil Exchange Message": [
+   "Is maintenance time recorded?",
+   "Press Enter to record.\\rPress Esc to cancel."
+  ],
+  "Tilt Limiter Set After": [
+   "Set"
+  ],
+  "Active Test Information": [
+   "INFORMATION"
+  ]
+ }
+}
