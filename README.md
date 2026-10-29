@@ -37,8 +37,9 @@ docs/                            Relatórios técnicos e protocolos reconstruíd
 ## Hardware
 
 - **Interface AVR** — ATmega162 a 16 MHz, ponte USB FT245, saídas K-Line e CAN.
-  Ver [`firmware AVR/README.md`](firmware%20AVR/README.md).
+  Ver [`firmware AVR/README.md`](firmware%20AVR/README.md). ja funciona bem com BRP 2016-2024
 - **Interface ESP32** — transceiver CAN + SoftAP para diagnóstico sem fios.
+- **Interface ixxat/kvaser** — ja validadas varias funções com as interfaces originais diretamente no equipamento.
 
 ## Como executar
 
